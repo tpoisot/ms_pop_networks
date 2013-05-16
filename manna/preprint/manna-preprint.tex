@@ -158,10 +158,10 @@ structure.
 
 \subsection{Trait-based interactions}
 
-In the trait-based scenario, preys are selected only among the species which
+In the trait-based scenario, preys are selected only among the species that
 can be fed upon, as in the \emph{niche} model of \textcite{williams_simple_2000}. Preys are still
-selected on the basis of their abundances, \emph{i.e.} relative to the
-abundance of all other preys falling within the feeding range of the predator.
+selected on the basis of their abundances, although this time we consider the
+relative abundance among all preys falling within the predator feeding range.
 
 \begin{figure}[tb]
 	\begin{center}
@@ -176,8 +176,10 @@ abundance of all other preys falling within the feeding range of the predator.
 \subsection{Implementation and availability}
 
 A C99 implementation of the model, using the Gnu Scientific Library, is
-available at \texttt{https://github.com/tpoisot/ms\_pop\_networks/}, under the conditions of the GNU GPL
-licence.
+available at \texttt{https://github.com/tpoisot/ms\_pop\_networks/}, under the
+conditions of the GNU GPL licence. We would appreciate that a reference to this
+preprint is made when the program is used. A R script to reproduce the results
+showed in this paper is also made available.
 
 \section{Methods}
 
@@ -185,16 +187,17 @@ licence.
 
 We used the model to generate species pools of size $S = 50$, with connectance
 varying from $0.01$ to $0.5$ by varying increments choosen to represent the
-changes induced by connectance. 5 individuals migrated into the system at each
-timestep. Each community is simulated under the neutral and trait based
-assumptions, and replicated 20 times. Simulations are done over $5\times 10^3$
-timesteps, as preliminary analyses showed it was long enough to reach an
-equilibrium in number of persisting species, number of persisting links, and
-overtime dissimilarity.
+changes induced by connectance. 5 individuals of any random species migrated
+into the system at each timestep. Each community is simulated under the neutral
+and trait based assumptions, and replicated 20 times (20 times for the neutral
+scenario, and 20 times for each value of connectance under the trait-based
+scenario). Simulations are done over $5\times 10^3$ timesteps, as preliminary
+analyses showed it was long enough to reach an equilibrium in number of
+persisting species, number of persisting links, and overtime dissimilarity.
 
 \subsection{Analyses}
 
-Networks where aggregated in bins of 10 timesteps for the analysis
+Networks were aggregated in bins of 10 timesteps for the analysis
 (exploratory work showed that the bin size made no quantitative difference on
 the results, though it did considerably speed up the calculations). Within
 each bin, we measure the number of species in the network ($\mathcal{S}$), the
@@ -209,7 +212,7 @@ $t+1$. We report the overal network dissimilarity ($\beta_{WN}$), the
 dissimilarity of links across shared species ($\beta_{OS}$), the species
 turnover ($\beta_{S}$), and its contribution to network turnover
 ($\beta_{\mathrm{contrib}}$). In addition, we report the turnover of predators
-($\beta_{U}$) and preys ($\beta_{L}$) through time.
+($\beta_{U}$) and preys ($\beta_{L}$) species through time.
 
 \section{Results}
 
@@ -267,14 +270,21 @@ turnover ($\beta_{S}$), and its contribution to network turnover
 	\label{f:comdyn}
 \end{figure}
 
-Regardless of the rules or connectance, all simulation conditions yield a common pattern: a rapid decrease is the number of species (\emph{i.e.} sorting) and links (Fig.~\ref{f:comdyn}). This results in changes in connectance, with all the simulations eventually stabilizing around a value of $\mathcal{C}\approx 0.05$. The number of species maintained is higher in the neutral conditions. When connectance increases, the number of persisting species increasing as well. For a connectance of $\mathrm{Co} = 0.5$, there are almost no differences in species richness between the neutral and trait-based situations. The same is true of the number of interactions.
+Regardless of the rules or connectance, all simulation conditions yield a common
+pattern: a rapid decrease is the number of species (\emph{i.e.} sorting) and
+links (Fig.~\ref{f:comdyn}). This results in changes in connectance, with all
+the simulations eventually stabilizing around a value of $\mathcal{C}\approx
+0.05$. The number of species maintained is higher in the neutral conditions.
+When connectance increases, the number of persisting species increasing as well.
+For a connectance of $\mathrm{Co} = 0.5$, there are almost no differences in
+species richness between the neutral and trait-based situations. The same is
+true of the number of interactions.
 
 \subsection{Networks dynamics}
 
 %% Figure : temporal dynamics of network turnover
 
 %% Table : summary of the network turnover measures over the last 100 timesteps
-
 
 %% Figure : temporal dynamics of network turnover
 
