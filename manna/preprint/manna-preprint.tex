@@ -15,7 +15,7 @@
   every axis grid/.append style = {color=black!60, dotted}
 }
 
-\usepackage[doi=false,url=false,isbn=false,backend=bibtex]{biblatex}
+\usepackage[natbib=true,doi=false,url=false,isbn=false,backend=bibtex]{biblatex}
 \bibliography{/home/tpoisot/texmf/bibtex/bib/local/library.bib}
 
 \title{The dynamics of neutral and trait-based multi-trophic interactions}
@@ -26,7 +26,7 @@
 
 \affil[1]{Universit\'e du Qu\'ebec \`a Rimouski, Rimouski, Canada.}
 \affil[2]{Quebec Centre for Biodiversity Science, McGill University, Montr\'eal, Canada.}
-\affil[*]{email: \texttt{timothee.poisot@uqar.ca}}
+\affil[*]{email: \texttt{timothee\_poisot@uqar.ca}}
 
 \begin{document}
 
@@ -45,20 +45,23 @@ networks.
 
 Over the last years, there has been the emergence of two bodies of theory
 regarding the structure of ecological networks. On one hand, proponents of the
-``niche'' approach emphasized the importance of trait matching between species.
-To simplify, two species can interact assuming that their traits allow it, e.g.
-the jaw morphometry of the predator allows it to bite, and eventually eat,
-its chosen prey. Arguably, this has been the dominant view in the field of
-network studies, and it inspired many methodological tools which peformed well
-at reproducing the structure of food webs. On the other hand, several authors
-adopted a ``neutral'' perspective, putting more emphasis on the fact that
-interactions rely on density-dependent processes, most notably the probability
-that individuals from the prey and predator species will meet. Although this
-perspective was originally develloped in plant--mutualistic interactions, where
-it showed a great predictive power, recent work expanded it to food webs with
-equal success. Much like in other fields of community ecology, there is a need
-to integrate these two perspectives so as to derive more accurate predictions
-about the structure of networks, and its variability through space and time.
+``niche'' approach emphasized the importance of trait matching between species
+\citep{olesen_missing_2011}. To simplify, two species can interact assuming
+that their traits allow it, e.g.  the jaw morphometry of the predator allows it
+to bite, and eventually eat, its chosen prey. Arguably, this has been the
+dominant view in the field of network studies, and it inspired many
+methodological tools which peformed well at reproducing the structure of food
+webs \citep{williams_simple_2000}. On the other hand, several authors adopted a
+``neutral'' perspective, putting more emphasis on the fact that interactions
+rely on density-dependent processes, most notably the probability that
+individuals from the prey and predator species will meet. Although this
+perspective was originally develloped in plant--mutualistic interactions
+\citep{bluthgen_measuring_2006}, where it showed a great predictive power,
+recent work expanded it to food webs with equal success
+\citep{canard_emergence_2012}. Much like in other fields of community ecology,
+there is a need to integrate these two perspectives so as to derive more
+accurate predictions about the structure of networks, and their variability
+through space and time.
 
 Indeed, the basic ``ingredients'' of both the neutral (population sizes) and
 trait-based (trait values carried by populations or individuals) are expected to
@@ -69,12 +72,13 @@ are interacting. Ecological dynamics results in covariances in the population
 sizes of preys and predators, and coevolutionary feedbacks will select different
 traits values. For this reason, accounting for both the neutral and trait-based
 effects will have two advantages. First, it will somehow reconcile the two
-perspectives on network structure. Second, it will integrate the basal processes
-involved in these perspectives, and thus increase the accuracy of our
-expectations regarding network structure and dynamics. Because networks are
-notoriously difficult to adequately sample, and replicating them over time and
-space is not easily done, there is value in exploring the behavior of simple,
-highly phenomenological models.
+perspectives on network structure, and allow a conceptual unification of the two
+most important families of explanations of network structure. Second, it will
+integrate the basal processes involved in these perspectives, and thus increase
+the accuracy of our expectations regarding network structure and dynamics.
+Because networks are notoriously difficult to adequately sample, and replicating
+them over time and space is not easily done, there is value in exploring the
+behavior of simple, highly phenomenological models.
 
 In this manuscript, we present such a model, whose goal it is to account for
 both trait-based and neutral processes in the assembly, structure, and variation
@@ -91,13 +95,11 @@ processes.
 
 \section{The model}
 
-We define a time-discrete, individual based model of multi-trophic interactions in a single
-patch. Species are defined by a vector of functional traits, them being their
-niche position ($\mathbf{n}_i$), the centroid of their feeding range
-($\mathbf{c}_i$), the breadth of their range ($\mathbf{r}_i$), and their
-maximal population size ($\mathbf{K}_i$).
-
-Some words on the logic
+We define a time-discrete, individual based model of multi-trophic interactions
+in a single patch. Species are defined by a vector of functional traits, them
+being their niche position ($\mathbf{n}_i$), the centroid of their feeding range
+($\mathbf{c}_i$), the breadth of their range ($\mathbf{r}_i$), and their maximal
+population size ($\mathbf{K}_i$).
 
 \subsection{Generation of the species pool}
 
@@ -105,7 +107,7 @@ The species pool is generated so as to obtain a number of species $S$, with an
 expected connectance value of $Co$. To generate the species pool, we draw at
 random in an uniform distribution ranging from 0 to 1, $S$ values forming the
 vector $\mathbf{n}$. The vectors $\mathbf{c}$ and $\mathbf{r}$ are generated
-following the method described by \textcite{williams_simple_2000}. The number of
+following the method described by \citet{williams_simple_2000}. The number of
 individuals in each species is $\mathbf{p}_i$, and is drawn at random according
 to the following procedure.
 
@@ -177,14 +179,16 @@ the pool. The predated individual is then removed. In this scenario, it is
 possible that a small species will eat a much larger species, though it should
 be kept in mind that because of allometric scaling between the body size traits
 and demographic parameters, we expect the interactions to still retain some size
-structure.
+structure. Because of this feature, our model departs from the purely neutral
+assumption made by \citet{canard_emergence_2012}.
 
 \subsection{Trait-based interactions}
 
 In the trait-based scenario, preys are selected only among the species that
-can be fed upon, as in the \emph{niche} model of \textcite{williams_simple_2000}. Preys are still
-selected on the basis of their abundances, although this time we consider the
-relative abundance among all preys falling within the predator feeding range.
+can be fed upon, as in the \emph{niche} model of \citet{williams_simple_2000}.
+Preys are still selected on the basis of their abundances, although this time we
+consider the relative abundance among all preys falling within the predator
+feeding range.
 
 \begin{figure}[tb]
 	\begin{center}
@@ -229,7 +233,7 @@ $\mathcal{L}/\mathcal{S}^2$).
 
 Within each run of the simulation, we measure components of network
 dissimilarity through time, using the method described in
-\textcite{poisot_dissimilarity_2012}. We measure turnover of interactions and
+\citet{poisot_dissimilarity_2012}. We measure turnover of interactions and
 community structure between the network at time $t$ and the network at time
 $t+1$. We report the overal network dissimilarity ($\beta_{WN}$), the
 dissimilarity of links across shared species ($\beta_{OS}$), the species
@@ -301,15 +305,18 @@ the simulations eventually stabilizing around a value of $\mathcal{C}\approx
 When connectance increases, the number of persisting species increasing as well.
 For a connectance of $\mathrm{Co} = 0.5$, there are almost no differences in
 species richness between the neutral and trait-based situations. The same is
-true of the number of interactions.
+true of the number of interactions. The equal connectance across the different
+rules is easily explained by the fact that, with increased restrictions on trait
+matching (i.e. switching from neutral to trait-based, or from high connectance
+to lower connectance within trait-based rules), both the number of species and
+the number of interactions decreased. However, the dynamics of connectance
+through time were different. Neutral systems started with high realized
+connectance (on average 0.3, close to the values reported by
+\citet{canard_emergence_2012} for the purely neutral scenario), and the sharply
+decreased. On the other hand, trait-based systems generated with a low
+connectance remained at this level through time.
 
 \subsection{Networks dynamics}
-
-%% Figure : temporal dynamics of network turnover
-
-%% Table : summary of the network turnover measures over the last 100 timesteps
-
-%% Figure : temporal dynamics of network turnover
 
 \begin{figure}[tb]
 	\begin{center}
@@ -378,7 +385,7 @@ true of the number of interactions.
 
 \section{Discussion}
 
-1. summary of the differences
+One interesting outcome of the simulations presented here
 
 2. inferring mechanisms with temporal dynamics
 
