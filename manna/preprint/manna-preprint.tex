@@ -68,7 +68,7 @@ main results: turnover of pred/prey, contribution to sp turnover, role of connec
 
 \section{The model}
 
-We define an individual based model of multi-trophic interactions in a single
+We define a time-discrete, individual based model of multi-trophic interactions in a single
 patch. Species are defined by a vector of functional traits, them being their
 niche position ($\mathbf{n}_i$), the centroid of their feeding range
 ($\mathbf{c}_i$), the breadth of their range ($\mathbf{r}_i$), and their
@@ -82,15 +82,17 @@ The species pool is generated so as to obtain a number of species $S$, with an
 expected connectance value of $Co$. To generate the species pool, we draw at
 random in an uniform distribution ranging from 0 to 1, $S$ values forming the
 vector $\mathbf{n}$. The vectors $\mathbf{c}$ and $\mathbf{r}$ are generated
-following the method described by \textcite{williams_simple_2000}. \textbf{Say more.} The number of
-individuals in each species is $\mathbf{p}_i$
+following the method described by \textcite{williams_simple_2000}. The number of
+individuals in each species is $\mathbf{p}_i$, and is drawn at random according
+to the following procedure.
 
-As a final step, the values of $\mathbf{K}_i$ are drawn at random from the
+First, the values of $\mathbf{K}_i$ are drawn at random from the
 uniform distribution between 0 and $K_{\mathrm{max}}(i)$, where
 $K_{\mathrm{max}}(i)$ is simply $10^3\times(1-\mathbf{n}_i)+100$. This way,
 species with the large $\mathbf{n}_i$ have lower carrying capacity, and
 species with low $\mathbf{n}_i$ have high carrying capacity. This accounts for
-the well known negative relationship between trophic rank and population size.
+the well known negative relationship between trophic rank and population size,
+and give a structure to the community.
 To initialize the simulation, a number of individuals $\mathbf{p}_i$ is drawn
 from the uniform distribution from $10$ to $\mathbf{K}_i$.
 
@@ -99,10 +101,11 @@ from the uniform distribution from $10$ to $\mathbf{K}_i$.
 Before the interactions happen and the demographic changes are calculated,
 there is a (possible) immigration step, to implicitely simulate some spatial
 context and maintain species richness. The identity of the species receiving
-each migrant is drawn at random. This makes it so that locally extinct species
-can be rescued through immigration. After the immigration is over, the
-probability that each individual will reproduce or die is calculated given the
-following set of rules. The mortality probability of individual $i$ is
+each migrant is drawn at random from within the regional species pool. This
+makes it so that locally extinct species can be rescued through immigration.
+After the immigration is over, the probability that each individual will
+reproduce or die is calculated given the following set of rules. The mortality
+probability of individual $i$ is
 
 \begin{equation}
 	m_i = \mu+s_ic_\mu
@@ -131,19 +134,27 @@ population size of species $i$ at time $t+1$ is calculated as
 process with probability of success of $p$ and $n$ trials.
 
 After the demographic changes are done, we pick at random 15\% of the
-individuals, which will be seeking a prey at this timestep. Each indiviual has
-an equal probability of being picked, so that species with high abundances
-will be over-represented among the pools of predators. The identity of preys
-items is detailed in the next two sub-sections. The interactions are done on
-an individual basis, meaning that we pick a predator, then its prey, and
+individuals, which will be seeking a prey at this timestep (decreasing or
+increasing this fraction will, respectively, simulates an increase or decrease
+in the prey handling time). Each indiviual has an equal probability of being
+picked, so that species with high abundances will be over-represented among the
+pools of predators (in this regard, our model assumes that the search for preys
+is an active task, which is a fairly common situation in nature). The identity
+of preys items is detailed in the next two sub-sections. The interactions are
+done on an individual basis, meaning that we pick a predator, then its prey, and
 reproduce this routine once we have reached enough predators.
 
 \subsection{Neutral interactions}
 
 In the neutral scenario, the only factor regulating the identity of the prey
-is its abundance. Once the predating individual is selected, we pick at random
+is its abundance, i.e. none of the traits are looked at when deciding if the
+predator can consume the prey. Once the predating individual is selected, we pick at random
 one individual from any species (including the possibility of cannibalism) in
-the pool. The predated individual is then removed.
+the pool. The predated individual is then removed. In this scenario, it is
+possible that a small species will eat a much larger species, though it should
+be kept in mind that because of allometric scaling between the body size traits
+and demographic parameters, we expect the interactions to still retain some size
+structure.
 
 \subsection{Trait-based interactions}
 
