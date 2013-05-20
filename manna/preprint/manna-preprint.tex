@@ -9,7 +9,6 @@
 
 \usepackage{tikz, tkz-graph}
 \usepackage{pgfplots}
-\usepackage{kmath,kerkis}
 \usepackage{pgfcb}
 \pgfplotsset{
   every axis legend/.append style={draw=none, fill=black!2, cells = {anchor=west}, font = \small},
@@ -384,6 +383,17 @@ connectance remained at this level through time.
 	\label{f:netdyn}
 \end{figure}
 
+Temporal network dynamics was strongly affected by whether the system behaves
+neutrally or not, and by the fondamental connectance from the species pool in
+the trait-based simulations. As expected, neutral networks had a high turnover,
+and a low impact of species turnover on network structure turnover. Comparing
+the different scenarios make sense as the amount of temporal species turnover is
+remarkably similar in all of them (Fig.~\ref{f:netdyn}). Under the trait-based
+simulations, decreasing connectance decreased the amount of temporal turnover in
+network structure. These results emphasize that networks in which trait matching
+have a strong impact, and predators tend to have narrow niches, display more
+temporal stability.
+
 \section{Discussion}
 
 One interesting outcome of the simulations presented here is that neutral and
@@ -424,7 +434,26 @@ networks, however hard it may be to achieve in nature, can be an invaluable
 information in order to pinpoint which mechanisms are driving the structure of
 this network.
 
-3. role of connectance
+Our results emphasize that connectance (in this case, fondamental connectance in
+the species pool, akin to the niche breadth of the predators) is extremely
+important in driving the temporal dynamics of network structure. Networks in
+which the connectance is high (i.e. generalist predators) behave almost
+neutrally, as they will pick prey items within their large range based on their
+abundances. On the other hands, systems with mostly specialist predators will be
+more consistent in their structure through time, because interactions will
+happen between the same restricted pool of species. So far, it is important to
+point out that the literrature on neutral and trait-based effects on network
+structure assumed that the whole system behaves either neutrlly or not. As our
+results illustrate, neutral effects are likely to happen within the range (i.e.
+palatable prey items will be picked as a function of their relative abundances).
+When there are strong difference in niche breadth among predators, this opens
+the interesting possiblity of understanding the contribution of each species to
+network turnover. Generalist species could behave more neutrally, i.e. respond
+more strongly to variations in prey abundances, than will specialist species. By
+quantifying (i) how much of neutrality and trait matching is involved in the
+variation of the overall network structure, and (ii) how these effects can be
+partitionned at the species level, it is extremely likely that we will improve
+our understanding of the dynamics of interaction networks.
 
 \textbf{Acknowledgements}: We are grateful to the participants of the
 ``Gradient-based ecological research'' working group from the Santa Fe Institute
