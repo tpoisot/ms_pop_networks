@@ -60,7 +60,7 @@ networks as predictive tools. In this paper, we argue that this knowledge can be
 acquired by focusing on populations, rather than species.
 
 [f:meta]: metaweb.pdf "The metaweb concept"
-![An illustration of the notion of a metaweb. In its simplest form, the metaweb is the list of all possible species and interactions between them for the system studied. What is observed locally, here in sites 1 and 2, is *realizations* of this metaweb, after the action of species sorting and other classical meta-community processes, and local interaction sorting, as we describe here. The two observed networks have different properties, species compositions, and interaction between these species.\label{f:meta}][f:meta]
+![An illustration of the notion of a metaweb. In its simplest form, the metaweb is the list of all possible species and interactions between them for the system studied. What is observed locally, here in sites 1 and 2, is a *realization* of this metaweb, after the action of species sorting and other classical meta-community processes, and local interaction sorting, as we describe here. The two observed networks have different properties, species compositions, and interaction between these species.\label{f:meta}][f:meta]
 
 To observe that interactions can be gained or lost when the environment change,
 requires that the sampling of network be replicated. In other words, to
@@ -95,28 +95,28 @@ hosts, and investigating them in the lab (through *e.g.* combing or stomach
 content analysis), meaning that it’s harder to miss an interaction if
 enough individuals are sampled.
 
-@poisot_dissimilarity_2012 showed that after more than a
-hundred independent sampling of a host–ectoparasite system, not all
-regional interactions are known. This bears two important consequences.
-First, the adequate sampling of potential interactions is a difficult
-task. Second, the compilation of interactions observed at one sampling
-site between local populations is not the network of species
-interactions, which can only be reconstructed through numerous samplings
-(so as to be confident that an absence of link really indicates that the
+@poisot_dissimilarity_2012 showed that after more than a hundred independent
+samplings of a host–ectoparasite system, not all regional interactions are
+known. This bears two important consequences. First, the adequate sampling of
+potential interactions (in other words, the knowledge of the metaweb) is
+a difficult task. Second, the compilation of interactions observed at one
+sampling site between local populations is not the network of species
+interactions, which can only be reconstructed through numerous samplings (so as
+to be confident that an absence of link really indicates that the
 interaction is not possible). However, the realized interactions between
-populations will impact their local dynamics, and thus drive local
-ecological properties of the community
-[@bascompte_mutualistic_2009]. In addition, because different
-realizations of a metaweb will show interaction turnover, it is
-important than we now focus our effort on understanding population-level
-interaction networks, because this seems the only way to understand the
-different between potential and realized interactions, which is required
-to advance toward a biogeography theory of interactions. So that we can
-understand the relationship between the structure of potential and
-realized networks, *i.e.* in the terms of
-@poisot_dissimilarity_2012, the differences between a metaweb
-and its realizations, it is important to understand the ecological
-factors involved in making populations interact.
+populations will impact their local dynamics, and thus drive local ecological
+properties of the community [@bascompte_mutualistic_2009], whereas having only
+a knowledge of the species interactions implies making the assumption that all
+of these interactions are realized locally. In addition, because different
+realizations of a metaweb will show interaction turnover, it is important that
+we now focus our effort on understanding population-level interaction networks,
+because this seems the only way to understand the different between potential
+and realized interactions, which is required to advance toward a biogeography
+theory of interactions. So that we can understand the relationship between
+the structure of potential and realized networks, *i.e.* in the terms of
+@poisot_dissimilarity_2012, the differences between a metaweb and its
+realizations, it is important to understand the ecological factors involved
+in making populations interact.
 
 The goal of this paper is to evaluate how several families of mechanisms
 and ecological processes can create turnover in species interactions. We
