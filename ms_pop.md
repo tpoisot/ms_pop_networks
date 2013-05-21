@@ -50,7 +50,7 @@ productivity, some interactions were lost, and some other were gained, which
 suggest complex genotype-by-genotype-by-environment relationships. These results
 can be explained by assuming that any observation of an ecological network is
 the realization of *potential* interactions. These potential species and
-interactions represent a *metaweb*. Recent results suggest different filtering
+interactions represent a *metaweb* (\autoref{f:meta}). Recent results suggest different filtering
 of species and their interactions [@poisot_dissimilarity_2012], which confers
 both a dynamic and a variability to networks, even though the species within
 them are the same. It is therefore important to better understand why two
@@ -58,6 +58,9 @@ species are not always interacting in the same way, and how accounting for this
 phenomenon and the mechanisms triggering it will improve our ability to use
 networks as predictive tools. In this paper, we argue that this knowledge can be
 acquired by focusing on populations, rather than species.
+
+[f:meta]: metaweb.pdf "The metaweb concept"
+![An illustration of the notion of a metaweb. In its simplest form, the metaweb is the list of all possible species and interactions between them for the system studied. What is observed locally, here in sites 1 and 2, is *realizations* of this metaweb, after the action of species sorting and other classical meta-community processes, and local interaction sorting, as we describe here. The two observed networks have different properties, species compositions, and interaction between these species.\label{f:meta}][f:meta]
 
 To observe that interactions can be gained or lost when the environment change,
 requires that the sampling of network be replicated. In other words, to
@@ -287,7 +290,8 @@ thompson paper
 
 Allesina Eklof
 
-[tb] ![image](traits) [fig:traits]
+[f:traits]: traits.pdf "Traits and populations"
+![Assuming that  species interact based on the value of their traits, looking at the inter-population variance of trait values is important. In the above example, three populations of each three secies interact (**A**). Aggregated at the species level, this yields a network represented in **B**. However, if one is to examine each population separately, the *actual* network shares no properties with its species-level counterpart (**C**)\label{f:traits}.][f:traits]
 
 ## Benefits for network analysis
 
