@@ -318,7 +318,7 @@ scale of the population, so as to be able to address the spatial
 dynamics [@Thompson2005a]. Several authors discussed how
 migration between patches can disrupt local selection dynamics
 [@Gandon2008;@Burdon2009], which received empirical support in
-experimental evolution studies \parencite{Brockhurst2007c,Morgan2007}.
+experimental evolution studies [@brockhurst_impact_2007; @morgan_differential_2007].
 Understanding how the realization of potential interactions are affected
 by local trait distribution in the two species involved will allow not
 only to understand how a new species will integrate into the existing
@@ -327,17 +327,15 @@ parallel, the bulk of community phylogenetics [@webb_integrating_2006] was
 developed to re-analyse community structure through the phylogenetic
 conservatism of traits [@cavender-bares_merging_2009;
 @mouquet_ecophylogenetics_2012]. If enough realizations are sampled, for which
-we know even
-coarsely the phylogenetic structure of traits
-[@chamberlain_does_2012], we will have a strong database on which to
-carry out statistical analyses to determine when interactions will
-occur. This effort will provide a strong mechanistic basis for previous
-work showing a phylogenetic and ecological structure of complex networks
-[@eklof_relevance_2011; @baskerville_spatial_2011]. In addition to providing this
-more mechanistic insight, better linking traits and their phylogenetic
-structure to the local occurrence of an interactions is a promising way
-to incorporate more evolutionary hypotheses and mechanisms in the study
-of network dynamics.
+we know even coarsely the phylogenetic structure of traits
+[@chamberlain_does_2012], we will have a strong database on which to carry out
+statistical analyses to determine when interactions will occur. This effort will
+provide a strong mechanistic basis for previous work showing a phylogenetic and
+ecological structure of complex networks [@eklof_relevance_2011;
+@baskerville_spatial_2011]. In addition to providing this more mechanistic
+insight, better linking traits and their phylogenetic structure to the local
+occurrence of an interactions is a promising way to incorporate more
+evolutionary hypotheses and mechanisms in the study of network dynamics.
 
 # Beyond pairwise interactions
 
@@ -603,3 +601,5 @@ Should it be the case, we expect an increased variability in the
 networks in which traits determine the interactions.
 
 ![image](betaPOP)
+		
+# Reference)
