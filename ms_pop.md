@@ -4,61 +4,60 @@
 
 # Introduction
 
-Describing the structure of ecological communities requires to know not
-only the identity of species, but also their interactions [@dunne_network_2006]
-. Because interactions drive the dynamics within
-this community [@berlow_simple_2009], their organization will confer
-certain ecological properties. Defining the “structure” of interactions
-is made easier by seeing ecological communities as graphs
-[@west_introduction_2001]. A graph is a collection of nodes (species,
-populations, individuals) linked two-by-two through edges (ecological
-interactions). Ecological research over the last two decades focused on
-how certain mathematical properties of this graph related to the
-robustness [@dunne_network_2002], productivity [@duffy_functional_2007],
-or tolerance to extinction [@memmott_tolerance_2004] of the community it
-represents. Although this approach classically focused on food webs
-[@ings_ecological_2009], it can be applied equally to all types of
-ecological interactions, up to the point were all of them are included
-in the same network [@kefi_more_2012]. Recently, empirical evidences
-point to the fact that the structure of ecological networks is affected
-by global changes [@dossena_warming_2012]. Although it is tempting to
-forecast the future structure of these networks, because it will allow
-us to predict the properties of future communities, doing so is
-notoriously difficult except in some well-described, well-controlled
+Describing the structure of ecological communities requires to know not only the
+identity of species, but also their interactions [@dunne_network_2006]. Because
+interactions drive the dynamics within this community [@berlow_simple_2009],
+their organization will confer certain ecological properties.
+Defining the “structure” of interactions is made easier by seeing
+ecological communities as graphs [@west_introduction_2001]. A graph
+is a collection of nodes (species, populations, individuals) linked
+two-by-two through edges (ecological interactions). Ecological
+research over the last two decades focused on how certain
+mathematical properties of this graph related to the robustness
+[@dunne_network_2002], productivity [@duffy_functional_2007], or
+tolerance to extinction [@memmott_tolerance_2004] of the community
+it represents. Although this approach classically focused on food
+webs [@ings_ecological_2009], it can be applied equally to all
+types of ecological interactions, up to the point were all of them
+are included in the same network [@kefi_more_2012]. Recently,
+empirical evidences point to the fact that the structure of
+ecological networks is affected by global changes,at both short
+[@dossena_warming_2012] and long [@dalsgaard_historical_2013]
+time-scales. Although it is tempting to forecast the future
+structure of these networks, because it will allow us to predict
+the properties of future communities, doing so is notoriously
+difficult except in some well-described, well-controlled
 experimental systems [@sarmento_warming_2010]. One of the source of
-complexity is that, following changes in species range, extinctions, and
-micro-evolutionary events induced by global changes, future networks
-will not be a simple aggregation of the contemporaneous ones, and will
-truely be emergent systems. In this perspective, it becomes important to
-identify the reasons for which ecological interactions will occur in a
-given species assemblage, but not in another.
+complexity is that, following changes in species range,
+extinctions, and micro-evolutionary events induced by global
+changes, future networks will not be a simple aggregation of the
+contemporary ones, and will truely be emergent systems. In this
+perspective, it becomes important to identify the reasons for which
+ecological interactions will occur in a given species assemblage,
+but not in another.
 
 Recent studies on the sensitivity of network structure to environmental change
-provide some context for this question.
-@menke_plant-frugivore_2012 showed that a plant–frugivore network changed its
-structure on a forest–farmland gradient. Even within different forest strata,
-differences in network structure were observed
-[@schleuning_specialization_2011]. @eveleigh_fluctuations_2007
-demonstrated outbreaks of the spruce budworm were associated to
-changes in the structure of its trophic network, both in terms of
-species observed, and their interactions. @poisot_resource_2011 used
-a microbial system of hosts and pathogens to study the impact of
-productivity gradients on the realization of infection events. When
-the species were moved from high to medium to low productivity, some
-interactions were lost, and some other were gained, which suggest
-complex genotype-by-genotype-by-environment relationships. These
-results can be explained by assuming that any observation of an
-ecological network is the realization of *potential* interactions.
-These potential species and interactions represent a *metaweb*. Recent
-results suggest different filtering of species and their interactions
-[@poisot_dissimilarity_2012], which confers both a dynamic and
-a variability to networks, even though the species within them are the
-same. It is therefore important to better understand why two species
-are not always interacting in the same way, and how accounting for this
-phenomenon and the mechanisms triggering it will improve our ability to
-use networks as predictive tools. In this paper, we argue that this
-knowledge can be acquired by focusing on populations, rather than
-species.
+provide some context for this question. @menke_plant-frugivore_2012 showed that
+a plant–frugivore network changed its structure on a forest–farmland gradient.
+Even within different forest strata, differences in network structure were
+observed [@schleuning_specialization_2011]. @eveleigh_fluctuations_2007
+demonstrated outbreaks of the spruce budworm were associated to changes in the
+structure of its trophic network, both in terms of species observed, and their
+interactions. @poisot_resource_2011 used a microbial system of hosts and
+pathogens to study the impact of productivity gradients on the realization of
+infection events. When the species were moved from high to medium to low
+productivity, some interactions were lost, and some other were gained, which
+suggest complex genotype-by-genotype-by-environment relationships. These results
+can be explained by assuming that any observation of an ecological network is
+the realization of *potential* interactions. These potential species and
+interactions represent a *metaweb*. Recent results suggest different filtering
+of species and their interactions [@poisot_dissimilarity_2012], which confers
+both a dynamic and a variability to networks, even though the species within
+them are the same. It is therefore important to better understand why two
+species are not always interacting in the same way, and how accounting for this
+phenomenon and the mechanisms triggering it will improve our ability to use
+networks as predictive tools. In this paper, we argue that this knowledge can be
+acquired by focusing on populations, rather than species.
 
 To observe that interactions can be gained or lost when the environment
 change, requires that the sampling of network be replicated. In other
@@ -141,24 +140,22 @@ help us build more predictive models.
 
 # Population dynamics and neutral processes
 
-The *Unified neutral theory of biodiversity*
-[@hubbell_unified_2001] relies on the assumption that species
-are ecologically neutral when it comes to their competitive
-interactions. Neutral (*i.e.* abundance) and non-neutral (*i.e.*
+The *Unified neutral theory of biodiversity* [@hubbell_unified_2001] relies on
+the assumption that species are ecologically neutral when it comes to their
+competitive interactions. Neutral (*i.e.* abundance) and non-neutral (*i.e.*
 trait-based) effects can act simultaneously in a population, albeit with
-different intensities [@gravel_reconciling_2006]. The
-development of this theory was an important step into accounting for the
-importance of ecological drift in structuring horizontal diversity
-[@rosindell_case_2012]. Over the recent years, the idea of
-neutrality percolated into the analysis of the structure of ecological
-networks, and this theory started being used to explain vertical
-diversity, notably in food webs. Several host–parasite datasets were
-thusly re-analyzed, with the conclusion that changes in local species
-abundances triggers variation in parasite specificity
-[@vazquez_species_2005]. In this section, we review recent
-studies investigating the consequences of neutral dynamics on the
-structure of interaction networks, and show how variations in population
-size can lead to interaction turnover.
+different intensities [@gravel_reconciling_2006]. The development of this theory
+was an important step into accounting for the importance of ecological drift in
+structuring horizontal diversity [@rosindell_case_2012]. Over the recent years,
+the idea of neutrality percolated into the analysis of the structure
+of ecological networks, and this theory started being used to
+explain vertical diversity, notably in food webs. Several
+host–parasite datasets were thusly re-analyzed, with the conclusion
+that changes in local species abundances triggers variation in
+parasite specificity [@vazquez_species_2005]. In this section, we
+review recent studies investigating the consequences of neutral
+dynamics on the structure of interaction networks, and show how
+variations in population size can lead to interaction turnover.
 
 ## The basic processes
 
@@ -601,5 +598,5 @@ Should it be the case, we expect an increased variability in the
 networks in which traits determine the interactions.
 
 ![image](betaPOP)
-		
+
 # References
