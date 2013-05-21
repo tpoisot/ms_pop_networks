@@ -317,7 +317,7 @@ basic ingredients for reciprocal selection
 scale of the population, so as to be able to address the spatial
 dynamics [@Thompson2005a]. Several authors discussed how
 migration between patches can disrupt local selection dynamics
-\cite{Gandon2008,Burdon2009}, which received empirical support in
+[@Gandon2008;@Burdon2009], which received empirical support in
 experimental evolution studies \parencite{Brockhurst2007c,Morgan2007}.
 Understanding how the realization of potential interactions are affected
 by local trait distribution in the two species involved will allow not
@@ -338,13 +338,11 @@ structure to the local occurrence of an interactions is a promising way
 to incorporate more evolutionary hypotheses and mechanisms in the study
 of network dynamics.
 
-Beyond pairwise interactions
+# Beyond pairwise interactions
 
-The basic processes
--------------------
+## The basic processes
 
-Several authors
-\parencite[see \emph{e.g.}][for a review]{golubski_modifying_2011},
+Several authors [@golubski_modifying_2011]
 showed that biotic interactions themselves interact. From a
 biogeographic standpoint, it require that we develop a theory based on
 interaction co- occurrence, in addition to the current knowledge
@@ -355,11 +353,11 @@ below.
 
 — facilitation
 
-\textcite{Lafferty1992} documents some examples of predators avoiding
+@lafferty_foraging_1992 documents some examples of predators avoiding
 preys infected by parasites. In this case, the interaction is not
 established in the presence of a third species.
 
-\textcite{Hay2004} shows how “apparent mutualism” can emerge. When a
+@hay_mutualisms_2004 shows how “apparent mutualism” can emerge. When a
 predator or competitor of a focal species becomes involved in another
 antagonistic interaction with a third species, this third species can
 appear as a mutualist of the focal one, as its effects negates the
@@ -372,19 +370,17 @@ original antagonistic interaction.
 Of course, these multiple symbioses or interactions can have
 consequences beyond the existence of pairwise interactions. The biotic
 interactions received by an organism will often affect its environmental
-tolerance, and modify its realized Grinnelian niche
-\parencite{PoisotELE2011}.
+tolerance, and modify its realized Grinnelian niche [@poisot_conceptual_2011].
 
 need for better resolved data
 
 [tb] ![image](community) [fig:comm]
 
-somehow linked to species persistence, \textcite{Pillai2011}
+somehow linked to species persistence, @pillai_metacommunity_2011
 
 — environmental mediations
 
-Benefits for network analysis
------------------------------
+## Benefits for network analysis
 
 In addition, accounting for the relationships between biotic
 interactions can be a powerful explanation for species co-occurrence. A
@@ -443,7 +439,7 @@ distributions, it is crucial that not only interactions, but also
 population densities (needed to define the neutral expectation) and
 local trait distribution (needed to quantify the niche processes), are
 sampled. In a recent contribution, we proposed to measure the turnover
-of interactions between communities \parencite{PoisotELE2012}. The
+of interactions between communities [@poisot_dissimilarity_2012]. The
 origins of this turnover will require more data to be fully appreciated,
 and the development of a new methodology partitioning the causes of
 variability in interactions. In the next sections, we synthesize the
@@ -547,7 +543,7 @@ $\mathbf{A}_{ij}$ can take the form of, according to what is measured in
 the field, either presence and absence of interactions, or a measure of
 interaction strength. The term $\left(T_i\times T_j\right)$ can be as
 complex as needs be, and can rely on the use of latent variables
-@rohr_modeling_2010 rather than actual traits values.
+[@rohr_modeling_2010] rather than actual traits values.
 Re-casting the question of the occurrence of an interaction as a
 statistical one can at first seems at odd with our goal to incorporate
 more explicit feedbacks between traits, population sizes, and
