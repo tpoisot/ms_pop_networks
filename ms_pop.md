@@ -15,7 +15,7 @@ populations, individuals) linked two-by-two through edges (ecological
 interactions). Ecological research over the last two decades focused on
 how certain mathematical properties of this graph related to the
 robustness [@dunne_network_2002], productivity [@duffy_functional_2007],
-or tolerance to extinction \parencite{Memmott2004} of the community it
+or tolerance to extinction [@memmott_tolerance_2004] of the community it
 represents. Although this approach classically focused on food webs
 [@ings_ecological_2009], it can be applied equally to all types of
 ecological interactions, up to the point were all of them are included
@@ -243,8 +243,7 @@ existing interactions. For this reason, there is a potential to link
 species and interactions dynamics, and more importantly, to do so in a
 way which accounts for the feedback effects.
 
-Traits distribution fluctuation in space and time
-=================================================
+# Traits distribution fluctuation in space and time
 
 Intro into the section: some studies found a niche signal through
 phylogenetic analysis, and a strong consequence of traits values, e.g.
@@ -254,14 +253,13 @@ of the current state of their evolved traits. Discuss Price briefly.
 Examples abound of species traits driving the number of interactions.
 For example, parasitic wasps targeting high-speed flying preys showed a
 larger niche, and less specialization, than sister species targeting
-slower preys \parencite{Polidori2012}. When traits
+slower preys [@Polidori2012]. When traits
 
 Take-home: need to account for local structure of populations to
 explain, probabilistic approach can be based on something else than link
 strength, see Guimera in Proc R Soc Interfaces paper.
 
-The basic processes
--------------------
+## The basic processes
 
 The logic of forbidden links also exists at the population level – local
 variation in traits
@@ -277,7 +275,7 @@ An interaction requires traits matching or mismatching, can be strongly
 locally stratified – as for neutrality, requires a population-level
 approach
 
-\textcite{Kuwae2012} showed that local differences in bird morphology
+@Kuwae2012 showed that local differences in bird morphology
 led to them not consistently interacting with bacterial biofilm in an
 intertidal food wed. The local stratification of traits will result in
 situations in which two populations will not be able to interact, even
@@ -296,8 +294,7 @@ Allesina Eklof
 
 [tb] ![image](traits) [fig:traits]
 
-Benefits for network analysis
------------------------------
+## Benefits for network analysis
 
 quantify how much turnover is linked to trait distribution, through
 spatial analysis – propose some tools in the betalink paper
@@ -305,7 +302,7 @@ spatial analysis – propose some tools in the betalink paper
 also temporal dynamics, and impact of environment through changes in
 traits – examples of water input in Price
 
-\textcite{Price2003} proposed that, since the response of organisms to
+@Price2003 proposed that, since the response of organisms to
 current environmental conditions and changes is dictated by the state of
 evolved traits, historical contingencies on the evolution of these
 traits should be better integrated into ecological studies. **to be
@@ -316,9 +313,9 @@ impacts the realization of the interaction between two species will
 contribute to the integration of coevolution and network analysis.
 Trait-trait correlation, and trait-fitness correlation, are one of the
 basic ingredients for reciprocal selection
-\parencite{Gomulkiewicz2000,Nuismer2003}, and needs be studied at the
+[@Gomulkiewicz2000;@Nuismer2003], and needs be studied at the
 scale of the population, so as to be able to address the spatial
-dynamics \parencite{Thompson2005a}. Several authors discussed how
+dynamics [@Thompson2005a]. Several authors discussed how
 migration between patches can disrupt local selection dynamics
 \cite{Gandon2008,Burdon2009}, which received empirical support in
 experimental evolution studies \parencite{Brockhurst2007c,Morgan2007}.
