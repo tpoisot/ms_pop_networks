@@ -118,26 +118,25 @@ the structure of potential and realized networks, *i.e.* in the terms of
 realizations, it is important to understand the ecological factors involved
 in making populations interact.
 
-The goal of this paper is to evaluate how several families of mechanisms
-and ecological processes can create turnover in species interactions. We
-evaluate in turn the importance of neutral processes, local traits
-distribution, and context-dependence, to (i) give a comprehensive
-overview of how and why they create turnover, and (ii) show how
-integrating them into our current analyses of networks will result in a
-more predictive science. Although most of the discussion is, for the
-sake of simplicity, about whether species will interact or not, the same
-mechanisms can be used in a probabilistic approach
-[@yeakel_probabilistic_2012]. This leads to an altered view of
-ecological networks, which is more focused on populations rather than
-species, as it appears as the natural scale of biological organization
-at which these mechanisms are expressed
-[@smallegange_towards_2012]. Doing so leads to clear
-recommendations about what to measure in the field when sampling
-interaction networks, and how we can design statistical approaches to
-better understand the interactions of the factors of turnover. We
-conclude by discussing how the new knowledge gained this way will be
-applied to our understanding of species interactions, and how it will
-help us build more predictive models.
+The goal of this paper is to evaluate how several families of mechanisms and
+ecological processes can create turnover in species interactions at the
+population level. We evaluate in turn the importance of neutral processes, local
+traits distribution, and context-dependence, to (i) give a comprehensive
+overview of how and why they create turnover, and (ii) show how integrating them
+into our current analyses of networks will result in a more predictive science.
+Although most of the discussion is, for the sake of simplicity, about whether
+species will interact or not, the same mechanisms can be used in a probabilistic
+approach [@yeakel_probabilistic_2012]. This leads to an altered view of
+ecological networks, which is more focused on populations rather than species,
+as it appears as the natural scale of biological organization at
+which these mechanisms are expressed [@smallegange_towards_2012].
+Doing so leads to clear recommendations about what to measure in the
+field when sampling interaction networks, and how we can design
+statistical approaches to better understand the interactions of the
+factors of turnover (we present one possible way to do so in *Box
+1*). We conclude by discussing how the new knowledge gained this
+way will be applied to our understanding of species interactions, and
+how it will help us build more predictive models.
 
 # Population dynamics and neutral processes
 
