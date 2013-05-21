@@ -38,7 +38,7 @@ provide some context for this question.
 @menke_plant-frugivore_2012 showed that a plant–frugivore network changed its
 structure on a forest–farmland gradient. Even within different forest strata,
 differences in network structure were observed
-[@schleuning_specialization_2011]. @eveleigh_fluctuations_200
+[@schleuning_specialization_2011]. @eveleigh_fluctuations_2007
 demonstrated outbreaks of the spruce budworm were associated to
 changes in the structure of its trophic network, both in terms of
 species observed, and their interactions. @poisot_resource_2011 used
@@ -602,4 +602,4 @@ networks in which traits determine the interactions.
 
 ![image](betaPOP)
 		
-# Reference)
+# References
