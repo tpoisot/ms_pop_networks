@@ -59,40 +59,38 @@ phenomenon and the mechanisms triggering it will improve our ability to use
 networks as predictive tools. In this paper, we argue that this knowledge can be
 acquired by focusing on populations, rather than species.
 
-To observe that interactions can be gained or lost when the environment
-change, requires that the sampling of network be replicated. In other
-words, to address these problematics, there is a need to shift our focus
-from species to populations interactions. This begs the questions of the
-similarity between these two levels. As argued before, species-level
-networks reconstructed on the basis of literature survey, expert
-knowledge, or even potential trait-based relationships
-[@brose_allometric_2006; @heckmann_interactive_2012]
-, are networks of potential
-interactions, but can seldom be used to predict whether two populations
-will interact. When sampling populations enough times, either through
-time or space, we only gain knowledge of the realized interactions, and
-it is possible that some potential interactions are not encountered.
+To observe that interactions can be gained or lost when the environment change,
+requires that the sampling of network be replicated. In other words, to
+address these problematics, there is a need to shift our focus from species
+to populations interactions. This begs the questions of the similarity
+between these two levels. As argued before, species-level networks
+reconstructed on the basis of literature survey, expert knowledge, or even
+potential trait-based relationships
+[@brose_allometric_2006; @heckmann_interactive_2012] , are networks of
+potential interactions, but can seldom be used to predict whether two
+populations will interact. When sampling populations enough times, either
+through time or space, we only gain knowledge of the realized interactions,
+and it is possible that some potential interactions are not encountered.
 Take, for example, the iconic dataset of [@havens_scale_1992], which
-describes the interactions between species in the Adirondack lakes. For
-each lake, the list of species is known. At the regional level, the
-interactions between all species were retrieved from literature surveys.
-With these informations in hand, it is only possible to describe the
-structure of *potential* interactions at the local scale, but not to
-describe the *realized* network. The opposite standpoint is to assume
-that aggregating all realizations will give a good knowledge of the
-potential interactions in the metaweb. This, however, is the age old
-problem of proving an negative: we are only certain that no potential
-interactions were missed insofar that we are confident in our ability to
-locally detect them [@copi_introduction_1953]. Some networks will be more
-sensitive to sampling effects than others. Pollination or frugivory
-networks are typically sampled through several sessions of observation
-[@schleuning_specialization_2012], and therefore rely on the skill of the
-observer, or the amount of people available to conduct the survey. On
-the other hand, macro-parasite networks [@stanko_mammal_2002] or food
-webs [@shaner_trophic_2011] can be conducted by sampling individual
-hosts, and investigating them in the lab (through *e.g.* combing or
-stomach content analysis), meaning that it’s harder to miss an
-interaction if enough individuals are sampled.
+describes the interactions between species in the Adirondack lakes. For each
+lake, the list of species is known. At the regional level, the interactions
+between all species were retrieved from literature surveys. With these
+informations in hand, it is only possible to describe the structure of
+*potential* interactions at the local scale, but not to describe the
+*realized* network. The opposite standpoint is to assume that aggregating all
+realizations will give a good knowledge of the potential interactions in the
+metaweb. This, however, is the age old problem of proving an negative: we are
+only certain that no potential interactions were missed insofar that we are
+confident in our ability to locally detect them [@copi_introduction_1953].
+Some networks will be more sensitive to sampling effects than others.
+Pollination or frugivory networks are typically sampled through several
+sessions of observation [@schleuning_specialization_2012], and therefore rely
+on the skill of the observer, or the amount of people available to conduct
+the survey. On the other hand, macro-parasite networks [@stanko_mammal_2002]
+or food webs [@shaner_trophic_2011] can be conducted by sampling individual
+hosts, and investigating them in the lab (through *e.g.* combing or stomach
+content analysis), meaning that it’s harder to miss an interaction if
+enough individuals are sampled.
 
 @poisot_dissimilarity_2012 showed that after more than a
 hundred independent sampling of a host–ectoparasite system, not all
