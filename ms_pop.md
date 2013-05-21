@@ -323,16 +323,17 @@ Understanding how the realization of potential interactions are affected
 by local trait distribution in the two species involved will allow not
 only to understand how a new species will integrate into the existing
 network, but also how it can affect its evolutionary dynamics. In
-parallel, the bulk of community phylogenetics \parencite{Webb2006} was
+parallel, the bulk of community phylogenetics [@webb_integrating_2006] was
 developed to re-analyse community structure through the phylogenetic
-conservatism of traits \parencite{Cavender-Bares2009,
-Mouquet2012}. If enough realizations are sampled, for which we know even
+conservatism of traits [@cavender-bares_merging_2009;
+@mouquet_ecophylogenetics_2012]. If enough realizations are sampled, for which
+we know even
 coarsely the phylogenetic structure of traits
-\parencite{Chamberlain2012}, we will have a strong database on which to
+[@chamberlain_does_2012], we will have a strong database on which to
 carry out statistical analyses to determine when interactions will
 occur. This effort will provide a strong mechanistic basis for previous
 work showing a phylogenetic and ecological structure of complex networks
-\parencite{Eklof2011,Baskerville2011}. In addition to providing this
+[@eklof_relevance_2011; @baskerville_spatial_2011]. In addition to providing this
 more mechanistic insight, better linking traits and their phylogenetic
 structure to the local occurrence of an interactions is a promising way
 to incorporate more evolutionary hypotheses and mechanisms in the study
