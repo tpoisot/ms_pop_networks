@@ -290,7 +290,7 @@ thompson paper
 Allesina Eklof
 
 [f:traits]: traits.pdf "Traits and populations"
-![Assuming that  species interact based on the value of their traits, looking at the inter-population variance of trait values is important. In the above example, three populations of each three secies interact (**A**). Aggregated at the species level, this yields a network represented in **B**. However, if one is to examine each population separately, the *actual* network shares no properties with its species-level counterpart (**C**)\label{f:traits}.][f:traits]
+![Panel **a** represents the interactions between different populations (circles) of four species, identified by the boundaries of their morphospaces (dashed lines). This network is mostly made of linear food chains, and has one generalist consumer. When aggregated at the species level however,as shown in **B**, it becomes a "diamond" food-web, with different dynamical consequences. Because the trait values of populations within a species differ, each indivudal population can interact differently than the species it belongs to.\label{f:traits}.][f:traits]
 
 ## Benefits for network analysis
 
