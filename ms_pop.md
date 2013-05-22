@@ -253,21 +253,14 @@ a wide range of current macroecological patterns, including the identity of
 species that are interacted with, is a consequence of the macroevolutionary
 dynamics of traits, a view which is also at the core of community phylogenetics
 interpretation of interaction networks
-[@ives_phylogenetic_2006;@mouquet_ecophylogenetics_2012].
-
-Intro into the section: some studies found a niche signal through
-phylogenetic analysis, and a strong consequence of traits values, e.g.
-forbidden links. Both makes sense in that species interact as a function
-of the current state of their evolved traits. Discuss Price briefly.
-
-Examples abound of species traits driving the number of interactions.
-For example, parasitic wasps targeting high-speed flying preys showed a
-larger niche, and less specialization, than sister species targeting
-slower preys [@Polidori2012]. When traits
-
-Take-home: need to account for local structure of populations to
-explain, probabilistic approach can be based on something else than link
-strength, see Guimera in Proc R Soc Interfaces paper.
+[@ives_phylogenetic_2006;@mouquet_ecophylogenetics_2012]. @polidori_does_2012
+showed that fast-flying preys (a trait which has been evolved under pressures
+other than predation) were preferentially attacked by generalist parasitoid
+wasps, while specialist wasps favored slow-flying preys. Clearly trait values
+have far-reaching consequences on network structure. However, rarely adressed is
+the fact that at short spatial and temporal scales, trait structure of
+populations within a species can show great variability. In this section, we
+review how this granularity in trait distribution can affect network structure.
 
 ## The basic processes
 
