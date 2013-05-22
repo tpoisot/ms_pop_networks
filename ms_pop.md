@@ -153,83 +153,85 @@ was an important step into accounting for the importance of ecological drift in
 structuring horizontal diversity [@rosindell_case_2012]. Over the recent years,
 the idea of neutrality percolated into the analysis of the structure
 of ecological networks, and this theory started being used to
-explain vertical diversity, notably in food webs. Several
-host–parasite datasets were thusly re-analyzed, with the conclusion
-that changes in local species abundances triggers variation in
-parasite specificity [@vazquez_species_2005]. In this section, we
-review recent studies investigating the consequences of neutral
-dynamics on the structure of interaction networks, and show how
-variations in population size can lead to interaction turnover.
+explain vertical diversity, most notably in bipartite networks
+[@bluthgen_measuring_2006]. Several host–parasite datasets were
+thusly re-analyzed, with the conclusion that changes in local
+species abundances triggers variation in parasite specificity
+[@vazquez_species_2005]. Recent results show that this logic also
+holds predictive power for food webs [@canard_emergence_2012 ]. In
+this section, we review recent studies investigating the
+consequences of neutral dynamics on the structure of interaction
+networks, and show how variations in population size can lead to
+interaction turnover.
 
 ## The basic processes
 
-The reasoning for a neutral approach to species interaction networks is
-as follows. In order for two species to interact, there are a number of
-requirements they must jointly meet. @combes_parasitism:_2001 proposed that
-there are two families of such requirements: ecological (related to
-species encountering one another), and evolutionary (related to species
-falling within one another Eltonian fundamental niche, which are
-addressed in the following section). Assuming that two species occupy
-the same patch, and are active at the same time of the day, a neutral
-approach to modeling their encounter probability is to use their local
-abundance. Two locally abundant species are more likely to interact that
-two locally rare ones. This approach can also be extended to the
-prediction of interaction strength [@bluthgen_measuring_2006 ; @vazquez_species_2007], *i.e.* how strong the
-consequences of the interaction will be. It predicts that locally
-abundant species should have more partners, and locally rare species
-should appear locally more specialized. In a purely neutral model, the
-identity of species do not matter (*i.e.* there are no niche processes
-involved), and it becomes easy to understand how this can lead to a
-situation where, because species vary regionally in abundance, some
-interactions display turnover. In addition, and because of spatial and
-temporal variation in abundance, the same species can appear to gain or
-lose partners in different patches.
+The reasoning for a neutral approach to species interaction networks is as
+follows. In order for two species to interact, there are a number of
+requirements they must jointly meet. @combes_parasitism_2001 proposed that there
+are two families of such requirements: ecological (related to species
+encountering one another), and evolutionary (related to species falling
+within one another Eltonian fundamental niche, which are addressed in the
+following section). Assuming that two species occupy the same patch, and
+are active at the same time of the day, a neutral approach to modeling their
+encounter probability is to use their local abundance. Two locally abundant
+species are more likely to interact that two locally rare ones, simply
+because their individuals will meet more often. This approach can also be
+extended to the prediction of interaction strength
+[@bluthgen_measuring_2006;@vazquez_species_2007], *i.e.* how strong the
+consequences of the interaction will be. It predicts that locally abundant
+species should have more partners, and locally rare species should appear
+locally more specialized. In a purely neutral model, the identity of species
+do not matter (*i.e.* there are no trait-based processes involved), and it becomes
+easy to understand how this can lead to a situation where, because species
+vary regionally in abundance, some interactions display turnover. In
+addition, and because of spatial and temporal variation in abundance, the
+same species can appear to gain or lose partners in different patches.
 
-In a recent work, @canard_emergence_2012 showed that simulated networks
-obtained through a neutral process displayed a realistic structure,
-which suggest that neutral processes do indeed drive the local
-organization of interactions. More importantly, this study revealed the
-possibility for “neutrally forbidden links”: these appear when one
-species is at an abundance too low to interact to interact with some
-species (in an individual-based models, over the course of one
-generation, a given species cannot interact with more other species than
-it has individuals). Such forbidden links can generate interactions
-turnover over spatial or temporal extents. A similar phenomenon was
-observed by @poisot_resource_2011. A soil community of bacteria
-(victims) and bacteriophages (enemies) was isolated from its natural
-environment, and their pairwise interactions were measured along a
-gradient of decreasing availability of the resources used by victims for
-their growth. This resulted in locally decreasing the abundance of
-victims, thus diminishing their availability for enemies. As in this
-system, the abundance of enemies is tied to the abundance of victims
-[@beretta_modeling_1998 ; @rabinovitch_bacterial_1999], this experiment effectively
-decreased the encounter probability of the two species. This resulted in
-a strong link turnover, with some species being able to interact in the
-resource-rich environment, but not in the resource-poor ones.
+In a recent work, @canard_emergence_2012 showed that simulated networks obtained
+through a neutral process displayed a realistic structure, which suggest that
+neutral processes do indeed drive the local organization of interactions. More
+importantly, this study revealed the possibility for “neutrally forbidden
+links”: these appear when one species is at an abundance too low to interact to
+interact with some species (in an individual-based model, over the course of one
+generation, a given species cannot interact with more other species than it
+has individuals). Such forbidden links can generate interactions turnover
+over spatial or temporal extents, even in the presence of trait-based
+constraints (*Box 2*). A similar phenomenon was observed by
+@poisot_resource_2011. A soil community of bacteria (victims) and bacteriophages
+(enemies) was isolated from its natural environment, and their pairwise
+interactions were measured along a gradient of decreasing availability of the
+resources used by victims for their growth. This resulted in locally decreasing
+the abundance of victims, thus diminishing their availability for enemies. As in
+this system, the abundance of enemies is tied to the abundance of victims
+[@beretta_modeling_1998 ; @rabinovitch_bacterial_1999], this experiment
+effectively decreased the encounter probability of the two species. This
+resulted in a strong link turnover, with some species being able to interact in
+the resource-rich environment, but not in the resource-poor ones.
 
 ## Benefits for network analysis
 
-As local variations in the environmental conditions (heterogeneity) can
-trigger changes in the local abundance of interacting species, it is
-important to have the ability to understand how this heterogeneity
-cascades to the structure of species interactions. Simple statistical
-models can be used to quantify the effect of population sizes on local
-interaction occurrence or strength, which tells if neutral processes are
-involved [@krishna_neutral-niche_2008]. Furthermore, knowing the part of each
-interaction explained by neutrality, it is possible to *remove* it from
-the observed values. One can then examine the structure of the networks
-once neutral effects have been removed, or in the contrary, if only
-neutral effects are accounted for. As most data will now include
-estimates of population density as well as estimates of interaction
-strength, it is crucial that we develop standardized methods to isolate
-the neutral signal on interaction strength. Coming up with such a
-framework will complement theory surrounding the measurement of
-interaction strengths in nature [@wootton_measurement_2005]. Even more
-importantly, integrating neutral processes in our understanding of
-networks will benefit neutral theory: @wootton_field_2005 madde the
-point that deviations of empirical communities from neutral predictions
-were explained by species interactions. Merging the two views will
-increase our explanatory power, and provide new ways to test neutral
+As local variations in the environmental conditions (heterogeneity) can trigger
+changes in the local abundance of interacting species, it is important to have
+the ability to understand how this heterogeneity cascades to the structure of
+species interactions. Simple statistical models can be used to quantify the
+effect of population sizes on local interaction occurrence or strength, which
+tells if neutral processes are involved [@krishna_neutral-niche_2008].
+Furthermore, knowing the part of each interaction explained by neutrality, it is
+possible to *remove* it from the observed values. One can then examine the
+structure of the networks once neutral effects have been removed, or in the
+contrary, if only neutral effects are accounted for This offers an extremely
+powerful tool to measure the consistency of neutral and trait-based components
+of interactions through time and space. As most data will now include estimates
+of population density as well as estimates of interaction strength, it is
+crucial that we develop standardized methods to isolate the neutral signal on
+interaction strength. Coming up with such a framework will complement theory
+surrounding the measurement of interaction strengths in nature
+[@wootton_measurement_2005]. Even more importantly, integrating neutral
+processes in our understanding of networks will benefit neutral theory:
+@wootton_field_2005 madde the point that deviations of empirical communities
+from neutral predictions were explained by species interactions. Merging the two
+views will increase our explanatory power, and provide new ways to test neutral
 theory in interactive communities.
 
 This also offers a new opportunity, namely to complete the integration
