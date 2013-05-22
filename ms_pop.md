@@ -6,22 +6,23 @@
 
 Describing the structure of ecological communities requires to know not only the
 identity of species, but also their interactions [@dunne_network_2006]. Because
-interactions drive the dynamics within this community [@berlow_simple_2009],
+interactions drive ecological dynamics within communities [@berlow_simple_2009],
 their organization will confer certain ecological properties.
 Defining the “structure” of interactions is made easier by seeing
 ecological communities as graphs [@west_introduction_2001]. A graph
 is a collection of nodes (species, populations, individuals) linked
-two-by-two through edges (ecological interactions). Ecological
-research over the last two decades focused on how certain
-mathematical properties of this graph related to the robustness
-[@dunne_network_2002], productivity [@duffy_functional_2007], or
-tolerance to extinction [@memmott_tolerance_2004] of the community
-it represents. Although this approach classically focused on food
-webs [@ings_ecological_2009], it can be applied equally to all
-types of ecological interactions, up to the point were all of them
-are included in the same network [@kefi_more_2012]. Recently,
-empirical evidences point to the fact that the structure of
-ecological networks is affected by global changes,at both short
+two-by-two through edges (direct ecological interactions).
+Ecological research over the last two decades focused on how
+certain mathematical properties of this graph related to the
+robustness [@dunne_network_2002], productivity
+[@duffy_functional_2007], or tolerance to extinction
+[@memmott_tolerance_2004] of the community it represents. Although
+this approach classically focused on food webs
+[@ings_ecological_2009], it can be applied equally to all types of
+ecological interactions, up to the point were all of them are
+included in the same network [@kefi_more_2012]. Recently, empirical
+evidences point to the fact that the structure of ecological
+networks is affected by global changes,at both short
 [@dossena_warming_2012] and long [@dalsgaard_historical_2013]
 time-scales. Although it is tempting to forecast the future
 structure of these networks, because it will allow us to predict
@@ -31,10 +32,11 @@ experimental systems [@sarmento_warming_2010]. One of the source of
 complexity is that, following changes in species range,
 extinctions, and micro-evolutionary events induced by global
 changes, future networks will not be a simple aggregation of the
-contemporary ones, and will truely be emergent systems. In this
-perspective, it becomes important to identify the reasons for which
-ecological interactions will occur in a given species assemblage,
-but not in another.
+contemporary ones, and will truely be emergent systems, in that
+they will be made of both old and new species, and different
+interactions between these species. In this perspective, it becomes
+important to identify the reasons for which ecological interactions
+will occur in a given species assemblage, but not in another.
 
 Recent studies on the sensitivity of network structure to environmental change
 provide some context for this question. @menke_plant-frugivore_2012 showed that
@@ -60,60 +62,62 @@ networks as predictive tools. In this paper, we argue that this knowledge can be
 acquired by focusing on populations, rather than species.
 
 [f:meta]: metaweb.pdf "The metaweb concept"
-![An illustration of the notion of a metaweb. In its simplest form, the metaweb is the list of all possible species and interactions between them for the system studied. What is observed locally, here in sites 1 and 2, is a *realization* of this metaweb, after the action of species sorting and other classical meta-community processes, and local interaction sorting, as we describe here. The two observed networks have different properties, species compositions, and interaction between these species.\label{f:meta}][f:meta]
+![An illustration of the notion of a metaweb. In its simplest form, the metaweb is the list of all possible species and interactions between them for the system studied, whether these interactions were observed or inferred from trait values and previous knowledge. What is observed locally, here in sites 1 and 2, is a *realization* of this metaweb, after the action of species sorting and other classical meta-community processes, and local interaction sorting, as we describe here. The two observed networks have different properties, species compositions, and interaction between these species.\label{f:meta}][f:meta]
 
-To observe that interactions can be gained or lost when the environment change,
-requires that the sampling of network be replicated. In other words, to
-address these problematics, there is a need to shift our focus from species
-to populations interactions. This begs the questions of the similarity
-between these two levels. As argued before, species-level networks
-reconstructed on the basis of literature survey, expert knowledge, or even
-potential trait-based relationships
-[@brose_allometric_2006; @heckmann_interactive_2012] , are networks of
-potential interactions, but can seldom be used to predict whether two
-populations will interact. When sampling populations enough times, either
+To observe that interactions can be gained or lost when the environment changes,
+requires that sampling be replicated. In other words, to address these
+problematics, there is a need to shift our focus from species interactions
+(*i.e.* regional, potential) to populations (*i.e.* local, realized)
+interactions. This begs the questions of the similarity between these two
+levels. As argued before, species-level networks reconstructed on the basis of
+literature survey, expert knowledge, or even potential trait-based
+relationships [@brose_allometric_2006;@heckmann_interactive_2012] , are
+networks of potential interactions, but can seldom be used to predict whether
+two populations will interact. When sampling populations enough times, either
 through time or space, we only gain knowledge of the realized interactions,
-and it is possible that some potential interactions are not encountered.
-Take, for example, the iconic dataset of [@havens_scale_1992], which
-describes the interactions between species in the Adirondack lakes. For each
-lake, the list of species is known. At the regional level, the interactions
-between all species were retrieved from literature surveys. With these
-informations in hand, it is only possible to describe the structure of
-*potential* interactions at the local scale, but not to describe the
-*realized* network. The opposite standpoint is to assume that aggregating all
-realizations will give a good knowledge of the potential interactions in the
-metaweb. This, however, is the age old problem of proving an negative: we are
-only certain that no potential interactions were missed insofar that we are
-confident in our ability to locally detect them [@copi_introduction_1953].
-Some networks will be more sensitive to sampling effects than others.
-Pollination or frugivory networks are typically sampled through several
-sessions of observation [@schleuning_specialization_2012], and therefore rely
-on the skill of the observer, or the amount of people available to conduct
-the survey. On the other hand, macro-parasite networks [@stanko_mammal_2002]
-or food webs [@shaner_trophic_2011] can be conducted by sampling individual
-hosts, and investigating them in the lab (through *e.g.* combing or stomach
-content analysis), meaning that it’s harder to miss an interaction if
-enough individuals are sampled.
+and it is possible that some potential interactions are not encountered. Take,
+for example, the iconic dataset of [@havens_scale_1992], which describes the
+interactions between species in the Adirondack lakes. For each lake, the list
+of species is known. At the regional level, the interactions between all
+species were retrieved from literature surveys. With these informations in
+hand, it is only possible to describe the structure of *potential*
+interactions at the local scale, but not to describe the *realized* network.
+The opposite standpoint is to assume that aggregating all realizations will
+give a good knowledge of the potential interactions in the metaweb. This,
+however, is the age old problem of proving a negative: we are only certain
+that no potential interactions were missed insofar that we are confident in
+our ability to locally detect them [@copi_introduction_1953], and have sampled
+enough combinations of environmental conditions. Some networks will be more
+sensitive to sampling effects than others. Pollination or frugivory networks
+are typically sampled through several sessions of observation
+[@schleuning_specialization_2012], and therefore rely on the skill of the
+observer, or the amount of people available to conduct the survey. On the
+other hand, macro-parasite networks [@stanko_mammal_2002] or food webs
+[@shaner_trophic_2011] can be conducted by sampling individual hosts, and
+investigating them in the lab (through *e.g.* combing or stomach content
+analysis), meaning that it is harder to miss an interaction if enough
+individuals are sampled.
 
 @poisot_dissimilarity_2012 showed that after more than a hundred independent
 samplings of a host–ectoparasite system, not all regional interactions are
 known. This bears two important consequences. First, the adequate sampling of
 potential interactions (in other words, the knowledge of the metaweb) is
-a difficult task. Second, the compilation of interactions observed at one
-sampling site between local populations is not the network of species
-interactions, which can only be reconstructed through numerous samplings (so as
-to be confident that an absence of link really indicates that the
-interaction is not possible). However, the realized interactions between
-populations will impact their local dynamics, and thus drive local ecological
-properties of the community [@bascompte_mutualistic_2009], whereas having only
-a knowledge of the species interactions implies making the assumption that all
-of these interactions are realized locally. In addition, because different
-realizations of a metaweb will show interaction turnover, it is important that
-we now focus our effort on understanding population-level interaction networks,
-because this seems the only way to understand the different between potential
-and realized interactions, which is required to advance toward a biogeography
-theory of interactions. So that we can understand the relationship between
-the structure of potential and realized networks, *i.e.* in the terms of
+a difficult task [@martinez_effects_1999]. Second, the compilation of
+interactions observed at one sampling site between local populations is not the
+network of species interactions, which can only be reconstructed through
+numerous samplings (so as to be confident that an absence of link really
+indicates that the interaction is not possible). However, the realized
+interactions between populations will impact their local dynamics, and thus
+drive local ecological properties of the community
+[@bascompte_mutualistic_2009;@poisot_trophic_2013]; this makes them the relevant
+scale at which to study ecological networks as indicators of ecosystem
+properties. In addition, because different realizations of a metaweb will show
+interaction turnover, it is important that we now focus our effort on
+understanding population-level interaction networks, because this seems the only
+way to understand the different between potential and realized interactions,
+which is required to advance toward a biogeography theory of interactions.
+So that we can understand the relationship between the structure of
+potential and realized networks, *i.e.* in the terms of
 @poisot_dissimilarity_2012, the differences between a metaweb and its
 realizations, it is important to understand the ecological factors involved
 in making populations interact.
