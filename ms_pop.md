@@ -242,6 +242,19 @@ way which accounts for the feedback effects.
 
 # Traits distribution fluctuation in space and time
 
+@olesen_missing_2011 reported the existence of "forbidden links" in mutualistic
+interactions, that is interactions whose existence is prevented by the fact that
+speices traits do not match. For example, the proboscis of a pollinator may be
+too short to reach the pollen of a plant species. Under this perspective, both
+the existence and absence of interactions can be mapped on trait values. In
+contrast to the neutral perspective, this can also be linked to evolutionary
+hypotheses on trait conservatism. @price_macroevolutionary_2003 proposed that
+a wide range of current macroecological patterns, including the identity of
+species that are interacted with, is a consequence of the macroevolutionary
+dynamics of traits, a view which is also at the core of community phylogenetics
+interpretation of interaction networks
+[@ives_phylogenetic_2006;@mouquet_ecophylogenetics_2012].
+
 Intro into the section: some studies found a niche signal through
 phylogenetic analysis, and a strong consequence of traits values, e.g.
 forbidden links. Both makes sense in that species interact as a function
