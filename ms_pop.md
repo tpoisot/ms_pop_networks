@@ -204,7 +204,7 @@ interactions were measured along a gradient of decreasing availability of the
 resources used by victims for their growth. This resulted in locally decreasing
 the abundance of victims, thus diminishing their availability for enemies. As in
 this system, the abundance of enemies is tied to the abundance of victims
-[@beretta_modeling_1998 ; @rabinovitch_bacterial_1999], this experiment
+[@beretta_modeling_1998;@rabinovitch_bacterial_1999], this experiment
 effectively decreased the encounter probability of the two species. This
 resulted in a strong link turnover, with some species being able to interact in
 the resource-rich environment, but not in the resource-poor ones.
@@ -229,22 +229,25 @@ interaction strength. Coming up with such a framework will complement theory
 surrounding the measurement of interaction strengths in nature
 [@wootton_measurement_2005]. Even more importantly, integrating neutral
 processes in our understanding of networks will benefit neutral theory:
-@wootton_field_2005 madde the point that deviations of empirical communities
-from neutral predictions were explained by species interactions. Merging the two
-views will increase our explanatory power, and provide new ways to test neutral
-theory in interactive communities.
+@wootton_field_2005 made the point that deviations of empirical communities
+from neutral predictions were most often explained by species trophic
+interactions, which are notoriously absent from the original formulation of the
+theory. Merging the two views will increase our explanatory power, and provide
+new ways to test neutral theory in interactive communities.
 
-This also offers a new opportunity, namely to complete the integration
-of network structure with species dynamics. To date, most studies
-focused on the consequence of one species having a particular position
-within a food web on the dynamics of its biomass or abundance
-[@brose_allometric_2006; @berlow_simple_2009]. Adopting this neutral perspective
-allows to go back, in that the abundance of a species will also dictate
-its position in the network: changes in abundance can lead to gained or
-lost interactions, and these changes in abundance are in part caused by
-existing interactions. For this reason, there is a potential to link
-species and interactions dynamics, and more importantly, to do so in a
-way which accounts for the feedback effects.
+This also offers a new opportunity, namely to complete the integration of
+network structure with species dynamics. To date, most studies focused on the
+consequence of one species having a particular position within a food web on the
+dynamics of its biomass or abundance [@brose_allometric_2006;
+@berlow_simple_2009]. Adopting this neutral perspective allows to go back, in
+that the abundance of a species will also dictate its position in the network:
+changes in abundance can lead to gained or lost interactions, and these changes
+in abundance are in part caused by existing interactions. For this reason, there
+is a potential to link species and interactions dynamics, and more importantly,
+to do so in a way which accounts for the feedback effects. From a practical
+point of view, this requires repeated sampling of a system through tiem, so
+that changes in relative abundances can be related to changes in interaction
+strength [@yeakel_probabilistic_2012].
 
 # Traits distribution fluctuation in space and time
 
@@ -267,18 +270,40 @@ have far-reaching consequences on network structure. However, rarely adressed is
 the fact that at short spatial and temporal scales, trait structure of
 populations within a species can show great variability. In this section, we
 review how this granularity in trait distribution can affect network structure.
+We propose that integrating it our description of networks will (i) increase our
+ability to predict the existence of interactions, and (ii) allow to better
+ground the current structure of networks in an evolutionary context.
 
 ## The basic processes
 
-The logic of forbidden links also exists at the population level – local
-variation in traits
+Much in the same way that across-species matching in trait values will allow the
+existence of interactions, the value of traits across different populations will
+determine whether they interact. In \autoref{f:traits}, we present an
+illustration of this fact. In short, the species-level interaction network,
+because it is built by aggregating population-level interactions,
+which may have a large variability if the morphospace occupied by
+each species is large, can have unique emerging properties. The
+fact that the niche of species can appear large if it is the
+aggregation of narrow but differenciated individual or population
+niches is now well established
+[@devictor_defining_2010;@bolnick_ecology_2003], and reinforced the
+need to understand intra-specific trait variation to describe the
+structure and dynamics of communities [@bolnick_why_2011]. This
+notion is yet, however, to percolate the literature on network structure.
 
-examples of predation reversal when juv and mature do not share the same
-site / ontogenetic changes
-
--   Ohba 2011 - bug eat turtle
-
--   Choh 2012 - juv experience has long lasting consequences
+There are, however, several examples of trait value shifts resulting in extreme
+interaction tunrover. A particularly spectacular example is described by
+@ohba_field_2011: a giant waterbug is able to get hold of, and eventually
+consume, juveniles from a turtle species. This interaction can most likely exist
+only during a limited time of the "prey" life-span. Similarly, predation role
+reversal is mostly contingent upon the traits of the individuals being in
+different configurations. @choh_predator-prey_2012 demonstrated through
+behavioral assays that preys which evaded predation when young, were more likely
+to predate juvenile predators, than the "naive" individuals. These two examples
+share a common feature: in interactions strongly regulated by matching trait
+values, the functional role of an individual is an emergent property of its
+traits values, taken in combination with  the traits values of other
+individuals, rather than a species characteristic.
 
 An interaction requires traits matching or mismatching, can be strongly
 locally stratified – as for neutrality, requires a population-level
