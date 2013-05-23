@@ -379,17 +379,32 @@ evolutionary hypotheses and mechanisms in the study of network dynamics.
 
 # Beyond pairwise interactions
 
+In this section, we argue that although networks offer a direct access to direct
+intractions, there is potential in adressing indirect effects to. We present
+evidences showing that this can be done by understanding the effects that direct
+interactions have on one another, and outline the benefits of doing so to
+further reinforce the links between species interactions and species
+distribution @thuiller_road_2013.
+
 ## The basic processes
 
-Several authors [@golubski_modifying_2011]
-showed that biotic interactions themselves interact. From a
-biogeographic standpoint, it require that we develop a theory based on
-interaction co- occurrence, in addition to the current knowledge
-encompassing only species co- occurrence. The presence or absence of a
-biotic interaction can affect either the realization of other
-interactions, or the presence of other species, as we will illustrate
-below.
+Several authors [@golubski_modifying_2011] showed that biotic interactions
+themselves interact. The presence or absence of a biotic interaction can affect
+either the realization of other interactions, or the presence of other species,
+as we will illustrate below. There are two broad situations which can
+happen. First, the presence of one interaction will be a necessary
+condition for the presence of a second. For example, opportunistic
+pathogens have a greater success of infection on hosts which are already
+immunocompromised by previous infections @olivier_are_2012 . Second, already
+established interactions can prevent future partners from interacting.
+Such is notably the case in protective symbioses, *i.e.* those in which
+a resident symbiont decreases the infection probability of a new pathogen
+[@koch_socially_2011;@heil_protective_2003].
 
+From a
+biogeographic standpoint, it require that we develop a theory based on
+interaction co-occurrence, in addition to the current knowledge
+encompassing only species co-occurrence. 
 — facilitation
 
 @lafferty_foraging_1992 documents some examples of predators avoiding
