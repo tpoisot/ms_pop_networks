@@ -401,11 +401,18 @@ Such is notably the case in protective symbioses, *i.e.* those in which
 a resident symbiont decreases the infection probability of a new pathogen
 [@koch_socially_2011;@heil_protective_2003].
 
-From a
-biogeographic standpoint, it require that we develop a theory based on
-interaction co-occurrence, in addition to the current knowledge
-encompassing only species co-occurrence. 
-— facilitation
+Direct interactions can also interfere with each others when there is preference
+in the selection of interaction partners. @schmitz_effects_2008 show that two
+predators, whose difference is the hunting mode, are able to trigger a diet
+shift in their prey. Similarly, @singer_disentangling_2004 show that
+caterpillars change the proportion of different plant species in their diet,
+favoring low quality items to load on chemical compounds which are
+toxic for their parasitoids. However, low quality food result in
+birds having a greater impact on caterpillar populations
+[@singer_tritrophic_2012]. The rich natural history of this
+relatively simple community module clearly illustrates that
+interactions between direct interactions needs be accounted for.
+
 
 @lafferty_foraging_1992 documents some examples of predators avoiding
 preys infected by parasites. In this case, the interaction is not
@@ -456,6 +463,12 @@ orders of magnitude more difficult to gather than literature surveys or
 expert knowledge, but they are the only way to go beyond the current
 paradigm of seeing networks as mostly a collection of pairwise
 interactions.
+
+From a
+biogeographic standpoint, it require that we develop a theory based on
+interaction co-occurrence, in addition to the current knowledge
+encompassing only species co-occurrence. 
+— facilitation
 
 Finally, the widespread impacts of interactions involving more than two
 species bears important consequences for some experimental approaches.
