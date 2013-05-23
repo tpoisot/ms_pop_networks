@@ -305,16 +305,23 @@ values, the functional role of an individual is an emergent property of its
 traits values, taken in combination with  the traits values of other
 individuals, rather than a species characteristic.
 
-An interaction requires traits matching or mismatching, can be strongly
-locally stratified – as for neutrality, requires a population-level
-approach
-
-@Kuwae2012 showed that local differences in bird morphology
-led to them not consistently interacting with bacterial biofilm in an
-intertidal food wed. The local stratification of traits will result in
-situations in which two populations will not be able to interact, even
-though they belong in each other fundamental Eltonian niche (at the
-species level).
+@kuwae_variable_2012 showed that local differences in bird morphology led to
+them not consistently interacting with bacterial biofilm in an intertidal food
+wed. The local stratification of traits result in situations in which two
+populations will not be able to interact, even though they belong in each other
+fundamental Eltonian niche (at the species level). Assuming that some
+interaction-related traits can be under strong environmental forcing (for
+example, body size is expected to be lower in warm environments,
+@angilletta_temperature_2004), there can be covariation between
+environmental values, life history traits, and the occurence of interactions,
+because of either developmental constraints of phenotypic
+plasticity. An empirical demonstration of this was provided by
+@woodward_climate_2012: through the simulation of ecosystem
+warming, they demonstrate that changes in food-web structure
+happen at the same time as changes in body mass. Integrating trait
+variation over spatial or temporal extents is now central if we
+are to understand network variation and response to environmental
+change.
 
 Wood paper ELE on traits vs. environment
 
