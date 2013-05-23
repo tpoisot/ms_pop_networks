@@ -384,7 +384,7 @@ intractions, there is potential in adressing indirect effects to. We present
 evidences showing that this can be done by understanding the effects that direct
 interactions have on one another, and outline the benefits of doing so to
 further reinforce the links between species interactions and species
-distribution @thuiller_road_2013.
+distribution [@thuiller_road_2013].
 
 ## The basic processes
 
@@ -395,11 +395,14 @@ as we will illustrate below. There are two broad situations which can
 happen. First, the presence of one interaction will be a necessary
 condition for the presence of a second. For example, opportunistic
 pathogens have a greater success of infection on hosts which are already
-immunocompromised by previous infections @olivier_are_2012 . Second, already
-established interactions can prevent future partners from interacting.
-Such is notably the case in protective symbioses, *i.e.* those in which
-a resident symbiont decreases the infection probability of a new pathogen
-[@koch_socially_2011;@heil_protective_2003].
+immunocompromised by previous infections @olivier_are_2012 . Second,
+already established interactions can prevent future partners from
+interacting. Such is notably the case in protective symbioses, *i.e.*
+those in which a resident symbiont decreases the infection probability of
+a new pathogen [@koch_socially_2011;@heil_protective_2003]. Note that in
+both cases, the driver of interaction turnover is the patchiness of
+species distribution, emphasizing why the two concepts ought to be
+integrated.
 
 Direct interactions can also interfere with each others when there is preference
 in the selection of interaction partners. @lafferty_foraging_1992 documents some
@@ -426,16 +429,15 @@ regarding the identity of each node in the network.
 
 ## Benefits for network analysis
 
-In addition, accounting for the relationships between biotic
-interactions can be a powerful explanation for species co-occurrence. A
-recent experimental work by @sanders_indirect_2012 showed that some
-predators species can only be maintained if another predator species is
-present, which regulates a competitively superior prey, hence allowing
-prey coexistence. These effects involving several species and several
-types of interactions across trophic levels are complex, and can only be
-understood by (i) comparing communities in which different species are
-present/absent, and (ii) accounting for multiple interaction types
-[@kefi_more_2012].
+Accounting for the relationships between biotic interactions can be a powerful
+explanation for species co-occurrence. A recent experimental work by
+@sanders_indirect_2012 showed that some predators species can only be maintained
+if another predator species is present, which regulates a competitively superior
+prey, hence allowing prey coexistence. These effects involving several species
+and several types of interactions across trophic levels are complex [and for
+this reason, have been deemed unpredictible in the past, @tack_can_2011], and
+can only be understood by comparing communities in which different species are
+present/absent.
 
 To better understand these effects, it is important that several
 networks with similar species compositions are sampled. Assuming that
@@ -447,28 +449,14 @@ expert knowledge, but they are the only way to go beyond the current
 paradigm of seeing networks as mostly a collection of pairwise
 interactions.
 
-Of course, these multiple symbioses or interactions can have
-consequences beyond the existence of pairwise interactions. The biotic
-interactions received by an organism will often affect its environmental
-tolerance, and modify its realized Grinnelian niche [@poisot_conceptual_2011].
-
-From a
-biogeographic standpoint, it require that we develop a theory based on
-interaction co-occurrence, in addition to the current knowledge
-encompassing only species co-occurrence. 
-— facilitation
-
-Finally, the widespread impacts of interactions involving more than two
-species bears important consequences for some experimental approaches.
-Microbial systems, notably, use pairwise interactions to infer the
-structure of interaction networks (**ref me, buckling, daphnia
-papers**). While at reduced taxonomical scales, when we expect
-interactions to be relatively consistent, this process might not
-introduce too much bias, it is likely to under-report interactions when
-working on more complex systems. For example, **XXX** used pairwise
-assays to reproduce some of the interactions in the **ccc** metaweb.
-Especially in the context of multi-interaction networks, one should keep
-in mind the possibility that this approach is not unbiased.
+From a biogeographic standpoint, it require that we develop a theory based on
+interaction co-occurrence, in addition to the current knowledge encompassing
+only species co-occurrence. @araujo_using_2011 and @allesina_competitive_2011
+introduced the idea tha competitive interactions can leave a trace in species
+co-occurence network. It is now time to apply this logic to other types of
+interactions. In part, this can be done through the re-analysis of already
+existing datasets, although the statistical foundation of such a work is still
+mostly unknown [@thuiller_road_2013].
 
 # Conclusions
 
