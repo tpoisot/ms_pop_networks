@@ -323,48 +323,46 @@ variation over spatial or temporal extents is now central if we
 are to understand network variation and response to environmental
 change.
 
-Wood paper ELE on traits vs. environment
-
-can be disrupted by local adaptation to the environment – needs for a
-population rather than species level approach
-
-expand on the idea that this can change the *nature* of the interaction,
-thompson paper
-
-Allesina Eklof
-
 [f:traits]: traits.pdf "Traits and populations"
 ![Panel **a** represents the interactions between different populations (circles) of four species, identified by the boundaries of their morphospaces (dashed lines). This network is mostly made of linear food chains, and has one generalist consumer. When aggregated at the species level however,as shown in **B**, it becomes a "diamond" food-web, with different dynamical consequences. Because the trait values of populations within a species differ, each indivudal population can interact differently than the species it belongs to.\label{f:traits}.][f:traits]
 
 ## Benefits for network analysis
 
-quantify how much turnover is linked to trait distribution, through
-spatial analysis – propose some tools in the betalink paper
+Although tools now exist to measure the turnover of interactions
+[@poisot_dissimilarity_2012], there is a need to link this turnover in
+a mechanistic understanding. Intra-specific variation in traits values in space
+or time is, as we illustrated below, a promising avenue. We propose in *Box 1*
+a way to understand the impact of traits and neutral effects on the occurence of
+interactions. To be put in practice, this requires that when assembling
+a network locally, trait values of interacting organisms are measured. For
+obvious reasons, the trait values cannot be extracted from reference databases,
+as this will assum that all populations of a species are equal. With the
+accumulation of data, this new perspective will allow to better
+understand how networks vary along environmental gradients.
+@price_macroevolutionary_2003 shows how specific biomechanic response to
+water input in shrubs can have pleiotropic effects on traits involved in
+the interaction with insects. So as to make sense of the variation of
+plant--insect interactions on the gradient, one needs to look at trait
+interactions, and traits responses to environmental constraints. At
+a macro scale, since current traits reflect adaptation to past
+environments [@diniz-filho_macroecology_2008], looking for trait
+conservatism will help highlight historical contingencies on the
+structure of current networks.
 
-also temporal dynamics, and impact of environment through changes in
-traits – examples of water input in Price
-
-@Price2003 proposed that, since the response of organisms to
-current environmental conditions and changes is dictated by the state of
-evolved traits, historical contingencies on the evolution of these
-traits should be better integrated into ecological studies. **to be
-continued**
-
-Finally, paying more attention to local trait distribution and how it
-impacts the realization of the interaction between two species will
-contribute to the integration of coevolution and network analysis.
-Trait-trait correlation, and trait-fitness correlation, are one of the
-basic ingredients for reciprocal selection
-[@Gomulkiewicz2000;@Nuismer2003], and needs be studied at the
-scale of the population, so as to be able to address the spatial
-dynamics [@Thompson2005a]. Several authors discussed how
-migration between patches can disrupt local selection dynamics
-[@Gandon2008;@Burdon2009], which received empirical support in
-experimental evolution studies [@brockhurst_impact_2007; @morgan_differential_2007].
-Understanding how the realization of potential interactions are affected
-by local trait distribution in the two species involved will allow not
-only to understand how a new species will integrate into the existing
-network, but also how it can affect its evolutionary dynamics. In
+Finally, paying more attention to local trait distribution and how it impacts
+the realization of the interaction between two species will contribute to the
+integration of coevolution and network analysis. Trait-trait correlation, and
+trait-fitness correlation, are one of the basic ingredients for reciprocal
+selection [@gomulkiewicz_hot_2000;@nuismer_coevolution_2003], and needs be
+studied at the scale of the population, so as to be able to address the spatial
+dynamics [@thompson_geographic_2005]. Several authors discussed how migration
+between patches can disrupt local selection dynamics
+[@gandon_host-parasite_2008;@burdon_coevolution_2009], which received empirical
+support in experimental evolution studies [@brockhurst_impact_2007;
+@morgan_differential_2007]. Understanding how the realization of potential
+interactions are affected by local trait distribution in the two species
+involved will allow not only to understand how a new species will integrate into
+the existing network, but also how it can affect its evolutionary dynamics. In
 parallel, the bulk of community phylogenetics [@webb_integrating_2006] was
 developed to re-analyse community structure through the phylogenetic
 conservatism of traits [@cavender-bares_merging_2009;
@@ -458,7 +456,6 @@ in mind the possibility that this approach is not unbiased.
 
 # Conclusions
 
-
 The notion of “species interaction networks” is an epistemological
 obstacle, as it shift our focus away from the level of organization at
 which most of the relevant processes happen — populations. As of now, it
@@ -501,6 +498,8 @@ populations will allow testing the mechanisms through which
 environmental change affects network structure.
 
 [tb] ![image](framework) [fig:synth]
+
+Alesina et Eklof: number of traits and dimensions
 
 ## Perspective: time to scale down
 
@@ -565,6 +564,8 @@ traits and informations needed to characterize a network. Homogenizing
 sampling procedures and meta-data will increase our ability to conduct
 meta-analyses, thus describing in much more depth the mechanisms
 involved in the variation of network structure.
+
+# Boxes
 
 **Box 1: A statistical framework for population level interactions**
 
