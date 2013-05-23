@@ -402,44 +402,27 @@ a resident symbiont decreases the infection probability of a new pathogen
 [@koch_socially_2011;@heil_protective_2003].
 
 Direct interactions can also interfere with each others when there is preference
-in the selection of interaction partners. @schmitz_effects_2008 show that two
-predators, whose difference is the hunting mode, are able to trigger a diet
-shift in their prey. Similarly, @singer_disentangling_2004 show that
-caterpillars change the proportion of different plant species in their diet,
-favoring low quality items to load on chemical compounds which are
-toxic for their parasitoids. However, low quality food result in
-birds having a greater impact on caterpillar populations
-[@singer_tritrophic_2012]. The rich natural history of this
-relatively simple community module clearly illustrates that
-interactions between direct interactions needs be accounted for.
+in the selection of interaction partners. @lafferty_foraging_1992 documents some
+examples of predators avoiding preys infected by parasites.
+@schmitz_effects_2008 show that two predators, whose difference is the hunting
+mode, are able to trigger a diet shift in their prey. Similarly,
+@singer_disentangling_2004 show that caterpillars change the proportion of
+different plant species in their diet, favoring low quality items to load on
+chemical compounds which are toxic for their parasitoids. However, low quality
+food result in birds having a greater impact on caterpillar populations
+[@singer_tritrophic_2012]. The rich natural history of this relatively simple
+community module clearly illustrates that interactions between direct
+interactions needs be accounted for.
 
-
-@lafferty_foraging_1992 documents some examples of predators avoiding
-preys infected by parasites. In this case, the interaction is not
-established in the presence of a third species.
-
-@hay_mutualisms_2004 shows how “apparent mutualism” can emerge. When a
-predator or competitor of a focal species becomes involved in another
-antagonistic interaction with a third species, this third species can
-appear as a mutualist of the focal one, as its effects negates the
-original antagonistic interaction.
-
-- trait change in response to predation: change outcome of competition
-
-— prevention
-
-Of course, these multiple symbioses or interactions can have
-consequences beyond the existence of pairwise interactions. The biotic
-interactions received by an organism will often affect its environmental
-tolerance, and modify its realized Grinnelian niche [@poisot_conceptual_2011].
-
-need for better resolved data
-
-[tb] ![image](community) [fig:comm]
-
-somehow linked to species persistence, @pillai_metacommunity_2011
-
-— environmental mediations
+A common feature of the examples mentionned in this part is that pinpointing the
+eact mechanism through which species interaction interfere requires most often
+a good knowledge of the system's natural history. In their current state,
+ecological networks most often account for a single type of interactions
+[although new datasets are starting to emerge, *e.g.* @mouritsen_food_2011 and
+@zander_food_2011]. Our ability to understand these complex phenomenon will be
+contingent on our ability (i) integrate different types of interactions in
+ecological networks [@kefi_more_2012], and (ii) to provide rich meta-data
+regarding the identity of each node in the network.
 
 ## Benefits for network analysis
 
@@ -463,6 +446,11 @@ orders of magnitude more difficult to gather than literature surveys or
 expert knowledge, but they are the only way to go beyond the current
 paradigm of seeing networks as mostly a collection of pairwise
 interactions.
+
+Of course, these multiple symbioses or interactions can have
+consequences beyond the existence of pairwise interactions. The biotic
+interactions received by an organism will often affect its environmental
+tolerance, and modify its realized Grinnelian niche [@poisot_conceptual_2011].
 
 From a
 biogeographic standpoint, it require that we develop a theory based on
