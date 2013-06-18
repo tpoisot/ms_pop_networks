@@ -4,6 +4,8 @@
 
 # Introduction
 
+% DG: I think it would be important in the introduction to present the framework on the beta of networks. At least conceptually, to distinguish the different sources of beta. Should also forecast the graal. 
+
 Describing the structure of ecological communities requires to know not only the
 identity of species, but also their interactions [@dunne_network_2006]. Because
 interactions drive ecological dynamics within communities [@berlow_simple_2009],
@@ -159,6 +161,10 @@ way will be applied to our understanding of species interactions, and
 how it will help us build more predictive models.
 % DG: last sentence does not say anything new.
 
+% DG: would be important to announce the structure of the paper. How you want to satisfy those objectives. Short review of the concepts, what they means in terms of network. I would perhaps try to have a specific paragraph for each section on the implications of the process on the beta of networks, followed by clear predictions for each process. You could end on the evolutionary implications of the process. 
+
+% DG: might be great also to start with the statistical model. Kind of overarching, it helps to structure the discussion and fix every part to a central piece. 
+
 # Population dynamics and neutral processes
 
 Over the recent years,
@@ -177,6 +183,8 @@ networks, and show how variations in population size can lead to
 interaction turnover.
 
 ## The basic processes
+
+% DG: I like the structure of each section, but I would almost try to limit it to one good paragraph per subsection. There are already three families of processes (and I propose a fourth one, see below), times 3 paragraphs per process, it already makes 9-12 paragraphs, which is considerable. 
 
 The reasoning for a neutral approach to species interaction networks is as
 follows. In order for two species to interact, there are essentially two types of
@@ -326,15 +334,18 @@ individuals, rather than a species characteristic.
 
 @kuwae_variable_2012 showed that local differences in bird morphology led to
 them not consistently interacting with bacterial biofilm in an intertidal food
-wed. The local stratification of traits result in situations in which two
+wed. 
+% DG: I don't understand this interaction. The birds are grazing on the rocks?
+The local stratification of traits result in situations in which two
 populations will not be able to interact, even though they belong in each other
-fundamental Eltonian niche (at the species level). Assuming that some
+fundamental Eltonian niche (at the species level). 
+% DG: what do you mean by local stratification?
+% DG: I would avoid reference to the use of the Eltonian niche, it is a very heavy formulation with a lot of underlying meaning. Go straight to the point to avoid confusion. 
+Assuming that some
 interaction-related traits can be under strong environmental forcing (for
 example, body size is expected to be lower in warm environments,
 @angilletta_temperature_2004), there can be covariation between
-environmental values, life history traits, and the occurence of interactions,
-because of either developmental constraints of phenotypic
-plasticity. An empirical demonstration of this was provided by
+environmental conditions and the occurence of interactions. An empirical demonstration of this was provided by
 @woodward_climate_2012: through the simulation of ecosystem
 warming, they demonstrate that changes in food-web structure
 happen at the same time as changes in body mass. Integrating trait
@@ -343,18 +354,24 @@ are to understand network variation and response to environmental
 change.
 
 [f:traits]: traits.pdf "Traits and populations"
-![Panel **a** represents the interactions between different populations (circles) of four species, identified by the boundaries of their morphospaces (dashed lines). This network is mostly made of linear food chains, and has one generalist consumer. When aggregated at the species level however,as shown in **B**, it becomes a "diamond" food-web, with different dynamical consequences. Because the trait values of populations within a species differ, each indivudal population can interact differently than the species it belongs to.\label{f:traits}.][f:traits]
+![Panel **a** represents the interactions between different populations (circles) of four species, identified by the boundaries of their morphospaces (dashed lines). This network is mostly made of linear food chains, and has one generalist consumer. When aggregated at the species level however, as shown in **B**, it becomes a "diamond" food-web, with different dynamical consequences. Because the trait values of populations within a species differ, each indivudal population can interact differently than the species it belongs to.\label{f:traits}.][f:traits]
 
 ## Benefits for network analysis
 
 Although tools now exist to measure the turnover of interactions
 [@poisot_dissimilarity_2012], there is a need to link this turnover in
-a mechanistic understanding. Intra-specific variation in traits values in space
-or time is, as we illustrated below, a promising avenue. We propose in *Box 1*
+a mechanistic understanding. 
+% DG: stange sentence. Looks like we did propose a tool but we did not knew what it was for (it's a close to what really happenned, but we need to formulate it alternatively)
+
+Spatial and temporal intra-specific trait variation is, as we illustrated above, a promising avenue. 
+% DG: incomplete sentence. State more clearly why it is a promising avenue. 
+We propose in *Box 1*
 a way to understand the impact of traits and neutral effects on the occurence of
-interactions. To be put in practice, this requires that when assembling
-a network locally, trait values of interacting organisms are measured. For
-obvious reasons, the trait values cannot be extracted from reference databases,
+interactions. 
+% DG: I think this box should be included in the main text and come first. Or alternatively, at the start say that you will present the pieces and them regroup them in a single framework. 
+To be put in practice, this requires that when assembling
+a network locally, traits of interacting populations are measured. For
+obvious reasons, the traits cannot be extracted from reference databases,
 as this will assum that all populations of a species are equal. With the
 accumulation of data, this new perspective will allow to better
 understand how networks vary along environmental gradients.
@@ -362,30 +379,36 @@ understand how networks vary along environmental gradients.
 water input in shrubs can have pleiotropic effects on traits involved in
 the interaction with insects. So as to make sense of the variation of
 plant--insect interactions on the gradient, one needs to look at trait
-interactions, and traits responses to environmental constraints. At
+interactions, and trait responses to environmental constraints. At
 a macro scale, since current traits reflect adaptation to past
 environments [@diniz-filho_macroecology_2008], looking for trait
 conservatism will help highlight historical contingencies on the
 structure of current networks.
+% DG: I think we will need to brainstorm more on those concepts. I find that the right ideas are there, but they still need to be develop more, I have the feeling that the thinking is not completely accomplished.
 
-Finally, paying more attention to local trait distribution and how it impacts
-the realization of the interaction between two species will contribute to the
+% DG: I like the ideas of the next paragraph, but the logic still needs to be further developped. There is a bunch of ideas, but they are not fully accomplished.  
+Finally, paying more attention to trait variation and how it impacts
+the realization of ecological interactions will contribute to the
 integration of coevolution and network analysis. Trait-trait correlation, and
 trait-fitness correlation, are one of the basic ingredients for reciprocal
 selection [@gomulkiewicz_hot_2000;@nuismer_coevolution_2003], and needs be
 studied at the scale of the population, so as to be able to address the spatial
-dynamics [@thompson_geographic_2005]. Several authors discussed how migration
-between patches can disrupt local selection dynamics
-[@gandon_host-parasite_2008;@burdon_coevolution_2009], which received empirical
-support in experimental evolution studies [@brockhurst_impact_2007;
+dynamics [@thompson_geographic_2005].
+% DG: too much stuff and jargon in the previous sentence. You want to say too many things at once.
+ Several authors discussed how migration
+between populations can disrupt local selection dynamics
+[@gandon_host-parasite_2008;@burdon_coevolution_2009;brockhurst_impact_2007;
 @morgan_differential_2007]. Understanding how the realization of potential
-interactions are affected by local trait distribution in the two species
-involved will allow not only to understand how a new species will integrate into
-the existing network, but also how it can affect its evolutionary dynamics. In
+interactions are affected by local trait distribution will allow not only to understand how a new species will integrate into
+the existing network of interactions, but also how it can affect its evolutionary dynamics. 
+%DG: last sentence redundant
+In
 parallel, the bulk of community phylogenetics [@webb_integrating_2006] was
 developed to re-analyse community structure through the phylogenetic
 conservatism of traits [@cavender-bares_merging_2009;
-@mouquet_ecophylogenetics_2012]. If enough realizations are sampled, for which
+@mouquet_ecophylogenetics_2012]. 
+%DG: this idea is not fully developped, I don't understand where you are going. 
+If enough realizations are sampled, for which
 we know even coarsely the phylogenetic structure of traits
 [@chamberlain_does_2012], we will have a strong database on which to carry out
 statistical analyses to determine when interactions will occur. This effort will
@@ -396,10 +419,15 @@ insight, better linking traits and their phylogenetic structure to the local
 occurrence of an interactions is a promising way to incorporate more
 evolutionary hypotheses and mechanisms in the study of network dynamics.
 
-# Beyond pairwise interactions
+% DG: there is not much on the environmental dependance of interactions. How do you account for the fact that, for instance, a lemming is protected from the fox by the snow cover. Low snow fall one year will promote predation; it's not a neutral effect, it's not an effect of traits, it's simply environmental dependance of interactions. Should we have an extra section on this? I would see at least two effects of the environment: one on the abundance, the other on the strenght of the interaction. And perhaps even a third one, at the regional level on the species pool
+
+# Beyond direct interactions
 
 In this section, we argue that although networks offer a direct access to direct
-intractions, there is potential in adressing indirect effects to. We present
+interactions, there is potential in adressing indirect effects too.
+% DG: define what you mean by direct vs indirect interactions
+% DG: as I told you, I think this section is particularly relevant and original. 
+ We present
 evidences showing that this can be done by understanding the effects that direct
 interactions have on one another, and outline the benefits of doing so to
 further reinforce the links between species interactions and species
@@ -408,10 +436,12 @@ distribution [@thuiller_road_2013].
 ## The basic processes
 
 Several authors [@golubski_modifying_2011] showed that biotic interactions
-themselves interact. The presence or absence of a biotic interaction can affect
+themselves interact.
+% DG: again, a definition would be useful.
+The occurrence or absence of a biotic interaction can either affect
 either the realization of other interactions, or the presence of other species,
 as we will illustrate below. There are two broad situations which can
-happen. First, the presence of one interaction will be a necessary
+happen. First, the occurrence of one interaction will be a necessary
 condition for the presence of a second. For example, opportunistic
 pathogens have a greater success of infection on hosts which are already
 immunocompromised by previous infections @olivier_are_2012 . Second,
@@ -435,9 +465,11 @@ food result in birds having a greater impact on caterpillar populations
 [@singer_tritrophic_2012]. The rich natural history of this relatively simple
 community module clearly illustrates that interactions between direct
 interactions needs be accounted for.
+% DG: be careful, there is a big difference between an interaction changing the strenght of another, to an interaction changing the abundance of another species and thus the likelihood of an interaction. The first one will have an effect on the beta link, while the second will only have an effect on the species turnover part of the beta. 
+% DG: But just made me thought that all of indirect interactions (in the traditional sense, with a cascade of interactions) are drivers of beta diversity of interactions. It's a purely species composition component, but still it is very interesting. 
 
 A common feature of the examples mentionned in this part is that pinpointing the
-eact mechanism through which species interaction interfere requires most often
+exact mechanism through which species interaction interfere requires most often
 a good knowledge of the system's natural history. In their current state,
 ecological networks most often account for a single type of interactions
 [although new datasets are starting to emerge, *e.g.* @mouritsen_food_2011 and
@@ -445,6 +477,8 @@ ecological networks most often account for a single type of interactions
 contingent on our ability (i) integrate different types of interactions in
 ecological networks [@kefi_more_2012], and (ii) to provide rich meta-data
 regarding the identity of each node in the network.
+% DG: you have to go further than a ref to Kefi here, this section adress interactions that are not considered by Kefi. You can have a look instead at Goudard and Loreau 
+Goudard, A. & Loreau, M. (2008). Non-trophic interactions, biodiversity and ecosystem functioning : an interaction web model. The American Naturalist, 171 : 91–106.
 
 ## Benefits for network analysis
 
@@ -468,6 +502,8 @@ expert knowledge, but they are the only way to go beyond the current
 paradigm of seeing networks as mostly a collection of pairwise
 interactions.
 
+% DG: Isn't co-occurrence also important to other processes? It will contribute to the turnover of interactions under all three processes. It is only through this one though that it will affect the interaction strenght (beta link). 
+
 From a biogeographic standpoint, it require that we develop a theory based on
 interaction co-occurrence, in addition to the current knowledge encompassing
 only species co-occurrence. @araujo_using_2011 and @allesina_competitive_2011
@@ -476,6 +512,8 @@ co-occurence network. It is now time to apply this logic to other types of
 interactions. In part, this can be done through the re-analysis of already
 existing datasets, although the statistical foundation of such a work is still
 mostly unknown [@thuiller_road_2013].
+
+% DG: I dropped here, there is considerable work to be done above before going back to the conclusions. We'll talk more about it. There is interesting stuff though below that might worth being moving up (e.g. the effect of the environment on the beta)
 
 # Conclusions
 
