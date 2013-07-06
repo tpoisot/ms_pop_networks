@@ -6,3 +6,6 @@ docx: ms_pop.md
 
 clean:
 	rm ms_pop.docx
+
+todo:
+	grep "TODO" *.md --color=always
