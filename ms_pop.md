@@ -66,6 +66,7 @@ on the way they interact). As the mechanisms of species sorting have been
 described by meta-community theory [@leibold_metacommunity_2004], there is
 a need to tear apart the mechanisms of interaction sorting.
 
+<!--TODO(TP) the statistical approach should go here | start by a § on populations as the relevant scale, then the equation -->
 
 % DG: expand the argument, it's not a clear statement
 
