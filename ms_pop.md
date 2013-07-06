@@ -1,81 +1,74 @@
-% The causes of species interactions variability
+% Expanding the paradigm of ecological network research
 % T. Poisot & D. Gravel
 % May 2013
 
 # Introduction
 
-% DG: I think it would be important in the introduction to present the framework on the beta of networks. At least conceptually, to distinguish the different sources of beta. Should also forecast the graal. 
-
-Describing the structure of ecological communities requires to know not only the
-identity of species, but also their interactions [@dunne_network_2006]. Because
-interactions drive ecological dynamics within communities [@berlow_simple_2009],
-their organization will confer certain ecological properties.
-Quantifying the “structure” of interactions is made easy by seeing
-ecological communities as graphs [@west_introduction_2001]. A graph
-is a collection of nodes (species, populations, individuals) linked
-two-by-two through edges (direct ecological interactions).
-Ecological research over the last two decades focused on how
-certain mathematical properties of this graph related to the
-robustness [@dunne_network_2002], productivity
-[@duffy_functional_2007], or tolerance to extinction
-[@memmott_tolerance_2004] of the community it represents. Although
-this approach classically focused on food webs
-[@ings_ecological_2009], it can be applied equally to all types of
-ecological interactions [@kefi_more_2012]. Recent empirical
-evidence pointed to the fact that the structure of ecological
-networks is affected by global changes, at both short
-[@dossena_warming_2012] and long [@dalsgaard_historical_2013]
-time-scales. Although it is tempting to forecast the future
-structure of these networks, because it will allow us to predict
-the properties of future communities, doing so is notoriously
-difficult [@sarmento_warming_2010]. One of the source of
-complexity is that, following changes in species range,
-extinctions, and micro-evolutionary events induced by global
-changes, future networks will not be a simple aggregation of the
-contemporary ones, and will truely be emergent systems. They will be made of both old and new species, and different
-interactions between these species. In this perspective, it becomes
-important to identify the reasons for which ecological interactions
-will occur in a given species assemblage, but not in another.
-
-% DG: general comments on the first paragraph:
-- needs to be more direct, shorter and more punchy
-- not sure that the reference to graphs is useful. Even if it is the appropriate terminology, we don't use it much in the following discussion, so it just contributes to confusion to use two set of terms with the same meaning.
-
-% DG: and for the second paragraph: I think the most crucial point is made in this paragraph and should be much more affirmative. The sentence
-
-'These results can be explained by assuming that any observation of an ecological network is the realization of *potential* interactions.'
-
-Should be changed to something like:
-
-'Understanding these results requires a major change in the conceptualization of a network: any observation of an ecological network is the realization of *potential* interactions.'
+Describing the structure of ecological communities requires to know not only
+the identity of species, but also their interactions. Because interactions
+drive ecological dynamics within communities [@berlow_simple_2009], their
+organization will confer certain ecological properties. The structure of
+interactions has been described by species interaction networks
+[@dunne_network_2006], that is, a mathematical and conceptual representation of
+both *species*, and the *interactions* they establish. This view generated
+a rich literature primarily focused on how certain mathematical properties of
+the network related to the robustness [@dunne_network_2002], productivity
+[@duffy_functional_2007], or tolerance to extinction [@memmott_tolerance_2004]
+of the community it represents. Although this approach classically focused on
+food webs [@ings_ecological_2009], it can be applied equally to all types of
+ecological interactions [@kefi_more_2012]. By large, this literature assumes
+that, short of changes in local densities due to ecological dynamics, networks
+are *static* objects. If two species are known to interact at one location, it
+is assumed that they will interact whenever they co-occur [see *e.g.*
+@havens_scale_1992 ]. Recently, we proposed that networks are *dynamic*
+objects, that have structured variation in $\alpha$, $\beta$, and $\gamma$
+diversty, due not only to the change of species composition at different
+localities, but also to the fact that the same species will interact in
+different ways over time or space. Of these sources of variation in networks,
+the change of species composition has been adressed by previous literature
+[@gravel_trophic_2011; others refs]. However, because this literature mostly
+assumes that interactions happen consistently between species, it is ill-suited
+to adress network variation as a whole, and needs be supplemented with new
+concepts and mechanisms.
 
 Recent studies on the sensitivity of network structure to environmental change
 provide some context for this question. @menke_plant-frugivore_2012 showed that
-the structure of a plant–frugivore network changed along a forest–farmland gradient.
-%DG: how? 
+the structure of a plant–frugivore network changed along a forest–farmland
+gradient. Specifically, at the edges between two habitats, species were on
+average less specialized, interacting more evenly with a larger number of
+partners, when compared to habitat cores. Even within different forest strata,
+differing by proximity to the canopy and visitation by birds, differences in
+network structure were observed [@schleuning_specialization_2011].
+@eveleigh_fluctuations_2007 demonstrated that outbreaks of the spruce budworm
+were associated to changes in the structure of its trophic network, both in
+terms of species observed, and their interactions. @poisot_resource_2011 used
+a microbial system of hosts and pathogens to study the impact of productivity
+gradients on the realization of infection events. When the species were moved
+from high to medium to low productivity, some interactions were lost, and some
+other were gained. These results suggest that the existence of an interaction
+is not only contingent on the presence of the two species involved. but may
+also require particular environmentals conditions, and perhaps presence of
+outside species.
 
-Even within different forest strata, differences in network structure were
-observed [@schleuning_specialization_2011]. @eveleigh_fluctuations_2007
-demonstrated outbreaks of the spruce budworm were associated to changes in the
-structure of its trophic network, both in terms of species observed, and their
-interactions. @poisot_resource_2011 used a microbial system of hosts and
-pathogens to study the impact of productivity gradients on the realization of
-infection events. When the species were moved from high to medium to low
-productivity, some interactions were lost, and some other were gained, which
-suggest complex genotype-by-genotype-by-environment relationships.
-% DG: Last reference to gen-to-gen-to-env is complicating the message for nothing. One without knowledge in quantitive genetics will not be able to understand the link without extra inforamtion. 
-These results
-can be explained by assuming that any observation of an ecological network is
-the realization of *potential* interactions. This network of potential interactions
-interactions represent a *metaweb* (\autoref{f:meta}). Recent results suggest different filtering
-of species and their interactions [@poisot_dissimilarity_2012], which confers
-both a dynamic and a variability to networks, even though the species within
-them are the same. 
-%DG: Last sentence has to be reworded
-It is therefore important to better understand the mechanisms responsible for the sampling of the metaweb and the realization of local interactions. Doing so will improve our ability to use
-networks as predictive tools. In this paper, we argue that this knowledge can be
-acquired by focusing on populations, rather than species.
+Understanding these results requires a major change in the conceptualization of
+an ecological network: any observation of an ecological network is the
+realization of *potential* interactions, much in the same way that the
+observation of a community is a realization of a *potential* species pool in
+the meta-community theory [@leibold_metacommunity_2004]. Further, there is
+a need to identify and conceptualize the new mechanisms involved in giving
+networks their dynamics. We argue that this can be done within a simple
+framework describing the sources of network variation. Following
+@dunne_network_2006 and @poisot_dissimilarity_2012, the pool of potential
+interactions at the regional level is a *metaweb* (\autoref{f:meta}). The
+composition of *realized* networks, *i.e.* those observed in nature, is
+determined by a series of sorting processes (on the species being present, then
+on the way they interact). As the mechanisms of species sorting have been
+described by meta-community theory [@leibold_metacommunity_2004], there is
+a need to tear apart the mechanisms of interaction sorting.
+
+
 % DG: expand the argument, it's not a clear statement
+
 
 [f:meta]: metaweb.pdf "The metaweb concept"
 ![An illustration of the metaweb. In its simplest form, the metaweb is the list of all possible species and interactions between them for the system studied. The interactions could be based on observations or inferred from trait values and previous knowledge [@Gravel2013_niche_allometric]. What is observed locally, here at sites 1 and 2, is a *realization* of this metaweb. The realized network differs because of the action of species sorting and other meta-community processes, and local interaction sorting. The two observed networks have different properties, species compositions, and interactions between these species.\label{f:meta}][f:meta]
@@ -104,7 +97,7 @@ our ability to locally detect them [@copi_introduction_1953], and have sampled
 enough combinations of environmental conditions. Some networks will be more
 sensitive to sampling effects than others.
 % DG: what do you mean by sampling effects?
- Pollination or frugivory networks
+Pollination or frugivory networks
 are typically sampled through several sessions of observation
 [@schleuning_specialization_2012], and therefore rely on the skill of the
 observer, or the amount of people available to conduct the survey. On the
@@ -199,7 +192,7 @@ are active at the same time of the day, then the likelihood of an interact is pr
 % DG: last point is important. It's not the abundance per se, rather the relative abundance that matters.
 
 %DG: to be coherent with the purpose of the paper, there are some mention of "species"
- that should be converted to "population", for instance in the following sentence: 
+that should be converted to "population", for instance in the following sentence: 
 This means that two locally abundant
 species are more likely to interact than two locally rare ones, simply
 because their individuals will meet more often. This approach can also be
@@ -395,7 +388,7 @@ selection [@gomulkiewicz_hot_2000;@nuismer_coevolution_2003], and needs be
 studied at the scale of the population, so as to be able to address the spatial
 dynamics [@thompson_geographic_2005].
 % DG: too much stuff and jargon in the previous sentence. You want to say too many things at once.
- Several authors discussed how migration
+Several authors discussed how migration
 between populations can disrupt local selection dynamics
 [@gandon_host-parasite_2008;@burdon_coevolution_2009;brockhurst_impact_2007;
 @morgan_differential_2007]. Understanding how the realization of potential
@@ -427,7 +420,7 @@ In this section, we argue that although networks offer a direct access to direct
 interactions, there is potential in adressing indirect effects too.
 % DG: define what you mean by direct vs indirect interactions
 % DG: as I told you, I think this section is particularly relevant and original. 
- We present
+We present
 evidences showing that this can be done by understanding the effects that direct
 interactions have on one another, and outline the benefits of doing so to
 further reinforce the links between species interactions and species
