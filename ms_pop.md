@@ -102,62 +102,52 @@ ecological and evolutionary feedbacks.
 
 # Population dynamics and neutral processes
 
-Over the recent years,
-the idea of neutrality percolated into the analysis of the structure
-of ecological networks, most notably in bipartite networks
-[@bluthgen_measuring_2006]. Neutral (*i.e.* abundance) and non-neutral (*i.e.*
-trait-based) effects can act simultaneously in a population, albeit with
-different intensities [@gravel_reconciling_2006]. Several host–parasite datasets were
-re-analyzed, with the conclusion that changes in local
-species abundances triggers variation in parasite specificity
-[@vazquez_species_2005]. Recent results show that this logic also
-holds predictive power for food webs [@canard_emergence_2012 ]. In
-this section, we review recent studies investigating the
-consequences of neutral dynamics on the structure of interaction
-networks, and show how variations in population size can lead to
-interaction turnover.
+Over the recent years, the idea of neutrality percolated into the analysis of
+the structure of ecological networks, most notably in bipartite networks
+[@bluthgen_measuring_2006]. For example, re-analysis of several host–parasite
+datasets showed that changes in local species abundances triggers variation in
+parasite specificity [@vazquez_species_2005]. Having minimal assumptions about
+the distribution of species abundance allows predicting the structure of
+trophic interactions [@canard_emergence_2012 ]. In this section, we review
+recent studies investigating the consequences of neutral dynamics on the
+structure of interaction networks, and show how variations in population size
+can lead to interaction turnover.
 
 ## The basic processes
 
 % DG: I like the structure of each section, but I would almost try to limit it to one good paragraph per subsection. There are already three families of processes (and I propose a fourth one, see below), times 3 paragraphs per process, it already makes 9-12 paragraphs, which is considerable. 
 
-The reasoning for a neutral approach to species interaction networks is as
-follows. In order for two species to interact, there are essentially two types of
-requirements they must jointly meet (@combes_parasitism_2001): ecological (related to species
-encountering one another), and evolutionary (related to species falling
-within one another Eltonian fundamental niche, which are addressed in the
-following section). 
-% DG: I would make the two points more straightforward: they must encounter and they be able to interact. Forget the reference to ecological and evolutionary terms, they are confusing and subject to debate. 
-
-Assuming that two species occupy the same locality, and
-are active at the same time of the day, then the likelihood of an interact is proportional to the product of their relative abundance.
-% DG: last point is important. It's not the abundance per se, rather the relative abundance that matters.
-
-%DG: to be coherent with the purpose of the paper, there are some mention of "species"
-that should be converted to "population", for instance in the following sentence: 
-This means that two locally abundant
-species are more likely to interact than two locally rare ones, simply
-because their individuals will meet more often. This approach can also be
-extended to the prediction of interaction strength
+For an interaction to happen between individuals from two populations, these
+individuals must first meet, then interact. Assuming that two populations
+occupy the same locality, and are active at the same time of the day, then the
+likelihood of an interact is proportional to the product of their relative
+abundance. This means that individuals from two large populations are more
+likely to interact than individuals from two small populations, simply because
+their individuals will meet more often. This approach can also be extended to
+the prediction of interaction strength
 [@bluthgen_measuring_2006;@vazquez_species_2007], *i.e.* how strong the
 consequences of the interaction will be. It predicts that locally abundant
 species should have more partners, and locally rare species should appear
-locally more specialized. In a purely neutral model, the identity of species
-do not matter (*i.e.* there are no trait-based processes involved), and it becomes
-easy to understand how this can lead to a situation where, because species
-vary regionally in abundance, some interactions display turnover. 
-% Might be important to mention here that what is important is the neutrality of interactions. Abundance could be determined by non-neutral processes.
-
-@canard_emergence_2012 shown that neutral interaction networks can have a realistic structure. They proposed the term of “neutrally forbidden
-links” to refer to links that never occur because of the rarity of one of the species in the pair. 
-Such forbidden links can generate interactions turnover
-over spatial or temporal extents, provided there is turnover in abundance (*Box 2*). A similar phenomenon was observed by
-@poisot_resource_2011. A soil community of bacteria (victims) and bacteriophages
-(enemies) was isolated from its natural environment, and all pairwise
-interactions were measured along a gradient of decreasing resource availability. The resulting lower abundance of the bacteria significantly decreased the encounter probability of the two species and thereby the network structure. This
-resulted in a strong link turnover, with some species being able to interact in
-the resource-rich environment, but not in the resource-poor ones.
-% DG: I did reduced the paragraph quite a lot. Much more compact now.
+locally more specialized. In a purely neutral modeli (*i.e.* interactions
+happen entirely by chance, although abundance can be not neutral), the
+identity of species do not matter, and it becomes easy to understand how this
+can lead to a situation where, because species vary regionally in abundance,
+the structure of local networks will vary. @canard_emergence_2012 proposed
+the term of "neutrally forbidden link" to refer to interactions that are
+feasible from a phenologic standpoint, but not realized because of
+population size distribution. The identity of these neutrally forbidden
+links will vary over time and space, either by stochastic changes in
+population sizes, or because population size respond deterministically to
+extrinsic drivers. A similar phenomenon was observed by
+@poisot_resource_2011. A soil community of bacteria (victims) and
+bacteriophages (enemies) was isolated from its natural environment, and all
+pairwise interactions were measured along a gradient of decreasing resource
+availability. The resulting lower abundance of the bacteria significantly
+decreased the encounter probability of the two species and thereby the
+network structure. This resulted in a strong link turnover, with some
+species being able to interact in the resource-rich environment, but not in
+the resource-poor ones. % DG: I did reduced the paragraph quite a lot. Much
+more compact now.
 
 ## Benefits for network analysis
 
