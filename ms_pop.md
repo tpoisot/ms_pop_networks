@@ -186,36 +186,18 @@ complexifying our view of the feedbacks between them.
 
 # Traits matching in space and time
 
-% DG: it's a bit strange to start trait-matching on links that do not exist. Of course it's a matter of perspective, but I would try to start with links we could predict based on traits...
-% The jump into trait conservatism is also very fast. We need a smoother introduction to trait-matching, then co-evolution and then into trait conservatism. I have not edited the paragraph, I think it has to be reworked to yield a more straightforward introduction to the section.  
-
-@olesen_missing_2011 reported the existence of "forbidden links" in mutualistic
-interactions, that is interactions whose existence is prevented by the fact that
-species traits do not match. For example, the proboscis of a pollinator may be
-too short to reach the pollen of a plant species. Under this perspective, both
-the existence and absence of interactions can be mapped on trait values. In
-contrast to the neutral perspective, this can also be linked to evolutionary
-hypotheses on trait conservatism. @price_macroevolutionary_2003 proposed that
-a wide range of current macroecological patterns, including the identity of
-species that are interacted with, is a consequence of the macroevolutionary
-dynamics of traits, a view which is also at the core of community phylogenetics
-interpretation of interaction networks
-[@ives_phylogenetic_2006;@mouquet_ecophylogenetics_2012]. @polidori_does_2012
-showed that fast-flying preys (a trait which has been evolved under pressures
-other than predation) were preferentially attacked by generalist parasitoid
-wasps, while specialist wasps favored slow-flying preys. Clearly trait values
-have far-reaching consequences on network structure. 
-
-% DG: This section should be kept
-However, rarely adressed is
-the fact that within species trait variation over space and time can show great variability and thus impact interaction turnover. In this section, we
-review how this granularity 
-%DG: granularity???
-in trait distribution can affect network structure.
-We propose that integrating it our description of networks will (i) increase our
-ability to predict the existence of interactions, and (ii) allow to better
-ground the current structure of networks in an evolutionary context.
-% DG: try to have the same structure for the introduction paragraph. The one for neutral interactions do not state what are the consequences of this perspective to interactions. 
+Once individuals meet, wether they will interact is determined by an array of
+behavioral, phenotyic, cultural aspects, that can convenientyl be refered to as
+"trait-based procsse". Two populations can interact when their traits values
+allow it, *e.g.* viruses are able to overcome host resistance, predators can
+capture the preys, trees provide enough shading for shorter grasses to grow.
+Non-matching traits will effectively prevent the existence of an interaction,
+as demonstrated by @olesen_missing_2011. Under this perspective, the
+existence of interactions can be mapped onto trait values, and consequently
+interaction networks will vary along with variation in local trait
+distribution. In this section, we review how trait-based processes impact
+network structure and can create variation, and the perspective they open
+for an evolutionary approach.
 
 ## The basic processes
 
@@ -303,7 +285,7 @@ conservatism will help highlight historical contingencies on the
 structure of current networks.
 % DG: I think we will need to brainstorm more on those concepts. I find that the right ideas are there, but they still need to be develop more, I have the feeling that the thinking is not completely accomplished.
 
-% DG: I like the ideas of the next paragraph, but the logic still needs to be further developped. There is a bunch of ideas, but they are not fully accomplished.  
+% DG: I like the ideas of the next paragraph, but the logic still needs to be further developped. There is a bunch of ideas, but they are not fully accomplished.
 Finally, paying more attention to trait variation and how it impacts
 the realization of ecological interactions will contribute to the
 integration of coevolution and network analysis. Trait-trait correlation, and
