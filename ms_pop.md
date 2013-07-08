@@ -66,98 +66,39 @@ on the way they interact). As the mechanisms of species sorting have been
 described by meta-community theory [@leibold_metacommunity_2004], there is
 a need to tear apart the mechanisms of interaction sorting.
 
-<!--TODO(TP) the statistical approach should go here | start by a § on populations as the relevant scale, then the equation -->
-
-% DG: expand the argument, it's not a clear statement
-
-
 [f:meta]: metaweb.pdf "The metaweb concept"
 ![An illustration of the metaweb. In its simplest form, the metaweb is the list of all possible species and interactions between them for the system studied. The interactions could be based on observations or inferred from trait values and previous knowledge [@Gravel2013_niche_allometric]. What is observed locally, here at sites 1 and 2, is a *realization* of this metaweb. The realized network differs because of the action of species sorting and other meta-community processes, and local interaction sorting. The two observed networks have different properties, species compositions, and interactions between these species.\label{f:meta}][f:meta]
 
+There are two broad families classes of mechanisms involved in the
+establishment of an interaction. First, individuals of both species should be
+in a large enough number to meet, giving interactions a density or
+frequency-dependant component. Second, there should be some degree of
+phenological matching between the individuals, so that their traits allow the
+interaction to occur (for example, pollinators must have a proboscis long
+enough to reach the pollen, predators should have a jaw large or wide
+enough to eat their prey). These mechanisms (to which we will refer as
+"neutral" and "trait-based" henceforth) will then be altered by the
+surrounding, *i.e.* environmental conditions, presence of other species,
+and so forth. As show in *Box 1*, this conceptualization of an
+interaction lends itself to a statistical approach. However, it requires
+that our attention be shifted from *species*-level interactions to
+*population*-level ones, so that variation between sites is grounded in
+a mechanistic approach.
 
-Community ecologists need to shift their focus on interating species 
-(*i.e.* regional, potential) to interacting populations (*i.e.* local, realized). Replicated sampling of interacting populations is required to observe their response to environment changes. This begs the questions of the similarity between population and species level assessments of ecological networks. Species-level networks reconstructed on the basis of
-literature survey, expert knowledge, or even potential trait-based
-relationships [@brose_allometric_2006;@heckmann_interactive_2012;@gravel2013_niche_allometric], are
-networks of potential interactions, but can seldom be used to predict whether
-two populations will interact at one particular location. When sampling populations enough times, either
-through time or space, we only gain knowledge on the probability of an interaction to realize,
-and it is therefore possible that some potential interactions are not encountered. Take,
-for example, the dataset of [@havens_scale_1992], which describes the
-interactions between species in the Adirondack lakes. The  species list for each lake is known from field observations. At the regional level, the interactions between all
-species were retrieved from literature surveys and expert knowledge. With this information in
-hand, it is only possible to describe the structure of *potential*
-interactions at the local scale, but not to describe the *realized* ones.
-The opposite standpoint is to assume that aggregating all realizations will
-give a good knowledge of the potential interactions in the metaweb. This,
-however, is the age old problem of proving a negative: 
-% DG: rephrase next sentence, convoluted
-we are only certain
-that no potential interactions were missed insofar that we are confident in
-our ability to locally detect them [@copi_introduction_1953], and have sampled
-enough combinations of environmental conditions. Some networks will be more
-sensitive to sampling effects than others.
-% DG: what do you mean by sampling effects?
-Pollination or frugivory networks
-are typically sampled through several sessions of observation
-[@schleuning_specialization_2012], and therefore rely on the skill of the
-observer, or the amount of people available to conduct the survey. On the
-other hand, macro-parasite networks [@stanko_mammal_2002] or food webs
-[@shaner_trophic_2011] can be conducted by sampling individual hosts, and
-investigating them in the lab (through *e.g.* combing or stomach content
-analysis), meaning that it is harder to miss an interaction if enough
-individuals are sampled.
-%DG: there is a drift toward the end of the paragraph, we lost the main thread. 
+In this article, we will show that focusing on population level networks have
+several benefits from our understanding of species interactions both at the
+local, regional, and global scales. Specifically, it (i) integrates across
+a range of mechanisms, linking community ecology to biogeography, functional
+ecology, and evolutionary biology. (ii) It will guide the gathering of new
+data, and give a better pitcure of how they should be analyzed. We will shortly
+review evidences supporting the role of neutral and trait-based processes
+involved in network variation, and discuss how they should be accounted for in
+network studies. Finally, we will show that these mechanisms also pertain to
+the studies of indirect interactions. We conclude by providing a global
+framework situating these different processes, and showing their relevance for
+ecological and evolutionary feedbacks.
 
-@poisot_dissimilarity_2012 showed there is considerable uncertainty on the links of a metaweb even after aggregating more than a hundred independent
-samplings of a host–ectoparasite system. Three important consequences could be drawn from this result. First, the adequate sampling of
-potential interactions is
-a difficult task, akin to sampling local networks [@martinez_effects_1999]. Second, the reconstruction of hte metaweb could only be conducted with
-numerous samplings. Thirdly, the metaweb must integrate the variability of local interactions, meaning that it is best represented with a probabilistic mathematical representation. 
-It is the realized interactions that will drive local community properties
-[@bascompte_mutualistic_2009;@poisot_trophic_2013], not the potential ones. Interactions between populations are therefore the relevant
-scale at which to study ecological networks. 
-% DG: I did work a bit the last sentence, but I'm not satisfied with this paragaph that I still find quite redundant. Next sentence is also repetitive
-In addition, because different realizations of a metaweb will show
-interaction turnover, it is important that we now focus our effort on
-understanding population-level interaction networks, because this seems the only
-way to understand the different between potential and realized interactions,
-which is required to advance toward a biogeography theory of interactions.
-So that we can understand the relationship between the structure of
-potential and realized networks, *i.e.* in the terms of
-@poisot_dissimilarity_2012, the differences between a metaweb and its
-realizations, it is important to understand the ecological factors involved
-in making populations interact.
-% DG: last sentence has an important point (we need to understand the factors responsible for the variation of interactions), but it needs to be rephrased.
-
-The goal of this paper is to evaluate how several 
-ecological processes can create turnover in species interactions at the
-population level.
-% DG: you'll have to fix terminology. Do you want to talk about turnover, similarity or variation of interactions? Given the treatment coming later, I vote in this paper to work on variation. Turnover is too strongly linked to beta diversity and it is not exactly the purpose of the current paper, even though the variability of interactions is eventually driving interaction turnover and beta diversity. 
-We evaluate the importance of neutral processes, 
-trait distribution and matching, and context-dependence, to (i) give a comprehensive
-overview of how and why they create turnover, and (ii) show how integrating them
-into our current analyses of networks will result in a more predictive network ecology.
 % DG: might be useful to refer to McGill et al. 2005 (TREE) here. He makes the argument that the study of pairwise interactions has been a waste of time with no general rules. I strongly disagree, I think we could achieve the equivalent for networks to the framework he is proposing for plants
-% DG: would remove the next sentence.
-Although most of the discussion is, for the sake of simplicity, about whether
-species will interact or not, the same mechanisms can be used in a probabilistic
-approach [@yeakel_probabilistic_2012]. This leads to an altered view of
-ecological networks, which is more focused on populations rather than species,
-as it appears as the natural scale of biological organization at
-which these mechanisms are expressed [@smallegange_towards_2012].
-Then after we discuss what to measure in the
-field when sampling interaction networks, and how we can design
-statistical approaches to better understand the interactions of the
-factors of turnover (we present one possible way to do so in *Box
-1*). We conclude by discussing how the new knowledge gained this
-way will be applied to our understanding of species interactions, and
-how it will help us build more predictive models.
-% DG: last sentence does not say anything new.
-
-% DG: would be important to announce the structure of the paper. How you want to satisfy those objectives. Short review of the concepts, what they means in terms of network. I would perhaps try to have a specific paragraph for each section on the implications of the process on the beta of networks, followed by clear predictions for each process. You could end on the evolutionary implications of the process. 
-
-% DG: might be great also to start with the statistical model. Kind of overarching, it helps to structure the discussion and fix every part to a central piece. 
 
 # Population dynamics and neutral processes
 
@@ -656,11 +597,14 @@ above linear model as
 
 $$\mathbf{A}_{ijx} = \left[\left(N_{ix}\times N_{jx}\right)\times\left(T_{ix}\times T_{jx}\right)\right]+\epsilon_{ijx}$$
 
-In which the $x$ indice denotes one site at which the interaction is
-either present or absent. The structure of the error term, *i.e.* its
-spatial or temporal auto-correlation, or covariance with either
-population sizes or trait values, can then be analyzed to further refine
-our predictions on species interaction variability.
+In which the $x$ indice denotes one site at which the interaction is either
+present or absent. The structure of the error term, *i.e.* its spatial or
+temporal auto-correlation, or covariance with either population sizes or trait
+values, can then be analyzed to further refine our predictions on species
+interaction variability. Following the approach put forth by
+@boulangeat_accounting_2012, it is possible to apply this logic to the
+presence/absence of interations, or to their strength, to further understamnd
+the dynamics of networks.
 
 **Box 2: Between-site variability under neutral and trait-based
 assumptions**
