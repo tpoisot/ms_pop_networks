@@ -201,56 +201,41 @@ for an evolutionary approach.
 
 ## The basic processes
 
-% DG: the problem with this sentence is that you don't define what is the across species trait matching
-Within species trait variation will determine the occurrence of pairwise interactions much in the same way that across-species trait matching will do. We present an
-illustration of this hierarchy of trait variation at \autoref{f:traits}. In short, the species-level interaction network,
-because it is built by aggregating population-level interactions,
-which may have a large variability if the morphospace occupied by
-each species is large, can have unique emerging properties. 
-%DG: I don't get the point of the previous sentence. But the keywords initiate a reflexion: could we get to the variability of network structure given knowledge of the variability of traits (including covariance among species)? Might worth some lines. A bottum up prediction of network dissimilarity (much like Elsa did on her analysis of beta div based on abundance turnover) 
-The fact that the niche of species can appear large if it is the
-aggregation of narrow but differenciated individual or population
-niches is now well established
-[@devictor_defining_2010;@bolnick_ecology_2003], and reinforced the
-need to understand intra-specific trait variation to describe the
-structure and dynamics of communities [@bolnick_why_2011]. This
-notion is yet, however, to percolate the literature on network structure.
-
-There are several examples of intraspecific trait variation resulting in extreme
-interaction tunrover. A particularly spectacular example is described by
-@ohba_field_2011: a giant waterbug is able to get hold of, and eventually
-consume, juveniles from a turtle species. This interaction can most likely exist
-only during a limited time of the "prey" life-span. Similarly, predation 
-reversal is mostly contingent upon the traits of the individuals being in
-different configurations. @choh_predator-prey_2012 demonstrated through
-behavioral assays that preys which evaded predation when young, were more likely
-to predate juvenile predators, than the "naive" individuals. These two examples
-share a common feature: for interactions strongly regulated by trait-matching, the functional role of an individual is an emergent property of its
-traits, taken in combination with the traitsof other
-individuals, rather than a species characteristic.
-% DG: I get your point and I think it is a fundamental one. But the wording should be simplified to make it more straightforward. 
-% DG: the first example is a bit problematic because it is only driven by stage structure, I was expecting a trait-variation based on genotypic variability. But I was wrong, both are important to interaction turnover. Which leads to an interesting point of discussion you should emphasize: both phenotypic and genotypic variability are responsible for interaction turnover. Examples for each of them should be provided. You can even add behavioural/cultural variability. It is common to see mammal predators to develop specialization on certain types of preys after they found a particular technique of hunting. Could find examples for that. 
-
-@kuwae_variable_2012 showed that local differences in bird morphology led to
-them not consistently interacting with bacterial biofilm in an intertidal food
-wed. 
-% DG: I don't understand this interaction. The birds are grazing on the rocks?
-The local stratification of traits result in situations in which two
-populations will not be able to interact, even though they belong in each other
-fundamental Eltonian niche (at the species level). 
-% DG: what do you mean by local stratification?
-% DG: I would avoid reference to the use of the Eltonian niche, it is a very heavy formulation with a lot of underlying meaning. Go straight to the point to avoid confusion. 
-Assuming that some
-interaction-related traits can be under strong environmental forcing (for
-example, body size is expected to be lower in warm environments,
+There are evidences that at the species level, interaction partners are
+selected on the grounds of matching trait values. Random networks built on
+these rules exhibit realistic structural properties [@williwams_simple_2000].
+However, trait values vary from population to population within species, and so
+it is expected that the local interactions will be contingent upon trait
+distributions (\autoref{f:traits}). The fact that the niche of species can
+appear large if it is the aggregation of narrow but differenciated individual
+or population niches is now well established
+[@devictor_defining_2010;@bolnick_ecology_2003], and reinforced the need to
+understand intra-specific trait variation to describe the structure and
+dynamics of communities [@bolnick_why_2011]. This notion is yet, however, to
+percolate the literature on network structure, despite an immediate
+consequence: a species appearing generalist at the regional scale, ca be
+specialized in each of the patches it occupies. There are several examples of
+intraspecific trait variation resulting in extreme interaction tunrover.
+A particularly spectacular example is described by @ohba_field_2011: a giant
+waterbug is able to get hold of, and eventually consume, juveniles from
+a turtle species. @choh_predator-prey_2012 demonstrated through behavioral
+assays that preys which evaded predation when young, were more likely to
+predate juvenile predators, than the "naive" individuals: the past interactions
+shaped behavioral traits that alter the network structure over time. These
+examples show that trait-based effects on networks can be observed even in the
+absence of genotypic variation (although we discuss this in the next section).
+In this perspective, the existence of an interaction is an emergent property of
+the trait distribution of local populations: variations in one or both of these
+distribution, regardless of the mechanism involved (development, selection,
+plasticity), is likely to alter the interaction. Importantly, when
+interaction-driving traits are under environmental forcing (for example, body
+size is expected to be lower in warm environments,
 @angilletta_temperature_2004), there can be covariation between
-environmental conditions and the occurence of interactions. An empirical demonstration of this was provided by
-@woodward_climate_2012: through the simulation of ecosystem
-warming, they demonstrate that changes in food-web structure
-happen at the same time as changes in body mass. Integrating trait
-variation over spatial or temporal extents is now central if we
-are to understand network variation and response to environmental
-change.
+environmental conditions and the occurence of interactions.
+@woodward_climate_2012 demonstrate that changes in food-web structure happen at
+the same time as changes in body mass in experimental macrocosms. Integrating
+trait variation over spatial or temporal extents is now central if we are to
+understand network variation and response to environmental change.
 
 [f:traits]: traits.pdf "Traits and populations"
 ![Panel **a** represents the interactions between different populations (circles) of four species, identified by the boundaries of their morphospaces (dashed lines). This network is mostly made of linear food chains, and has one generalist consumer. When aggregated at the species level however, as shown in **B**, it becomes a "diamond" food-web, with different dynamical consequences. Because the trait values of populations within a species differ, each indivudal population can interact differently than the species it belongs to.\label{f:traits}.][f:traits]
@@ -284,6 +269,14 @@ environments [@diniz-filho_macroecology_2008], looking for trait
 conservatism will help highlight historical contingencies on the
 structure of current networks.
 % DG: I think we will need to brainstorm more on those concepts. I find that the right ideas are there, but they still need to be develop more, I have the feeling that the thinking is not completely accomplished.
+
+Within the statistical framework presented in Box 1, we can expect that (i)
+network variability at the *regional* scale will be dependent on the
+variation of population traits values, and (ii) variation between any series
+of networks will be dependant by the *covariance* between species traits.
+This approach, although requiring important quantities of data to test,
+could allow inferring an *a priori* estimate of network variation.
+
 
 % DG: I like the ideas of the next paragraph, but the logic still needs to be further developped. There is a bunch of ideas, but they are not fully accomplished.
 Finally, paying more attention to trait variation and how it impacts
