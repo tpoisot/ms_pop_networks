@@ -264,48 +264,18 @@ interaction, and (ii) environmental features determine trait values.
 Accumulating empirical evidences will increase our ability to come-up with such
 mechanistic narratives. At a larger temporal scales, current distribution of
 traits also reflects past evolutionary history
-[@diniz-filho_macroecology_2008], looking for trait conservatism will help
-highlight historical contingencies on the structure of current networks. % DG:
-I think we will need to brainstorm more on those concepts. I find that the
-right ideas are there, but they still need to be develop more, I have the
-feeling that the thinking is not completely accomplished.
-
-
-
-% DG: I like the ideas of the next paragraph, but the logic still needs to be further developped. There is a bunch of ideas, but they are not fully accomplished.
-Finally, paying more attention to trait variation and how it impacts
-the realization of ecological interactions will contribute to the
-integration of coevolution and network analysis. Trait-trait correlation, and
-trait-fitness correlation, are one of the basic ingredients for reciprocal
-selection [@gomulkiewicz_hot_2000;@nuismer_coevolution_2003], and needs be
-studied at the scale of the population, so as to be able to address the spatial
-dynamics [@thompson_geographic_2005].
-% DG: too much stuff and jargon in the previous sentence. You want to say too many things at once.
-Several authors discussed how migration
-between populations can disrupt local selection dynamics
-[@gandon_host-parasite_2008;@burdon_coevolution_2009;brockhurst_impact_2007;
-@morgan_differential_2007]. Understanding how the realization of potential
-interactions are affected by local trait distribution will allow not only to understand how a new species will integrate into
-the existing network of interactions, but also how it can affect its evolutionary dynamics. 
-%DG: last sentence redundant
-In
-parallel, the bulk of community phylogenetics [@webb_integrating_2006] was
-developed to re-analyse community structure through the phylogenetic
-conservatism of traits [@cavender-bares_merging_2009;
-@mouquet_ecophylogenetics_2012]. 
-%DG: this idea is not fully developped, I don't understand where you are going. 
-If enough realizations are sampled, for which
-we know even coarsely the phylogenetic structure of traits
-[@chamberlain_does_2012], we will have a strong database on which to carry out
-statistical analyses to determine when interactions will occur. This effort will
-provide a strong mechanistic basis for previous work showing a phylogenetic and
-ecological structure of complex networks [@eklof_relevance_2011;
-@baskerville_spatial_2011]. In addition to providing this more mechanistic
-insight, better linking traits and their phylogenetic structure to the local
-occurrence of an interactions is a promising way to incorporate more
-evolutionary hypotheses and mechanisms in the study of network dynamics.
-
-% DG: there is not much on the environmental dependance of interactions. How do you account for the fact that, for instance, a lemming is protected from the fox by the snow cover. Low snow fall one year will promote predation; it's not a neutral effect, it's not an effect of traits, it's simply environmental dependance of interactions. Should we have an extra section on this? I would see at least two effects of the environment: one on the abundance, the other on the strenght of the interaction. And perhaps even a third one, at the regional level on the species pool
+[@diniz-filho_macroecology_2008]. This offers an opportunity to approach the
+evolutionary dynamics and variation of networks. Correlations between traits of
+different species, and between traits and fitness, drive coevolutionary
+dynamics [@gomulkiewicz_hot_2000;@nuismer_coevolution_2003]. Both of these vary
+over space and time [@thompson_geographic_2005], which creates patchiness in
+the processes and outcomes of coevolution. Additionally, trait structure and
+traits correlations are disrupted by migration
+[@gandon_host-parasite_2008;@burdon_coevolution_2009]. Developping an
+understanding of how ecological and evolutionary trait dynamics affect network
+structure will provide a mechanistic basis to our interpretation of the
+historical signal found in contemporary network structures
+[@eklof_relevance_2011; @baskerville_spatial_2011].
 
 # Beyond direct interactions
 
