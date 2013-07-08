@@ -151,46 +151,38 @@ more compact now.
 
 ## Benefits for network analysis
 
-It is important to understand how local variations in abundance, wether neutral or not, cascades to the structure of neutral interaction networks. Simple statistical models can be used to quantify the
-effect of population sizes on local interaction occurrence or strength [@krishna_neutral-niche_2008].
-Furthermore, knowing the part of each interaction explained by neutrality, it is
-possible to *remove* it from the observed values. One can then examine the
-structure of the networks after controlling for neutrality, This offers an extremely
-powerful tool to measure the consistency of neutral and trait-based components
-of interactions through time and space. 
-% DG: last sentence seems critical, but needs to be reworded
-
-% DG: next sentence is your dream coming true. How could you make this claim?
-As most data on interaction networks will now include estimates
-of population density as well as estimates of interaction strength, it is
-crucial that we develop standardized methods to isolate the neutral signal on
-interaction strength. Coming up with such a framework will complement theory
-surrounding the measurement of interaction strengths in nature
-[@wootton_measurement_2005]. 
-% DG: I do get the last point because you told me about, but otherwise I even doubt that Wootton could guess what you are talking about. 
-Even more importantly, integrating neutral
-processes in our understanding of networks will benefit neutral theory:
+It is important to understand how local variations in abundance, wether neutral
+or not, cascades to the structure of interaction networks. Simple statistical
+models can be used to quantify the effect of population sizes on local
+interaction occurrence or strength [see *e.g.* @krishna_neutral-niche_2008 and
+Box 1]. These models can be further extrapolated to remove the contribution of
+neutrality to link strength, allowing us to work directly on the interactions
+as they are determined by traits. This allows comparing the variation of
+neutral and non-neutral components of network structure over space and time. To
+do so, it is important the future sampling of interaction networks (i) are
+replicated and (ii) include measurements of population sizes. An additional
+benefit is that these data will help refining neutral theory:
 @wootton_field_2005 made the point that deviations of empirical communities
 from neutral predictions were most often explained by species trophic
 interactions, which are notoriously absent from the original formulation of the
 theory. Merging the two views will increase our explanatory power, and provide
-new ways to test neutral theory in interactive communities.
-
-This also offers a new opportunity, namely to complete the integration of
-network structure with population dynamics. To date, most studies focused on the
-consequence of one species having a particular position within a food web on the
-dynamics of its biomass or abundance [@brose_allometric_2006;
-@berlow_simple_2009]. Adopting this neutral perspective allows to go back, in
-that the abundance of a species will also dictate its position in the network:
-changes in abundance can lead to gained or lost interactions, and these changes
-in abundance are in part caused by existing interactions. For this reason, there
-is a potential to link species and interactions dynamics, and more importantly,
-to do so in a way which accounts for the feedback effects. From a practical
-point of view, this requires repeated sampling of a system through tiem, so
-that changes in relative abundances can be related to changes in interaction
-strength [@yeakel_probabilistic_2012].
-% DG: this will require some to open their minds. In their view (like Lafferty), consumer resource dynamics rule, and therefore abundance is only the result of interactions. Not the other way around.... We might need to write something about this issue. I could show you a paragraph I wrote in the reply to Am Nat for Elsa's paper. They generate opposite predictions, so it's quite interesting. 
-
+new ways to test neutral theory in interactive communities. This also offers
+a new opportunity, namely to complete the integration of network structure with
+population dynamics. To date, most studies focused on the consequence of one
+species having a particular position within a food web on the dynamics of its
+biomass or abundance [@brose_allometric_2006; @berlow_simple_2009]. Adopting
+this neutral perspective allows to go back, in that the abundance of a species
+will also dictate its position in the network: changes in abundance can lead to
+gained or lost interactions, and these changes in abundance are in part caused
+by existing interactions. For this reason, there is a potential to link species
+and interactions dynamics, and more importantly, to do so in a way which
+accounts for the feedback effects. From a practical point of view, this
+requires repeated sampling of a system through time, so that changes in
+relative abundances can be related to changes in interaction strength
+[@yeakel_probabilistic_2012]. Importantly, adopting this view will force to
+reconsider the causal relationship between resource dynamics and interaction
+strength; in a neutral context, both are interdependant, thus potentially
+complexifying our view of the feedbacks between them.
 
 # Traits matching in space and time
 
