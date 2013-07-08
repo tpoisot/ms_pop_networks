@@ -242,40 +242,34 @@ understand network variation and response to environmental change.
 
 ## Benefits for network analysis
 
-Although tools now exist to measure the turnover of interactions
-[@poisot_dissimilarity_2012], there is a need to link this turnover in
-a mechanistic understanding. 
-% DG: stange sentence. Looks like we did propose a tool but we did not knew what it was for (it's a close to what really happenned, but we need to formulate it alternatively)
+Linking spatial and temporal trait variation with network variation will help
+identify the mechanistic basis of network dissimilarity. From a sampling point
+of view, having enough data require that when interaction are recorded, they
+are coupled with traits measurements. These measurements cannot merely be
+extracted from reference database, because as we exposed in the previous
+section, interactions are driven by *local* trait values, and their matching
+across populations from different species. Within the statistical framework
+presented in Box 1, we can expect that (i) network variability at the
+*regional* scale will be dependent on the variation of population traits
+values, and (ii) variation between any series of networks will be dependant by
+the *covariance* between species traits. This approach, although requiring
+important quantities of data to test, could allow inferring an *a priori*
+estimate of network variation. This new generation of data will help relate the
+variation of network structure to variation of environmental conditions.
+@price_macroevolutionary_2003 shows how specific biomechanic response to water
+input in shrubs can have pleiotropic effects on traits involved in the
+interaction with insects. In this sytem, the difference in network structure
+can be explained because (i) traits values determine the existence of an
+interaction, and (ii) environmental features determine trait values.
+Accumulating empirical evidences will increase our ability to come-up with such
+mechanistic narratives. At a larger temporal scales, current distribution of
+traits also reflects past evolutionary history
+[@diniz-filho_macroecology_2008], looking for trait conservatism will help
+highlight historical contingencies on the structure of current networks. % DG:
+I think we will need to brainstorm more on those concepts. I find that the
+right ideas are there, but they still need to be develop more, I have the
+feeling that the thinking is not completely accomplished.
 
-Spatial and temporal intra-specific trait variation is, as we illustrated above, a promising avenue. 
-% DG: incomplete sentence. State more clearly why it is a promising avenue. 
-We propose in *Box 1*
-a way to understand the impact of traits and neutral effects on the occurence of
-interactions. 
-% DG: I think this box should be included in the main text and come first. Or alternatively, at the start say that you will present the pieces and them regroup them in a single framework. 
-To be put in practice, this requires that when assembling
-a network locally, traits of interacting populations are measured. For
-obvious reasons, the traits cannot be extracted from reference databases,
-as this will assum that all populations of a species are equal. With the
-accumulation of data, this new perspective will allow to better
-understand how networks vary along environmental gradients.
-@price_macroevolutionary_2003 shows how specific biomechanic response to
-water input in shrubs can have pleiotropic effects on traits involved in
-the interaction with insects. So as to make sense of the variation of
-plant--insect interactions on the gradient, one needs to look at trait
-interactions, and trait responses to environmental constraints. At
-a macro scale, since current traits reflect adaptation to past
-environments [@diniz-filho_macroecology_2008], looking for trait
-conservatism will help highlight historical contingencies on the
-structure of current networks.
-% DG: I think we will need to brainstorm more on those concepts. I find that the right ideas are there, but they still need to be develop more, I have the feeling that the thinking is not completely accomplished.
-
-Within the statistical framework presented in Box 1, we can expect that (i)
-network variability at the *regional* scale will be dependent on the
-variation of population traits values, and (ii) variation between any series
-of networks will be dependant by the *covariance* between species traits.
-This approach, although requiring important quantities of data to test,
-could allow inferring an *a priori* estimate of network variation.
 
 
 % DG: I like the ideas of the next paragraph, but the logic still needs to be further developped. There is a bunch of ideas, but they are not fully accomplished.
