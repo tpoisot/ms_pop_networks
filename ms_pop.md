@@ -115,8 +115,6 @@ can lead to interaction turnover.
 
 ## The basic processes
 
-% DG: I like the structure of each section, but I would almost try to limit it to one good paragraph per subsection. There are already three families of processes (and I propose a fourth one, see below), times 3 paragraphs per process, it already makes 9-12 paragraphs, which is considerable. 
-
 For an interaction to happen between individuals from two populations, these
 individuals must first meet, then interact. Assuming that two populations
 occupy the same locality, and are active at the same time of the day, then the
@@ -146,8 +144,7 @@ availability. The resulting lower abundance of the bacteria significantly
 decreased the encounter probability of the two species and thereby the
 network structure. This resulted in a strong link turnover, with some
 species being able to interact in the resource-rich environment, but not in
-the resource-poor ones. % DG: I did reduced the paragraph quite a lot. Much
-more compact now.
+the resource-poor ones.
 
 ## Benefits for network analysis
 
@@ -238,7 +235,7 @@ trait variation over spatial or temporal extents is now central if we are to
 understand network variation and response to environmental change.
 
 [f:traits]: traits.pdf "Traits and populations"
-![Panel **a** represents the interactions between different populations (circles) of four species, identified by the boundaries of their morphospaces (dashed lines). This network is mostly made of linear food chains, and has one generalist consumer. When aggregated at the species level however, as shown in **B**, it becomes a "diamond" food-web, with different dynamical consequences. Because the trait values of populations within a species differ, each indivudal population can interact differently than the species it belongs to.\label{f:traits}.][f:traits]
+![Panel **A** represents the interactions between different populations (circles) of four species, identified by the boundaries of their morphospaces (dashed lines). This network is mostly made of linear food chains, and has one generalist consumer. When aggregated at the species level however, as shown in **B**, it becomes a "diamond" food-web, with different dynamical consequences. Because the trait values of populations within a species differ, each indivudal population can interact differently than the species it belongs to.\label{f:traits}.][f:traits]
 
 ## Benefits for network analysis
 
@@ -279,62 +276,58 @@ historical signal found in contemporary network structures
 
 # Beyond direct interactions
 
-In this section, we argue that although networks offer a direct access to direct
-interactions, there is potential in adressing indirect effects too.
-% DG: define what you mean by direct vs indirect interactions
-% DG: as I told you, I think this section is particularly relevant and original. 
-We present
-evidences showing that this can be done by understanding the effects that direct
-interactions have on one another, and outline the benefits of doing so to
-further reinforce the links between species interactions and species
-distribution [@thuiller_road_2013].
+In this section, we argue that although networks offer a direct access to
+direct interactions, there is potential in adressing indirect effects too.
+A direct interaction originates in the "physical" interaction of two species.
+For example, predation, or pollination, are instances of direct interactions.
+Indirect interactions, on the other hand, are established "at a distance",
+either through cascading effet (herbivorous species compete with
+insect laying eggs on plants), or through physical mediation by
+the environment (bacterial exudates increase the bio-disponbility of
+iron for all bacterial species; plants with large foliage
+provide shade for smaller species). As we discuss in this
+section, these indirect interactions (i) have relevance for the
+variation of interaction network structure, and (ii) can be studied
+using classical network theory formalism.
 
 ## The basic processes
 
 Several authors [@golubski_modifying_2011] showed that biotic interactions
-themselves interact.
-% DG: again, a definition would be useful.
-The occurrence or absence of a biotic interaction can either affect
-either the realization of other interactions, or the presence of other species,
-as we will illustrate below. There are two broad situations which can
-happen. First, the occurrence of one interaction will be a necessary
-condition for the presence of a second. For example, opportunistic
-pathogens have a greater success of infection on hosts which are already
-immunocompromised by previous infections @olivier_are_2012 . Second,
-already established interactions can prevent future partners from
-interacting. Such is notably the case in protective symbioses, *i.e.*
-those in which a resident symbiont decreases the infection probability of
-a new pathogen [@koch_socially_2011;@heil_protective_2003]. Note that in
-both cases, the driver of interaction turnover is the patchiness of
-species distribution, emphasizing why the two concepts ought to be
-integrated.
-
-Direct interactions can also interfere with each others when there is preference
-in the selection of interaction partners. @lafferty_foraging_1992 documents some
-examples of predators avoiding preys infected by parasites.
-@schmitz_effects_2008 show that two predators, whose difference is the hunting
-mode, are able to trigger a diet shift in their prey. Similarly,
+themselves interact. Because the outcome of an interaction ultimately affects
+local abudances (on ecological times) and population trait structure (over
+evolutionary times), all interactions happenning within a community will
+impact one another. Far from meaning that pairwise-centered approaches are
+bound to fail, this calls for a larger scale approach accounting for indirect
+effects. The occurrence or absence of a biotic interaction can either affect
+either the realization of other interactions (thus affecting the "interaction"
+component of network $\beta$-diversity), or the presence of other
+species, as we will illustrate below. There are several well-documented
+examples of the presence of an interaction allowing new interactions to happen
+(opportunistic pathogens have a greater success of infection on hosts which are
+already immunocompromised by previous infections @olivier_are_2012), or
+conversely preventing them (a resident symbiont decreases the infection
+probability of a new pathogen
+[@koch_socially_2011;@heil_protective_2003]). In both cases, the driver
+of interaction turnover is the patchiness of species distribution, emphasizing
+why the two concepts ought to be integrated. Variation in interaction structure
+can happen through both cascading and environmental effects:
 @singer_disentangling_2004 show that caterpillars change the proportion of
 different plant species in their diet, favoring low quality items to load on
 chemical compounds which are toxic for their parasitoids. However, low quality
 food result in birds having a greater impact on caterpillar populations
-[@singer_tritrophic_2012]. The rich natural history of this relatively simple
-community module clearly illustrates that interactions between direct
-interactions needs be accounted for.
-% DG: be careful, there is a big difference between an interaction changing the strenght of another, to an interaction changing the abundance of another species and thus the likelihood of an interaction. The first one will have an effect on the beta link, while the second will only have an effect on the species turnover part of the beta. 
-% DG: But just made me thought that all of indirect interactions (in the traditional sense, with a cascade of interactions) are drivers of beta diversity of interactions. It's a purely species composition component, but still it is very interesting. 
-
-A common feature of the examples mentionned in this part is that pinpointing the
-exact mechanism through which species interaction interfere requires most often
-a good knowledge of the system's natural history. In their current state,
-ecological networks most often account for a single type of interactions
-[although new datasets are starting to emerge, *e.g.* @mouritsen_food_2011 and
+[@singer_tritrophic_2012]. It is noteworthy that in this example, the existence
+of an interaction will affect both the strength, and impact, of other
+interactions. In terms of their effects on network $\beta$-diversity, indirect
+effects are thus likely to act on components of dissimilarity. A common feature
+of the examples mentionned in this part is that pinpointing the exact mechanism
+through which species interaction interfere requires most often a good
+knowledge of the system's natural history. In their current state, ecological
+networks most often account for a single type of interactions [although new
+datasets are starting to emerge, *e.g.* @mouritsen_food_2011 and
 @zander_food_2011]. Our ability to understand these complex phenomenon will be
-contingent on our ability (i) integrate different types of interactions in
-ecological networks [@kefi_more_2012], and (ii) to provide rich meta-data
-regarding the identity of each node in the network.
-% DG: you have to go further than a ref to Kefi here, this section adress interactions that are not considered by Kefi. You can have a look instead at Goudard and Loreau 
-Goudard, A. & Loreau, M. (2008). Non-trophic interactions, biodiversity and ecosystem functioning : an interaction web model. The American Naturalist, 171 : 91–106.
+contingent on our ability to (i) integrate different types of interactions in
+ecological networks [@goudard_2008_non-trophic;@kefi_more_2012], and (ii) to
+provide rich meta-data regarding the identity of each node in the network.
 
 ## Benefits for network analysis
 
@@ -507,7 +500,7 @@ Re-casting the question of the occurrence of an interaction as a
 statistical one can at first seems at odd with our goal to incorporate
 more explicit feedbacks between traits, population sizes, and
 interactions. However, it bears two important advantages. First, it
-allows to identify broad patterns, namely which kind of interactions are
+allows to identify which kind of interactions are
 more affected by neutral and niche processes. Second, it allows to
 partition the impact of said processes on the occurrence of
 interactions; this, in turn, allows to derive the structure of
