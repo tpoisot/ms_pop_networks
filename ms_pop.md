@@ -1,6 +1,6 @@
 % Expanding the paradigm of ecological network research
 % T. Poisot & D. Gravel
-% May 2013
+% Working paper
 
 # Introduction
 
@@ -118,7 +118,7 @@ can lead to interaction turnover.
 For an interaction to happen between individuals from two populations, these
 individuals must first meet, then interact. Assuming that two populations
 occupy the same locality, and are active at the same time of the day, then the
-likelihood of an interact is proportional to the product of their relative
+likelihood of an interaction is roughly proportional to the product of their relative
 abundance. This means that individuals from two large populations are more
 likely to interact than individuals from two small populations, simply because
 their individuals will meet more often. This approach can also be extended to
@@ -487,7 +487,7 @@ disentangle neutral and niche processes. In an ANOVA-like context, this
 amounts to see the occurrence of an interaction as a simple linear model
 of the general form
 
-$$\mathbf{A}_{ij} = \left[\left(N_i\times N_j\right)\times\left(T_i\times T_j\right)\right]+\epsilon$$
+$$\mathbf{A}_{ij} \propto \left[\left(N_i\times N_j\right)\times\left(T_i\times T_j\right)\right]+\epsilon$$
 
 wherein $N_k$ is the local abundance of population $k$, and $T_k$ is a
 measure of its position in a trait space; $\epsilon$ is an error term.
@@ -509,7 +509,7 @@ will find useful applications as it is a null model of species
 interactions. Further, in a multi-site context, we can reformulate the
 above linear model as
 
-$$\mathbf{A}_{ijx} = \left[\left(N_{ix}\times N_{jx}\right)\times\left(T_{ix}\times T_{jx}\right)\right]+\epsilon_{ijx}$$
+$$\mathbf{A}_{ijx} \propto \left[\left(N_{ix}\times N_{jx}\right)\times\left(T_{ix}\times T_{jx}\right)\right]+\epsilon_{ijx}$$
 
 In which the $x$ indice denotes one site at which the interaction is either
 present or absent. The structure of the error term, *i.e.* its spatial or
@@ -522,6 +522,8 @@ the dynamics of networks.
 
 **Box 2: Between-site variability under neutral and trait-based
 assumptions**
+
+*I'm not sure we need this box. I like the toy model, but I don't think it adds much to the paper here*
 
 We use a simple conceptual model to generate predictions about the
 dissimilarity between networks in which only neutral effects, or neutral
