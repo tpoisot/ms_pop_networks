@@ -480,37 +480,47 @@ disentangle neutral and niche processes. In an ANOVA-like context, this
 amounts to see the occurrence of an interaction as a simple linear model
 of the general form
 
-$$\mathbf{A}_{ij} \propto \left[\left(N_i\times N_j\right)\times\left(T_i\times T_j\right)\right]+\epsilon$$
+$$\mathbf{A}_{ij} \propto \left[\mathcal{N}(i,j)\times\mathcal{T}(i,j)\right]+\epsilon$$
 
-wherein $N_k$ is the local abundance of population $k$, and $T_k$ is a
-measure of its position in a trait space; $\epsilon$ is an error term.
-$\mathbf{A}_{ij}$ can take the form of, according to what is measured in
-the field, either presence and absence of interactions, or a measure of
-interaction strength. The term $\left(T_i\times T_j\right)$ can be as
-complex as needs be, and can rely on the use of latent variables
-[@rohr_modeling_2010] rather than actual traits values.
-Re-casting the question of the occurrence of an interaction as a
-statistical one can at first seems at odd with our goal to incorporate
-more explicit feedbacks between traits, population sizes, and
-interactions. However, it bears two important advantages. First, it
-allows to identify which kind of interactions are
-more affected by neutral and niche processes. Second, it allows to
-partition the impact of said processes on the occurrence of
-interactions; this, in turn, allows to derive the structure of
-interactions *in the absence* of any niche, or neutral effects, which
-will find useful applications as it is a null model of species
-interactions. Further, in a multi-site context, we can reformulate the
-above linear model as
+wherein $\mathcal{N}$ is a function giving the probability that species $i$ and
+$j$ interact *based on their relative abudances*, and $\mathcal{T}$ is
+a function giving the probability that species $i$ and $j$ interact *based on
+their trait values*. The error term $\epsilon$ accounts for other effects,
+including environmental variability. Both of these functions can take any
+form needed. In several papers, $\mathcal{N}(i,j)$ was expressed as
+$\mathbf{n}_i\times \mathbf{n}_j$, where $\mathbf{n}$ is a vector of
+relative abudances [@canard_neutral_2011;@vazquez_species_2007]. The
+expression of $\mathcal{T}$ can in most cases be derived from mechanistic
+hypotheses about the observation. For example, @gravel_inferring_2013
+used the niche model of @williams_simple_2000 to draw interactions, with
+the simple rule that $\mathcal{T}(i,j) = 1$ if $i$ can consume $j$ based
+on allometric rules, and $0$ otherwise. Following @rohr_modeling_2010,
+the expression of $\mathcal{T}$ can be based on latent variables rather
+than actual traits values. In a variance partitioning context, this
+apparently simple formulation will allow to understand, at the level of
+individual interactions, the relative importance of trait-based and
+density-dependent processes. Most importantly, it will allow to predict
+(i) how each of these components will vary over space, and (ii) how the
+structure of the network will be affected by *e.g.* changes in trait
+distributions or local abudances.
 
-$$\mathbf{A}_{ijx} \propto \left[\left(N_{ix}\times N_{jx}\right)\times\left(T_{ix}\times T_{jx}\right)\right]+\epsilon_{ijx}$$
+This model can further be extended in a spatial context, as
 
-In which the $x$ indice denotes one site at which the interaction is either
-present or absent. The structure of the error term, *i.e.* its spatial or
+$$\mathbf{A}_{ijx} \propto \left[\mathcal{N}_x(i_x,j_x)\times\mathcal{T}_x(i_x,j_x)\right]+\epsilon_{ijx}$$
+
+In which the $x$ indice denotes sites, and $i_x$ is the population of species
+$i$ at site $x$. The structure of the error term, *i.e.* its spatial or
 temporal auto-correlation, or covariance with either population sizes or trait
 values, can then be analyzed to further refine our predictions on species
-interaction variability. Following the approach put forth by
-@boulangeat_accounting_2012, it is possible to apply this logic to the
-presence/absence of interations, or to their strength, to further understamnd
-the dynamics of networks.
+interaction variability. Most importantly, this model differs in that each site
+$x$ is characterized by a set of functions ${\mathcal{N}_x, \mathcal{T}_x}$,
+that may not be the same for all sites considered. For example, the same
+predator can prefer different prey items in different locations, which will
+require to use a different shape for $\mathcal{T}$ across  the range of
+locations. In @gravel_inferring_2013, we show that it is possible to derive
+robust approximation for the $\mathcal{T}$ function even with incomplete set
+of data, which gives hopes that this framework can be applied even when all
+species informations are not known at all sites (which, for most realistic
+systems, will be an ireallistic requirement).
 
 # References
