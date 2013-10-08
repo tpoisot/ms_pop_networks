@@ -20,19 +20,45 @@ ecological interactions [@kefi_more_2012]. By large, this literature assumes
 that, short of changes in local densities due to ecological dynamics, networks
 are *static* objects. If two species are known to interact at one location, it
 is assumed that they will interact whenever they co-occur [see *e.g.*
-@havens_scale_1992 ]. Recently, we proposed that networks are *dynamic*
+@havens_scale_1992 ]. Recently, we established that networks are *dynamic*
 objects, that have structured variation in $\alpha$, $\beta$, and $\gamma$
-diversty, due not only to the change of species composition at different
+diversity, due not only to the change of species composition at different
 localities, but also to the fact that the same species will interact in
 different ways over time or space. Of these sources of variation in networks,
-the change of species composition has been adressed by previous literature
-[@gravel_trophic_2011; others refs]. However, because this literature mostly
-assumes that interactions happen consistently between species, it is ill-suited
-to adress network variation as a whole, and needs be supplemented with new
-concepts and mechanisms.
+the change of species composition has been addressed by previous
+literature [@gravel_trophic_2011;@dattilo_spatial_2013]. However,
+because this literature mostly assumes that interactions happen
+consistently between species, it is ill-suited to address network
+variation as a whole, and needs be supplemented with new concepts and
+mechanisms.
+
+In the current paradigm, interactions are established between species. Starting
+from empirical observations, expert knowledge, or literature surveys, one can
+collect a list of interactions for a given species pool. Several studies used
+this approach to extrapolate the structure of networks over space
+[@havens_scale_1992;@baiser_geographic_2012], by considering that the network
+at *any* location is composed of *all* of the potential interactions known for
+this species pool. This stands in stark contrast with recent results showing
+that (i) the identity of interacting species varies over space
+[@poisot_dissimilarity_2012], and (ii) the dissimilarity is not related to the
+dissimilarity in species composition. The current conceptualization of networks
+leaves us poorly equipped to understand the causes of this variation, and in
+this paper we propose a general research agenda to understand the mechanisms
+involved in the variability of species interactions. We propose that future
+research on interaction networks be guided by the following principles. First,
+at the regional scale, species interactions exists in a probabilistic
+state. Second, the probability that two species will interact can be
+determined as a function of traits and local abundances. Third,
+observations of interactions at local sites are the realizations of
+these regional probabilities. This approach is outlined in **Box 1**.
+Although this proposal is a major change in the conceptualization of
+network structure, we show in this paper that it is well supported by
+empirical and theoretical results alike, and will open the way to the
+development of predictive approaches integrating over a range of
+ecological mechanisms. 
 
 Recent studies on the sensitivity of network structure to environmental change
-provide some context for this question. @menke_plant-frugivore_2012 showed that
+provide some context for this approach. @menke_plant-frugivore_2012 showed that
 the structure of a plant–frugivore network changed along a forest–farmland
 gradient. Specifically, at the edges between two habitats, species were on
 average less specialized, interacting more evenly with a larger number of
@@ -46,59 +72,26 @@ a microbial system of hosts and pathogens to study the impact of productivity
 gradients on the realization of infection events. When the species were moved
 from high to medium to low productivity, some interactions were lost, and some
 other were gained. These results suggest that the existence of an interaction
-is not only contingent on the presence of the two species involved. but may
-also require particular environmentals conditions, and perhaps presence of
+is not only contingent on the presence of the two species involved, but may
+also require particular environmental conditions, and perhaps presence of
 outside species.
-
-Understanding these results requires a major change in the conceptualization of
-an ecological network: any observation of an ecological network is the
-realization of *potential* interactions, much in the same way that the
-observation of a community is a realization of a *potential* species pool in
-the meta-community theory [@leibold_metacommunity_2004]. Further, there is
-a need to identify and conceptualize the new mechanisms involved in giving
-networks their dynamics. We argue that this can be done within a simple
-framework describing the sources of network variation. Following
-@dunne_network_2006 and @poisot_dissimilarity_2012, the pool of potential
-interactions at the regional level is a *metaweb* (\autoref{f:meta}). The
-composition of *realized* networks, *i.e.* those observed in nature, is
-determined by a series of sorting processes (on the species being present, then
-on the way they interact). As the mechanisms of species sorting have been
-described by meta-community theory [@leibold_metacommunity_2004], there is
-a need to tear apart the mechanisms of interaction sorting.
 
 [f:meta]: metaweb.pdf "The metaweb concept"
 ![An illustration of the metaweb. In its simplest form, the metaweb is the list of all possible species and interactions between them for the system studied. The interactions could be based on observations or inferred from trait values and previous knowledge [@Gravel2013_niche_allometric]. What is observed locally, here at sites 1 and 2, is a *realization* of this metaweb. The realized network differs because of the action of species sorting and other meta-community processes, and local interaction sorting. The two observed networks have different properties, species compositions, and interactions between these species.\label{f:meta}][f:meta]
 
-There are two broad families classes of mechanisms involved in the
-establishment of an interaction. First, individuals of both species should be
-in a large enough number to meet, giving interactions a density or
-frequency-dependant component. Second, there should be some degree of
-phenological matching between the individuals, so that their traits allow the
-interaction to occur (for example, pollinators must have a proboscis long
-enough to reach the pollen, predators should have a jaw large or wide
-enough to eat their prey). These mechanisms (to which we will refer as
-"neutral" and "trait-based" henceforth) will then be altered by the
-surrounding, *i.e.* environmental conditions, presence of other species,
-and so forth. As show in *Box 1*, this conceptualization of an
-interaction lends itself to a statistical approach. However, it requires
-that our attention be shifted from *species*-level interactions to
-*population*-level ones, so that variation between sites is grounded in
-a mechanistic approach.
-
-In this article, we will show that focusing on population level networks have
-several benefits from our understanding of species interactions both at the
-local, regional, and global scales. Specifically, it (i) integrates across
-a range of mechanisms, linking community ecology to biogeography, functional
-ecology, and evolutionary biology. (ii) It will guide the gathering of new
-data, and give a better pitcure of how they should be analyzed. We will shortly
-review evidences supporting the role of neutral and trait-based processes
-involved in network variation, and discuss how they should be accounted for in
-network studies. Finally, we will show that these mechanisms also pertain to
-the studies of indirect interactions. We conclude by providing a global
-framework situating these different processes, and showing their relevance for
-ecological and evolutionary feedbacks.
-
-% DG: might be useful to refer to McGill et al. 2005 (TREE) here. He makes the argument that the study of pairwise interactions has been a waste of time with no general rules. I strongly disagree, I think we could achieve the equivalent for networks to the framework he is proposing for plants
+We argue that there are three broadly-defined classes of mechanisms involved in
+determining the realizations of species interactions. First, individuals must
+be in high enough local relative abundances to meet (the "neutral" perspective
+of interactions). Second, there must be phenological matching between
+individuals, so that once encounter took place, the individuals will actually
+interact. Finally, the realization of an interaction is regulated by the
+surroundings of interacting organisms, and should be studied in the context of
+indirect interactions. We examine each of these mechanisms in turn, and show
+how they integrate to the proposed statistical framework outlined in **Box 1**.
+We propose that our understanding of the structure of interaction networks in
+a spatial context, and consequently our ability to predict this structure, will
+be increased our attention and methodologies are shifted from a species-centric
+perspective to a population-centric one.
 
 # Population dynamics and neutral processes
 
