@@ -513,44 +513,4 @@ interaction variability. Following the approach put forth by
 presence/absence of interations, or to their strength, to further understamnd
 the dynamics of networks.
 
-**Box 2: Between-site variability under neutral and trait-based
-assumptions**
-
-*I'm not sure we need this box. I like the toy model, but I don't think it adds much to the paper here*
-
-We use a simple conceptual model to generate predictions about the
-dissimilarity between networks in which only neutral effects, or neutral
-and traits effects, regulate the existence of interactions. Starting
-with a pool of 50 species establishing trophic interaction (see the
-reference to the model for details), we generate 50 replicates run, each
-starting with equal size of each population. After 2500 timesteps, we
-record the current state of the network, by pooling all the interactions
-which occurred over the last 20 timesteps. For the neutral and trait
-scenario, we reconstructed the metaweb, *i.e.* the regional pool of all
-species and their realizations. Based on this information, we (1)
-measure the dissimilarity between the 50 replicated networks (*i.e.* how
-different do we expect these networks to be in nature – top row of the
-figure), and (2) measure the distance between each of these networks and
-their respective metaweb (bottom row), using the $\beta$-diversity
-measures of networks proposed by @poisot_dissimilarity_2012.
-This analysis shows that the networks in which only neutral effects acts
-are more dissimilar ($\beta_{WN}$) than when traits regulate
-interactions. This also true of the way shared pairs of species
-($\beta_{OS}$) interact. When measuring the contribution of species
-turnover to network turnover ($\beta_{\mathrm{contrib}}$), it is clear
-that it is far less important in the neutral situation (*i.e.* because
-traits are not important, all species are functionally equivalent
-provided that their abundances are similar). Similarly, networks in the
-trait-based situation are relatively similar to their metaweb (approx.
-20 % of difference), whereas the neutral ones are not (approx. 80 % of
-difference). This last result allows to estimate the error made when
-assuming that all interactions reported in the metaweb consistently
-occur over space [*e.g.* @havens_scale_1992]. Finally,
-these results assume an homogeneous environment, *i.e.* the feeding
-niche of the species are not affected by local environmental conditions.
-Should it be the case, we expect an increased variability in the
-networks in which traits determine the interactions.
-
-![image](betaPOP)
-
 # References
