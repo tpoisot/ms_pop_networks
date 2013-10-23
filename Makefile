@@ -6,3 +6,9 @@ docx: ms_pop.md
 
 clean:
 	rm ms_pop.docx
+
+todo:
+	grep "TODO" *.md --color=always
+
+bib.keys: ms_pop.md
+	grep @[-:_a-zA-Z0-9]* ms_pop.md -oh --color=never | sort  | uniq -u | sed 's/@//g' > bib.keys
