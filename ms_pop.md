@@ -502,7 +502,7 @@ individual interactions, the relative importance of trait-based and
 density-dependent processes. Most importantly, it will allow to predict
 (i) how each of these components will vary over space, and (ii) how the
 structure of the network will be affected by *e.g.* changes in trait
-distributions or local abudances.
+distributions or local abundances.
 
 This model can further be extended in a spatial context, as
 
@@ -531,7 +531,7 @@ As noted in the main text, most studies of ecological networks---particularly
 food webs---regard the adjacency matrix $\mathbf{A}$ as a fixed entity that
 specifies observable interactions on the basis of whether two species co-occur
 or not. Given this assumption, there is a long history, dating back at least
-to the Lotka-Loterra model, of trying to understand how the strength or
+to the Lotka-Volterra model, of trying to understand how the strength or
 organization of these interactions influence the dynamic behavior of species
 abundance. Often, such models take the form $$\frac{dN_i}{dt} = N_i
 \left( g_i - \sum_{j \ne i} \alpha_{ij} A_{ij} N_j \right) \,,$$ where $g_i$
@@ -539,9 +539,10 @@ is the growth rate of species $i$ (and could, in principle, depend on all
 other species' abundances $\mathbf{N}$) and $\alpha_{ij}$ is the strength of
 the effect of $j$ on $i$. It is important to note that, in this or just about
 any related model, direct species-species interaction can influence species'
-abundances but their abundances \emph{never} feedback and influence the
-interactions. Moreover, the only manner in which non-directly-interacting
-species could ``influence'' the abundances of other species is via indirect
+abundances but their abundances *never* feedback and influence the *per capita*
+interactions (although they do affect the *realized* interactions, which are here
+defined by $\alpha_{ij}N)iN_j$. Moreover, the only manner in which non-directly-interacting
+species could "influence" the abundances of other species is via indirect
 mechanisms like apparent or exploitative competition.
 
 More recently, there have been multiple attempts to approach the problem from
@@ -553,13 +554,13 @@ observation of any interaction $A_{ij}$ is a function of the properties of
 species $i$ and $j$ alone. Since dynamic models can demonstrate quite clearly
 that non-interacting species can alter each others' abundances, this is a
 surprisingly pertinent inconsistency between the two approaches. Such a
-simplification \emph{does} increase the analytical tractability of the
+simplification *does* increase the analytical tractability of the
 problem, but there is little if any guarantee that it is scientifically or
 ecologically correct.
 
 It could also be argued that a similar problem arises in the typical
 statistical framework for predicting interaction occurrence. Often, attempts
-are made to ``decompose'' interactions into the component that is explained by
+are made to "decompose" interactions into the component that is explained by
 species' abundances and the component explained by species' traits (e.g., Box
 1). Just like how the underlying functions could vary across sites, there
 should also be interplay between species' abundances and traits, in the same
@@ -570,7 +571,7 @@ their underlying traits, any framework which depends on the relative
 independence of these different phenomenon is likely starting from an overly
 reductionist perspective.
 
-Importantly, we will have \emph{no} hope in successfully piecing apart the
+Importantly, we will have *no* hope in successfully piecing apart the
 effects of each of these drivers, or robustly assessing the degree to which
 they are interrelated, without adopting a broader perspective on ecological-
 network data that is fully replicated at the site, population, or individual
