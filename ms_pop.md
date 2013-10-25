@@ -502,13 +502,13 @@ individual interactions, the relative importance of trait-based and
 density-dependent processes. Most importantly, it will allow to predict
 (i) how each of these components will vary over space, and (ii) how the
 structure of the network will be affected by *e.g.* changes in trait
-distributions or local abudances.
+distributions or local abundances.
 
 This model can further be extended in a spatial context, as
 
 $$\mathbf{A}_{ijx} \propto \left[\mathcal{N}_x(i_x,j_x)\times\mathcal{T}_x(i_x,j_x)\right]+\epsilon_{ijx}$$
 
-In which the $x$ indice denotes sites, and $i_x$ is the population of species
+In which the $x$ index denotes sites, and $i_x$ is the population of species
 $i$ at site $x$. The structure of the error term, *i.e.* its spatial or
 temporal auto-correlation, or covariance with either population sizes or trait
 values, can then be analyzed to further refine our predictions on species
@@ -521,6 +521,62 @@ locations. In @gravel_inferring_2013, we show that it is possible to derive
 robust approximation for the $\mathcal{T}$ function even with incomplete set
 of data, which gives hopes that this framework can be applied even when all
 species informations are not known at all sites (which, for most realistic
-systems, will be an ireallistic requirement).
+systems, will be an unrealistic requirement).
+
+\newpage
+
+**Box 2: Why population-level (or individual-level) interactions are critically important**
+
+As noted in the main text, most studies of ecological networks---particularly
+food webs---regard the adjacency matrix $\mathbf{A}$ as a fixed entity that
+specifies observable interactions on the basis of whether two species co-occur
+or not. Given this assumption, there is a long history, dating back at least
+to the Lotka-Volterra model, of trying to understand how the strength or
+organization of these interactions influence the dynamic behavior of species
+abundance. Often, such models take the form $$\frac{dN_i}{dt} = N_i
+\left( g_i - \sum_{j \ne i} \alpha_{ij} A_{ij} N_j \right) \,,$$ where $g_i$
+is the growth rate of species $i$ (and could, in principle, depend on all
+other species' abundances $\mathbf{N}$) and $\alpha_{ij}$ is the strength of
+the effect of $j$ on $i$. It is important to note that, in this or just about
+any related model, direct species-species interaction can influence species'
+abundances but their abundances *never* feedback and influence the *per capita*
+interactions (although they do affect the *realized* interactions, which are here
+defined by $\alpha_{ij}N)iN_j$. Moreover, the only manner in which non-directly-interacting
+species could "influence" the abundances of other species is via indirect
+mechanisms like apparent or exploitative competition.
+
+More recently, there have been multiple attempts to approach the problem from
+the other way around. Namely, to understand how factors such as species'
+abundance and/or trait distributions influence the occurrence of the
+interactions themselves (see Box 1). One drawback to the standard approach
+here, however, is that it still depends on the fundamental assumption that the
+observation of any interaction $A_{ij}$ is a function of the properties of
+species $i$ and $j$ alone. Since dynamic models can demonstrate quite clearly
+that non-interacting species can alter each others' abundances, this is a
+surprisingly pertinent inconsistency between the two approaches. Such a
+simplification *does* increase the analytical tractability of the
+problem, but there is little if any guarantee that it is scientifically or
+ecologically correct.
+
+It could also be argued that a similar problem arises in the typical
+statistical framework for predicting interaction occurrence. Often, attempts
+are made to "decompose" interactions into the component that is explained by
+species' abundances and the component explained by species' traits (e.g., Box
+1). Just like how the underlying functions could vary across sites, there
+should also be interplay between species' abundances and traits, in the same
+way that we have outlined the feedback between interactions and species'
+abundances. What's more, given the increasing evidence for the evolutionary
+role of species-species interactions in explaining extant biodiversity and
+their underlying traits, any framework which depends on the relative
+independence of these different phenomenon is likely starting from an overly
+reductionist perspective.
+
+Importantly, we will have *no* hope in successfully piecing apart the
+effects of each of these drivers, or robustly assessing the degree to which
+they are interrelated, without adopting a broader perspective on ecological-
+network data that is fully replicated at the site, population, or individual
+level.
+
+\newpage
 
 # References
