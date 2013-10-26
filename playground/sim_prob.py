@@ -73,21 +73,15 @@ for i in xrange(len(Po)):
       pure_abund[i][j] = N_ij
       both_terms[i][j] = (T_ij + N_ij)/2.0
 
-print both_terms
-
 def generateNetwork(po, pl, probamat):
    G = nx.DiGraph()
-   for p in po:
+   for p in po+pl:
       G.add_node(p, p.attributes())
-   for p in pl:
-      G.add_node(p, p.attributes())
-   ## Start filling the matrix
    for i in xrange(len(po)):
       for j in xrange(len(pl)):
          if np.random.uniform() <= probamat[i][j]:
             G.add_edge(po[i], pl[j])
+   G.remove_nodes_from([n for n in G if G.degree(n) == 0])
    return G
 
 test_n1 = generateNetwork(Po, Pl, both_terms)
-
-nx.write_gml(test_n1, "test.gml")
