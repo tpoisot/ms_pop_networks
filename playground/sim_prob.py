@@ -16,7 +16,7 @@ class pollinator:
       self.n = pop
       self.c = color
    def __str__(self):
-      return "Pollinator ["+str(self.x)+":"+str(self.c)+":"+str(self.n)+"]"
+      return "pol["+str(self.x)+":"+str(self.c)+":"+str(self.n)+"]"
 
 class plant:
    def __init__(self, depth, color, pop):
@@ -24,7 +24,7 @@ class plant:
       self.n = pop
       self.c = color
    def __str__(self):
-      return "Pollinator ["+str(self.x)+":"+str(self.c)+":"+str(self.n)+"]"
+      return "pla["+str(self.x)+":"+str(self.c)+":"+str(self.n)+"]"
 
 colors = ["red", "blue", "orange"]
 n_plants = 100
@@ -81,6 +81,8 @@ def generateNetwork(po, pl, probamat):
    return G
 
 test_n1 = generateNetwork(Po, Pl, both_terms)
+
+nx.write_edgelist(test_n1, "test.edges")
 
 nx.draw_spring(test_n1)
 plt.show()
