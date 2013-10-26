@@ -5,6 +5,7 @@ import scipy as sp
 import networkx as nx
 import matplotlib.pyplot as plt
 import random
+from betalink import *
 
 ## Plants and pollinators are defined by two traits: one is quantitative (proboscis / flower depth), and one is qualitative (flower color / flower preference)
 
@@ -85,5 +86,23 @@ for i in xrange(len(Po)):
       pure_abund[i][j] = N_ij
       both_terms[i][j] = (T_ij + N_ij)/2.0
 
+## Step 1 : generate a network using the whole model
+base_network = generateNetwork(Po, Pl, both_terms)
 
-test_n1 = generateNetwork(Po, Pl, both_terms)
+## Step 2 : "predict" the network using (i) abundance only, (ii) traits only, (iii) the whole information
+print "Generating random networks"
+n_predictions = 500
+trait_networks = [generateNetwork(Po, Pl, pure_trait) for n in xrange(n_predictions)]
+abund_networks = [generateNetwork(Po, Pl, pure_abund) for n in xrange(n_predictions)]
+mixed_networks = [generateNetwork(Po, Pl, both_terms) for n in xrange(n_predictions)]
+
+print "Measuring the total error"
+trait_error = [BetaLink(base_network, n)["OL"] for n in trait_networks]
+abund_error = [BetaLink(base_network, n)["OL"] for n in abund_networks]
+mixed_error = [BetaLink(base_network, n)["OL"] for n in mixed_networks]
+
+data = [trait_error, abund_error, mixed_error]
+plt.boxplot(data, sym = 'o')
+plt.xticks([1, 2, 3], ('Traits', 'Abundance', 'Both'))
+plt.ylabel('Total error')
+plt.show()
