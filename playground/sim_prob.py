@@ -30,15 +30,6 @@ class plant:
    def attributes(self):
       return {'type': 'plant', 'trait': self.x, 'pop': self.n, 'color': self.c}
 
-colors = ["red", "blue", "orange"]
-n_plants = 100
-n_pollinators = 100
-
-## Generate a pool of plants
-Pl = [plant(np.random.normal(loc = 4.0), random.choice(colors), np.random.lognormal(0.5, 2.0)) for n in xrange(n_plants)]
-## The same with pollinators
-Po = [pollinator(np.random.normal(loc = 4.0), random.choice(colors), np.random.lognormal(1.5, 2.0)) for n in xrange(n_pollinators)]
-
 ## Rule for color preference
 def colorPref(pref, col):
    if pref == col:
@@ -49,6 +40,27 @@ def colorPref(pref, col):
 ## Rule for length / depth
 def traitMatch(l, d):
    return np.exp(-((l-d)**2)/float(2*0.35**2))
+
+## Generate a network from a proba matrix
+def generateNetwork(po, pl, probamat):
+   G = nx.DiGraph()
+   for p in po+pl:
+      G.add_node(p, p.attributes())
+   for i in xrange(len(po)):
+      for j in xrange(len(pl)):
+         if np.random.uniform() <= probamat[i][j]:
+            G.add_edge(po[i], pl[j])
+   G.remove_nodes_from([n for n in G if G.degree(n) == 0])
+   return G
+
+colors = ["red", "blue", "orange"]
+n_plants = 100
+n_pollinators = 100
+
+## Generate a pool of plants
+Pl = [plant(np.random.normal(loc = 4.0), random.choice(colors), np.random.lognormal(0.5, 2.0)) for n in xrange(n_plants)]
+## The same with pollinators
+Po = [pollinator(np.random.normal(loc = 4.0), random.choice(colors), np.random.lognormal(1.5, 2.0)) for n in xrange(n_pollinators)]
 
 ## Build a probabilistic network
 ## Three possibilities:
@@ -73,15 +85,5 @@ for i in xrange(len(Po)):
       pure_abund[i][j] = N_ij
       both_terms[i][j] = (T_ij + N_ij)/2.0
 
-def generateNetwork(po, pl, probamat):
-   G = nx.DiGraph()
-   for p in po+pl:
-      G.add_node(p, p.attributes())
-   for i in xrange(len(po)):
-      for j in xrange(len(pl)):
-         if np.random.uniform() <= probamat[i][j]:
-            G.add_edge(po[i], pl[j])
-   G.remove_nodes_from([n for n in G if G.degree(n) == 0])
-   return G
 
 test_n1 = generateNetwork(Po, Pl, both_terms)
