@@ -2,6 +2,7 @@
 
 import numpy as np
 import scipy as sp
+import networkx as nx
 import matplotlib.pyplot as plt
 import random
 
@@ -30,9 +31,9 @@ n_plants = 100
 n_pollinators = 100
 
 ## Generate a pool of plants
-Pl = [plant(np.random.normal(loc = 4.0), random.choice(colors), np.random.lognormal(7.0, 2.0)) for n in xrange(n_plants)]
+Pl = [plant(np.random.normal(loc = 4.0), random.choice(colors), np.random.lognormal(0.5, 2.0)) for n in xrange(n_plants)]
 ## The same with pollinators
-Po = [pollinator(np.random.normal(loc = 4.0), random.choice(colors), np.random.lognormal(25.0, 2.0)) for n in xrange(n_pollinators)]
+Po = [pollinator(np.random.normal(loc = 4.0), random.choice(colors), np.random.lognormal(1.5, 2.0)) for n in xrange(n_pollinators)]
 
 ## Rule for color preference
 def colorPref(pref, col):
@@ -66,8 +67,20 @@ for i in xrange(len(Po)):
       T_ij = colorPref(Po[i].c, Pl[j].c) * traitMatch(Po[i].x, Pl[j].x)
       pure_trait[i][j] = T_ij
       pure_abund[i][j] = N_ij
-      both_terms[i][j] = T_ij * N_ij
+      both_terms[i][j] = (T_ij + N_ij)/2.0
 
-plt.imshow(pure_trait, interpolation="nearest")
-plt.colorbar()
+print both_terms
+
+def generateNetwork(po, pl, probamat):
+   G = nx.DiGraph()
+   ## Start filling the matrix
+   for i in xrange(len(po)):
+      for j in xrange(len(pl)):
+         if np.random.uniform() <= probamat[i][j]:
+            G.add_edge(po[i], pl[j])
+   return G
+
+test_n1 = generateNetwork(Po, Pl, both_terms)
+
+nx.draw_spring(test_n1)
 plt.show()
