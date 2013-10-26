@@ -16,7 +16,9 @@ class pollinator:
       self.n = pop
       self.c = color
    def __str__(self):
-      return "pol["+str(self.x)+":"+str(self.c)+":"+str(self.n)+"]"
+      return "pol"
+   def attributes(self):
+      return {'type': 'pollinator', 'trait': self.x, 'pop': self.n, 'color': self.c}
 
 class plant:
    def __init__(self, depth, color, pop):
@@ -24,7 +26,9 @@ class plant:
       self.n = pop
       self.c = color
    def __str__(self):
-      return "pla["+str(self.x)+":"+str(self.c)+":"+str(self.n)+"]"
+      return "pla"
+   def attributes(self):
+      return {'type': 'plant', 'trait': self.x, 'pop': self.n, 'color': self.c}
 
 colors = ["red", "blue", "orange"]
 n_plants = 100
@@ -73,6 +77,10 @@ print both_terms
 
 def generateNetwork(po, pl, probamat):
    G = nx.DiGraph()
+   for p in po:
+      G.add_node(p, p.attributes())
+   for p in pl:
+      G.add_node(p, p.attributes())
    ## Start filling the matrix
    for i in xrange(len(po)):
       for j in xrange(len(pl)):
@@ -82,7 +90,4 @@ def generateNetwork(po, pl, probamat):
 
 test_n1 = generateNetwork(Po, Pl, both_terms)
 
-nx.write_edgelist(test_n1, "test.edges")
-
-nx.draw_spring(test_n1)
-plt.show()
+nx.write_gml(test_n1, "test.gml")
