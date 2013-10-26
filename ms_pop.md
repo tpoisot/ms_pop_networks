@@ -1,6 +1,11 @@
 % Expanding the paradigm of ecological network research
-% T. Poisot & D. Gravel
+% T. Poisot, D.B. Stouffer & D. Gravel
 % Working paper
+
+> Abstract -- key points (i) need for predictions about the dynamics (ii) the
+current way of thinking about networks is poorly adapted because essentially
+static (iii) review of the mechanisms of variation and how to instrumentalize
+them for predictions (iv) moving towards a probabilistic definition of networks
 
 # Introduction
 
@@ -20,7 +25,7 @@ ecological interactions [@kefi_more_2012]. By large, this literature assumes
 that, short of changes in local densities due to ecological dynamics, networks
 are *static* objects. If two species are known to interact at one location, it
 is assumed that they will interact whenever they co-occur [see *e.g.*
-@havens_scale_1992 ]. Recently, we established that networks are *dynamic*
+@havens_scale_1992]. Recently, it has been established that networks are *dynamic*
 objects, that have structured variation in $\alpha$, $\beta$, and $\gamma$
 diversity, due not only to the change of species composition at different
 localities, but also to the fact that the same species will interact in
@@ -270,18 +275,21 @@ historical signal found in contemporary network structures
 # Beyond direct interactions
 
 In this section, we argue that although networks offer a direct access to
-direct interactions, there is potential in adressing indirect effects too.
-A direct interaction originates in the "physical" interaction of two species.
-For example, predation, or pollination, are instances of direct interactions.
-Indirect interactions, on the other hand, are established "at a distance",
-either through cascading effet (herbivorous species compete with
-insect laying eggs on plants), or through physical mediation by
-the environment (bacterial exudates increase the bio-disponbility of
-iron for all bacterial species; plants with large foliage
-provide shade for smaller species). As we discuss in this
-section, these indirect interactions (i) have relevance for the
-variation of interaction network structure, and (ii) can be studied
-using classical network theory formalism.
+direct interactions, there is potential in adressing indirect effects on the
+existence of interactions too. A direct interaction originates in the
+"physical" interaction of two species, and as we argued before, these can be
+modified by species traits or local relative abundances. For example,
+predation, or pollination, are instances of direct interactions.
+Indirect interactions, on the other hand, are established "at
+a distance", either through cascading effet (herbivorous species
+compete with insect laying eggs on plants), or through physical
+mediation by the environment (bacterial exudates increase the
+bio-disponbility of iron for all bacterial species; plants with
+large foliage provide shade for smaller species). As we discuss
+in this section, the fact that interactions are indirectly affected by
+the presence of other species (i) have relevance for the variation of
+interaction network structure, and (ii) can be studied using classical
+network theory formalism.
 
 ## The basic processes
 
