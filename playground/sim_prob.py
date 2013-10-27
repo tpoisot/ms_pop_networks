@@ -44,19 +44,34 @@ def traitMatch(l, d):
 
 ## Generate a network from a proba matrix
 def generateNetwork(po, pl, probamat):
-   G = nx.DiGraph()
-   for p in po+pl:
-      G.add_node(p, p.attributes())
+   A = np.zeros((len(po), len(pl)))
    for i in xrange(len(po)):
       for j in xrange(len(pl)):
          if np.random.uniform() <= probamat[i][j]:
+            A[i][j] = 1
+   return A
+
+def observedNetwork(po, pl, probamat, replicates):
+   observations = [generateNetwork(po, pl, probamat) for n in xrange(replicates)]
+   A = np.sum(observations, axis=0)
+   for i in xrange(len(po)):
+      for j in xrange(len(pl)):
+         if A[i][j] > 0:
+            A[i][j] = 1
+   return A
+
+def matrixToNetwork(po, pl, A):
+   G = nx.DiGraph()
+   G.add_nodes_from(po+pl)
+   for i in xrange(len(po)):
+      for j in xrange(len(pl)):
+         if A[i][j] > 0:
             G.add_edge(po[i], pl[j])
-   G.remove_nodes_from([n for n in G if G.degree(n) == 0])
    return G
 
 colors = ["red", "blue", "orange"]
-n_plants = 100
-n_pollinators = 100
+n_plants = 30
+n_pollinators = 30
 
 ## Generate a pool of plants
 Pl = [plant(np.random.normal(loc = 4.0), random.choice(colors), np.random.lognormal(0.5, 2.0)) for n in xrange(n_plants)]
@@ -84,25 +99,26 @@ for i in xrange(len(Po)):
       T_ij = colorPref(Po[i].c, Pl[j].c) * traitMatch(Po[i].x, Pl[j].x)
       pure_trait[i][j] = T_ij
       pure_abund[i][j] = N_ij
-      both_terms[i][j] = (T_ij + N_ij)/2.0
+      both_terms[i][j] = T_ij * N_ij
 
 ## Step 1 : generate a network using the whole model
-base_network = generateNetwork(Po, Pl, both_terms)
+base_network = matrixToNetwork(Po, Pl, observedNetwork(Po, Pl, both_terms, 10))
 
 ## Step 2 : "predict" the network using (i) abundance only, (ii) traits only, (iii) the whole information
 print "Generating random networks"
-n_predictions = 500
-trait_networks = [generateNetwork(Po, Pl, pure_trait) for n in xrange(n_predictions)]
-abund_networks = [generateNetwork(Po, Pl, pure_abund) for n in xrange(n_predictions)]
-mixed_networks = [generateNetwork(Po, Pl, both_terms) for n in xrange(n_predictions)]
+n_predictions = 50
+n_observations = 10
+trait_networks = [observedNetwork(Po, Pl, pure_trait, n_observations) for n in xrange(n_predictions)]
+abund_networks = [observedNetwork(Po, Pl, pure_abund, n_observations) for n in xrange(n_predictions)]
+mixed_networks = [observedNetwork(Po, Pl, both_terms, n_observations) for n in xrange(n_predictions)]
 
 print "Measuring the total error"
-trait_error = [BetaLink(base_network, n)["OL"] for n in trait_networks]
-abund_error = [BetaLink(base_network, n)["OL"] for n in abund_networks]
-mixed_error = [BetaLink(base_network, n)["OL"] for n in mixed_networks]
+trait_error = [BetaLink(base_network, matrixToNetwork(Po, Pl, n))["OL"] for n in trait_networks]
+abund_error = [BetaLink(base_network, matrixToNetwork(Po, Pl, n))["OL"] for n in abund_networks]
+mixed_error = [BetaLink(base_network, matrixToNetwork(Po, Pl, n))["OL"] for n in mixed_networks]
 
 data = [trait_error, abund_error, mixed_error]
-plt.boxplot(data, sym = 'o')
+plt.boxplot(data, sym = 'ro')
 plt.xticks([1, 2, 3], ('Traits', 'Abundance', 'Both'))
 plt.ylabel('Total error')
 plt.show()
