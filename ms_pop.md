@@ -478,58 +478,63 @@ involved in the variation of network structure.
 
 # Boxes
 
-**Box 1: A statistical framework for population level interactions**
+**Box 1: A mathematical framework for population level interactions**
 
-In this contribution, we propose that at the population level, the
-occurrence (and intensity) of ecological interactions relies on several
-factors, including relative local abundances, local trait distribution.
-It is important to tell apart these different factors, so as to better
-disentangle neutral and niche processes. In an ANOVA-like context, this
-amounts to see the occurrence of an interaction as a simple linear model
-of the general form
+In this contribution, we propose that at the population level, the occurrence
+(and intensity) of ecological interactions relies on several factors, including
+relative local abundances and local trait distribution.  It is important to
+tell apart these different factors, so as to better disentangle neutral and
+niche processes. We propose that these different effects can adequately be
+partitionned using the model,
 
-$$\mathbf{A}_{ij} \propto \left[\mathcal{N}(i,j)\times\mathcal{T}(i,j)\right]+\epsilon$$
+$$\mathbf{A}_{ij} \propto \left[\mathcal{N}(i,j)\times\mathcal{T}(i,j)\right]+\epsilon \,,$$
 
-wherein $\mathcal{N}$ is a function giving the probability that species $i$ and
-$j$ interact *based on their relative abudances*, and $\mathcal{T}$ is
-a function giving the probability that species $i$ and $j$ interact *based on
-their trait values*. The error term $\epsilon$ accounts for other effects,
-including environmental variability. Both of these functions can take any
-form needed. In several papers, $\mathcal{N}(i,j)$ was expressed as
-$\mathbf{n}_i\times \mathbf{n}_j$, where $\mathbf{n}$ is a vector of
-relative abudances [@canard_neutral_2011;@vazquez_species_2007]. The
-expression of $\mathcal{T}$ can in most cases be derived from mechanistic
-hypotheses about the observation. For example, @gravel_inferring_2013
-used the niche model of @williams_simple_2000 to draw interactions, with
-the simple rule that $\mathcal{T}(i,j) = 1$ if $i$ can consume $j$ based
-on allometric rules, and $0$ otherwise. Following @rohr_modeling_2010,
-the expression of $\mathcal{T}$ can be based on latent variables rather
-than actual traits values. In a variance partitioning context, this
-apparently simple formulation will allow to understand, at the level of
-individual interactions, the relative importance of trait-based and
-density-dependent processes. Most importantly, it will allow to predict
-(i) how each of these components will vary over space, and (ii) how the
-structure of the network will be affected by *e.g.* changes in trait
-distributions or local abundances.
+wherein $\mathcal{N}$ is a function giving the probability that species $i$
+and $j$ interact *based on their relative abudances*, and $\mathcal{T}$
+is a function giving the *per encounter* probability that species $i$
+and $j$ interact *based on their trait values*. The term $\epsilon$
+accounts for all higher-order effects, such as indirect interactions,
+local impact of environmental conditions on the interaction, and impact of
+co-occuring species. Both of these functions can take any form needed. In
+several papers, $\mathcal{N}(i,j)$ was expressed as $\mathbf{n}_i\times
+\mathbf{n}_j$, where $\mathbf{n}$ is a vector of relative abudances
+[@canard_neutral_2011;@vazquez_species_2007]. The expression of $\mathcal{T}$
+can in most cases be derived from mechanistic hypotheses about the
+observation. For example, @gravel_inferring_2013 used the niche model
+of @williams_simple_2000 to draw interactions, with the simple rule that
+$\mathcal{T}(i,j) = 1$ if $i$ can consume $j$ based on allometric rules, and
+$0$ otherwise. Following @rohr_modeling_2010, the expression of $\mathcal{T}$
+can be based on latent variables rather than actual traits values. In a
+variance partitioning context, this apparently simple formulation will
+allow to understand, at the level of individual interactions, the relative
+importance of trait-based and density-dependent processes. Most importantly,
+it will allow to predict (i) how each of these components will vary over
+space, and (ii) how the structure of the network will be affected by *e.g.*
+changes in trait distributions or local abundances.
 
 This model can further be extended in a spatial context, as
 
-$$\mathbf{A}_{ijx} \propto \left[\mathcal{N}_x(i_x,j_x)\times\mathcal{T}_x(i_x,j_x)\right]+\epsilon_{ijx}$$
+$$\mathbf{A}_{ijx} \propto \left[\mathcal{N}_x(i_x,j_x)\times\mathcal{T}_x(i_x,j_x)\right]+\epsilon_{ijx} \,,$$
 
-In which the $x$ index denotes sites, and $i_x$ is the population of species
-$i$ at site $x$. The structure of the error term, *i.e.* its spatial or
-temporal auto-correlation, or covariance with either population sizes or trait
-values, can then be analyzed to further refine our predictions on species
-interaction variability. Most importantly, this model differs in that each site
-$x$ is characterized by a set of functions ${\mathcal{N}_x, \mathcal{T}_x}$,
-that may not be the same for all sites considered. For example, the same
-predator can prefer different prey items in different locations, which will
-require to use a different shape for $\mathcal{T}$ across  the range of
-locations. In @gravel_inferring_2013, we show that it is possible to derive
-robust approximation for the $\mathcal{T}$ function even with incomplete set
-of data, which gives hopes that this framework can be applied even when all
-species informations are not known at all sites (which, for most realistic
-systems, will be an unrealistic requirement).
+in which the $x$ index denotes sites, and $i_x$ is the population of species
+$i$ at site $x$. In this formulation, the $\epsilon$ term can be made to
+include the spatial variation of interaction between $i$ and $j$ over sites,
+and the covariance between the observed presence of this interaction and the
+occurence of species $i$ and $j$. Most importantly, this model differs in
+that each site $x$ is characterized by a set of functions ${\mathcal{N}_x,
+\mathcal{T}_x}$, that may not be the same for all sites considered. For
+example, the same predator can prefer different prey items in different
+locations, which will require to use a different shape for $\mathcal{T}$
+across  the range of locations. In @gravel_inferring_2013, we show that it is
+possible to derive robust approximation for the $\mathcal{T}$ function even
+with incomplete set of data, which gives hopes that this framework can be
+applied even when all species informations are not known at all sites (which,
+for most realistic systems, will be an unrealistic requirement). The strength
+of these models is that they can be used in a variance partitionning approach
+(in which case they measure the multiplicative and additive contributions
+of abundance, traits, and other factors), or within dynamical simulations,
+to generate realistic rewiring of the networks as a function of environmental
+changes.
 
 \newpage
 
