@@ -368,49 +368,49 @@ mostly unknown [@thuiller_road_2013].
 # Conclusions
 
 The notion of “species interaction networks” is an epistemological
-obstacle, as it shift our focus away from the level of organization at
-which most of the relevant processes happen — populations. As of now, it
-is difficult to understand how wrong we are (if at all), because data to
-properly separate the impact of different families of mechanisms on the
-variability of species interactions are scarce. Even when such data are
-available [*e.g.* @schleuning_specialization_2011 ; @schleuning_specialization_2012 ; @menke_plant-frugivore_2012], they
-were often not analyzed in this way, because the methodology is still
-mostly lacking. Some preliminary methods have been proposed.
-@bluthgen_what_2008 claim that the impact of traits distribution on
-network structure can be inferred simply by removing the impact of
-neutrality (population densities), based on the idea that many rare
-links were instances of sampling artifacts. Their result is however of
-limited generality, because their simulation approach assumes no trait
-matching, and thus allows the maximal generality of each species. Under
-this framework, what is measured is sampling bias, but not trait
-(mis)matching. So as to understand the impact of neutrality and traits
-distributions, it is crucial that not only interactions, but also
-population densities (needed to define the neutral expectation) and
-local trait distribution (needed to quantify the niche processes), are
-sampled. In a recent contribution, we proposed to measure the turnover
-of interactions between communities [@poisot_dissimilarity_2012]. The
-origins of this turnover will require more data to be fully appreciated,
-and the development of a new methodology partitioning the causes of
-variability in interactions. In the next sections, we synthesize the
-mechanisms mentioned in this paper, and conclude by stating the need to
-scale down the observation: from species to population, from occurrence
-to population density, and from trait values to local trait
-distribution.
+obstacle shifting our focus away from the level of organization at which
+most of the relevant processes happen --- populations. In order to make
+reliable predictions on the structure of networks, we need to understand
+what triggers variability in ecological interactions. In this contribution,
+we outlined that there were direct (abundance-related, and trait-based)
+and indirect (biotic modifiers, indirect effects of co-ocurence) effects to
+account for. The relative importance of each of these factors, and how exactly
+the affect the probability of establishing an interaction, are most-likely
+system-specific; nonetheless, we propose a unified mathematical approach to
+better understand them.
 
-## A synthesis
+At the moment, the field is data-limited. Despite the existence
+of several spatially or temporally replicated datasets [*e.g.*
+@schleuning_specialization_2011 ; @schleuning_specialization_2012 ;
+@menke_plant-frugivore_2012], it is rare that all relevant informations
+have been measured. However, we recently showed that only a reasonably
+small subset of data is enough to draw inferences at larger scales
+[@gravel_infering_2013]. Paradoxically, as tempting as it may be to sample
+a network in its entirety, the goal of establishing global predictions might
+be better furthered by characterising extremely well a more modest number of
+interactions. Assuming that there are indeed statistical invariants in the
+rules of interactions, this information will allow to make predictions on
+the structure of the networks. Better still, this approach has the potential
+to substantially strengthen our understanding of the relationships between
+traits and neutral effects. @bluthgen_what_2008 claim that the impact of
+traits distribution on network structure can be inferred simply by removing
+the impact of neutrality (population densities), based on the idea that many
+rare links were instances of sampling artifacts. As illustrated in Box 2,
+their approach is of limited generality, as the abudance of a species can
+be directly driven by trait-environment matching. 
 
-Perhaps more importantly, all of these mechanisms will allow looking at
-the impact of environmental variation on the structure of networks. As
-illustrated in Fig. [fig:synth], because different environmental
-conditions will (i) affect local trait distributions and (ii) change
-population sizes, we expect a strong effect of these changes on network
-structure. Looking at networks as a collection of interacting
-populations will allow testing the mechanisms through which
-environmental change affects network structure.
+With the accumulation of data, these approaches will rapidly expand our ability
+to predict the re-wiring of networks under environmental change. The effect
+of environmental change is expected to occur because (i) population sizes
+will be affected by the change and (ii) either plastic or adaptive responses
+will shoft or disrupt the traits distributions. The framework proposed in
+Box 1 allows to generate new probabilities of interactions under different
+scenarios. Ultimately, being explicit on the trait-abundance-interaction
+feedback will provide a better understanding of short-term and long-term
+dynamics of interaction networks. We illsutrate this in Fig. [fig:synth].
 
 [tb] ![image](framework) [fig:synth]
 
-Alesina et Eklof: number of traits and dimensions
 
 # Boxes
 
