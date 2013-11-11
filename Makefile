@@ -1,5 +1,13 @@
+
+baseopts = --template=paper.latex.template --csl=oikos.csl
+biblopts = --bibliography=/home/tpoisot/texmf/bibtex/bib/local/library.bib
+ 
 pdf: ms_pop.md traits.pdf community.pdf betaPOP.pdf framework.pdf
-	pandoc ms_pop.md -o ms_pop.pdf --bibliography='/home/tpoisot/texmf/bibtex/bib/local/library.bib' --csl='oikos.csl' --template='paper.latex.template'
+ifeq ($(wildcard /home/tpoisot/texmf/bibtex/bib/local/library.bib), )
+	pandoc ms_pop.md -o ms_pop.pdf $(baseopts)
+else
+	pandoc ms_pop.md -o ms_pop.pdf $(baseopts) $(biblopts)
+endif
 
 docx: ms_pop.md
 	pandoc ms_pop.md -o ms_pop.docx --bibliography='/home/tpoisot/texmf/bibtex/bib/local/library.bib' --csl='oikos.csl'
