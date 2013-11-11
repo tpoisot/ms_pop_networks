@@ -18,4 +18,4 @@ todo:
 	grep "TODO" *.md --color=always
 
 bib.keys: 
-	grep @[-:_a-zA-Z0-9]* ms_pop.md -oh --color=never | sort | sed 's/@//g' > bib.keys
+	grep @[-:_a-zA-Z0-9]* ms_pop.md -oh --color=never | sort | uniq | sed 's/@//g' > bib.keys
