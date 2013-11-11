@@ -82,7 +82,7 @@ also require particular environmental conditions, and perhaps presence of
 outside species.
 
 [f:meta]: metaweb.pdf "The metaweb concept"
-![An illustration of the metaweb. In its simplest form, the metaweb is the list of all possible species and interactions between them for the system studied. The interactions could be based on observations or inferred from trait values and previous knowledge [@Gravel2013_niche_allometric]. What is observed locally, here at sites 1 and 2, is a *realization* of this metaweb. The realized network differs because of the action of species sorting and other meta-community processes, and local interaction sorting. The two observed networks have different properties, species compositions, and interactions between these species.\label{f:meta}][f:meta]
+![An illustration of the metaweb. In its simplest form, the metaweb is the list of all possible species and interactions between them for the system studied. The interactions could be based on observations or inferred from trait values and previous knowledge [@gravel_inferring_2013]. What is observed locally, here at sites 1 and 2, is a *realization* of this metaweb. The realized network differs because of the action of species sorting and other meta-community processes, and local interaction sorting. The two observed networks have different properties, species compositions, and interactions between these species.\label{f:meta}][f:meta]
 
 We argue that there are three broadly-defined classes of mechanisms involved in
 determining the realizations of species interactions. First, individuals must
@@ -198,7 +198,7 @@ for an evolutionary approach.
 
 There are evidences that at the species level, interaction partners are
 selected on the grounds of matching trait values. Random networks built on
-these rules exhibit realistic structural properties [@williwams_simple_2000].
+these rules exhibit realistic structural properties [@williams_simple_2000].
 However, trait values vary from population to population within species, and so
 it is expected that the local interactions will be contingent upon trait
 distributions (\autoref{f:traits}). The fact that the niche of species can
@@ -327,7 +327,7 @@ networks most often account for a single type of interactions [although new
 datasets are starting to emerge, *e.g.* @mouritsen_food_2011 and
 @zander_food_2011]. Our ability to understand these complex phenomenon will be
 contingent on our ability to (i) integrate different types of interactions in
-ecological networks [@goudard_2008_non-trophic;@kefi_more_2012], and (ii) to
+ecological networks [@goudard_nontrophic_2008;@kefi_more_2012], and (ii) to
 provide rich meta-data regarding the identity of each node in the network.
 
 ## Benefits for network analysis
@@ -385,7 +385,7 @@ of several spatially or temporally replicated datasets [*e.g.*
 @menke_plant-frugivore_2012], it is rare that all relevant informations
 have been measured. However, we recently showed that only a reasonably
 small subset of data is enough to draw inferences at larger scales
-[@gravel_infering_2013]. Paradoxically, as tempting as it may be to sample
+[@gravel_inferring_2013]. Paradoxically, as tempting as it may be to sample
 a network in its entirety, the goal of establishing global predictions might
 be better furthered by characterising extremely well a more modest number of
 interactions. Assuming that there are indeed statistical invariants in the
@@ -434,7 +434,7 @@ local impact of environmental conditions on the interaction, and impact of
 co-occuring species. Both of these functions can take any form needed. In
 several papers, $\mathcal{N}(i,j)$ was expressed as $\mathbf{n}_i\times
 \mathbf{n}_j$, where $\mathbf{n}$ is a vector of relative abudances
-[@canard_neutral_2011;@vazquez_species_2007]. The expression of $\mathcal{T}$
+[@canard_emergence_2012;@vazquez_species_2007]. The expression of $\mathcal{T}$
 can in most cases be derived from mechanistic hypotheses about the
 observation. For example, @gravel_inferring_2013 used the niche model
 of @williams_simple_2000 to draw interactions, with the simple rule that
