@@ -89,7 +89,7 @@ also require particular environmental conditions, and perhaps presence of
 outside species.
 
 [f:meta]: metaweb.pdf "The metaweb concept"
-![An illustration of the metaweb. In its simplest form, the metaweb is the list of all possible species and interactions between them for the system studied. The interactions could be based on observations or inferred from trait values and previous knowledge [@gravel_inferring_2013]. What is observed locally, here at sites 1 and 2, is a *realization* of this metaweb. The realized network differs because of the action of species sorting and other meta-community processes, and local interaction sorting. The two observed networks have different properties, species compositions, and interactions between these species.\label{f:meta}][f:meta]
+![An illustration of the metaweb. In its simplest form, the metaweb is the list of all possible species and interactions between them for the system studied. What is observed in nature is the *realisations* of the metaweb. The *realisations* are locally observed networks, after several sorting proccesses occur. First, spcies and species pairs have different probabilities to be observed. Second, owing to the nechanisms we detail in this paper, not all interactions have an equal probability to occur at each site (see **Box 1**).\label{f:meta}][f:meta]
 
 We argue that there are three broadly-defined classes of mechanisms involved in
 determining the realizations of species interactions. First, individuals must
@@ -339,34 +339,32 @@ provide rich meta-data regarding the identity of each node in the network.
 
 ## Benefits for network analysis
 
-Accounting for the relationships between biotic interactions can be a powerful
-explanation for species co-occurrence. A recent experimental work by
-@sanders_indirect_2012 showed that some predators species can only be maintained
-if another predator species is present, which regulates a competitively superior
-prey, hence allowing prey coexistence. These effects involving several species
-and several types of interactions across trophic levels are complex [and for
-this reason, have been deemed unpredictable in the past, @tack_can_2011], and
-can only be understood by comparing communities in which different species are
-present/absent.
-
-To better understand these effects, it is important that several
-networks with similar species compositions are sampled. Assuming that
-interactions are present is obviously not enough, and the data needed to
-characterize these mechanism need to include a precise measure of
-interaction strength between each species. It is true that such data are
-orders of magnitude more difficult to gather than literature surveys or
-expert knowledge, but they are the only way to go beyond the current
-paradigm of seeing networks as mostly a collection of pairwise
-interactions.
-
-From a biogeographic standpoint, it require that we develop a theory based on
+Accounting for the relationships between biotic interactions can be
+a powerful explanation for species co-occurrence. A recent experimental
+work by @sanders_indirect_2012 showed that some predators species can only
+be maintained if another predator species is present, which regulates a
+competitively superior prey, hence allowing prey coexistence. These effects
+involving several species and several types of interactions across trophic
+levels are complex [and for this reason, have been deemed unpredictable in the
+past, @tack_can_2011], and can only be understood by comparing communities in
+which different species are present/absent. Looking at figure \ref{f:meta},
+it is also clear that the probability of having an interaction between
+species $i$ and $j$ ($\text{P}(\mathbf{L}_{ij})$) is ultimately constrained
+by the probability of simultaneously observing $i$ and $j$ together, *i.e.*
+$\text{P}(i \cap j)$. Thus, the existence of any ecological interaction will
+be contingent upon *other* ecological interactions driving local co-occurrence
+[@araujo_using_2001]. Based on this arguments, ecological networks cannot be
+a collection of pairwise interactions. Our view of them needs be updated to
+account for the importance of the context surrounding these interactions. From
+a biogeographic standpoint, it require that we develop a theory based on
 interaction co-occurrence, in addition to the current knowledge encompassing
 only species co-occurrence. @araujo_using_2011 and @allesina_competitive_2011
 introduced the idea that competitive interactions can leave a trace in species
-co-occurrence network. It is now time to apply this logic to other types of
-interactions. In part, this can be done through the re-analysis of already
-existing datasets, although the statistical foundation of such a work is still
-mostly unknown [@thuiller_road_2013].
+co-occurrence network. A direct consequence of this result is that, for
+example, trophic interactions are constrained by species competition outcome
+*before* they are even constrained by predation-related traits. Appreciating
+such an effect requires a spatial or replicated sampling (**Box 1**) at the
+population level (**Box 2**).
 
 # Conclusions
 
