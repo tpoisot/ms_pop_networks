@@ -1,0 +1,75 @@
+\documentclass{article}
+\usepackage{tikz}
+\usepackage[sc]{mathpazo}
+\usetikzlibrary{shapes,arrows}
+\usepackage[pdftex,active,tightpage]{preview}
+
+\begin{document}
+\begin{preview}
+   \begin{tikzpicture}[>=triangle 60]
+
+      % styles
+      \tikzstyle{pop} = [circle, draw=black, fill=white, thick, minimum width=0.4cm, minimum height = 0.4cm]
+      \tikzstyle{link} = [->, thick, color = black!80] 
+
+      %\draw (0, 0) grid (16, 9);
+
+      % METAWEB
+      \draw (2, 7.5) node[pop](a){A};
+      \draw (2, 5.7) node[pop](b){B};
+      \draw (1, 4) node[pop](c){C};
+      \draw (3, 3) node[pop](d){D};
+      \draw (2, 1.5) node[pop](e){E};
+
+      \path[link] (a) edge (b) edge (c);
+      \path[link] (b) edge (d) edge (c) edge (e);
+      \path[link] (c) edge (e);
+      \path[link] (d) edge (e);
+
+      % BOXES
+      \draw (4, 0.3) rectangle (7.8, 4.3) [thick, draw = black!70, fill = black!1];
+      \draw (8.2, 0.3) rectangle (12, 4.3) [thick, draw = black!70, fill = black!1];
+      
+      \draw (4, 4.7) rectangle (7.8, 8.7) [thick, draw = black!70, fill = black!1];
+      \draw (8.2, 4.7) rectangle (12, 8.7) [thick, draw = black!70, fill = black!1];
+
+      % BOX 1 species
+      \draw (6.5, 8.2) node[pop, fill=red!30!blue, text = white](s1sa){A};
+      \draw (6.5, 7.2) node[pop, fill=red!30!blue, text = white](s1sb){B};
+      \draw (5, 7.7) node[text = red!30!blue](pab){$\mathrm{P}(A \cap B)$};
+      \draw (5.5, 6.2) node[pop](s1sc){C};
+      \draw (6.5, 5.2) node[pop, fill=yellow!30!red](s1se){E};
+      \draw (5, 5.2) node[text = yellow!30!red](pab){$\mathrm{P}(E)$};
+
+      \path[link] (s1sa) edge (s1sc) edge (s1sb);
+      \path[link] (s1sb) edge (s1sc) edge (s1se);
+      \path[link] (s1sc) edge (s1se);
+
+      % BOX 1 network
+      \draw (10.2, 8.2) node[pop](s1la){A};
+      \draw (10.2, 7.2) node[pop](s1lb){B};
+      \draw (9.2, 6.2) node[pop](s1lc){C};
+      \draw (10.2, 5.2) node[pop](s1le){E};
+
+      \path[link] (s1la) edge (s1lb);
+      \path[link] (s1lb) edge (s1le);
+      \path[link] (s1lc) edge (s1le);
+      \path[link, dotted] (s1la) edge (s1lc);
+      \path[link, dotted] (s1lb) edge (s1lc);
+
+      % SITE 1 network
+      \draw (15.5, 7.8) node[pop](s1a){A};
+      \draw (15.5, 6.5) node[pop](s1b){B};
+      \draw (13.5, 6.5) node[pop](s1c){C};
+      \draw (14.5, 5.2) node[pop](s1e){E};
+
+      \path[link] (s1a) edge (s1b);
+      \path[link] (s1b) edge (s1e);
+      \path[link] (s1c) edge (s1e);
+
+      \draw (14, 7.5) node{\textbf{Network 1}};
+
+   \end{tikzpicture}
+\end{preview}
+\end{document}
+
