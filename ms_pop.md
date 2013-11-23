@@ -17,73 +17,67 @@ mechanistic understanding of species interactions.
 
 # Introduction
 
+Ecological interactions are the driving force behind ecological dynamics
+within communities [@berlow_simple_2009]. Likely for this reason more than
+any, the structure of communities have been described by species interaction
+networks for over a century [@dunne_network_2006]. Formally an ecological
+network is a mathematical and conceptual representation of both *species*,
+and the *interactions* they establish. Behind this conceptual framework is
+a rich and expanding literature whose primary focus has been how certain
+quantifiable numerical and statistical properties of the network relate to
+the robustness [@dunne_network_2002], productivity [@duffy_functional_2007],
+or tolerance to extinction [@memmott_tolerance_2004] of the community
+it represents. Although this approach classically focused on food webs
+[@ings_ecological_2009], it has proved particularly successful because it can
+be applied equally to all types of ecological interactions [@kefi_more_2012].
 
-<!--
-DBS: It felt like this was redundant to some of the stuff below.
+This body of literature generally assumes that, short of changes in local
+densities due to ecological dynamics, networks are inherently *static*
+objects. More explicitly, if two species are known to interact at one
+location, it is often assumed that they will interact whenever and wherever
+they co-occur [see *e.g.* @havens_scale_1992]. More recently, however, it has
+been established that networks are *dynamic* objects that have structured
+variation in $\alpha$, $\beta$, and $\gamma$ diversity, not only to the
+change of species composition at different locations but also to the fact
+that the same species will interact in different ways over time or across
+space. Of these sources of variation in networks, the change of species
+composition has been addressed by previous literature either explicitly
+in the context of networks [@gravel_trophic_2011;@dattilo_spatial_2013],
+or within classical meta-community theory. However, because this literature
+mostly assumes that interactions happen consistently between species, it is
+ill-suited to address network variation as a whole, and needs be supplemented
+with new concepts and mechanisms.
 
-Describing the structure of ecological communities requires to know not only
-the identity of species but also their interactions.
--->
-
-Interactions are also the driving force behind ecological dynamics within
-communities [@berlow_simple_2009].  Likely for this reason more than any,
-the structure communities have been described by species interaction networks
-for over a century [@dunne_network_2006]. Formally an ecological network
-is a mathematical and conceptual representation of both *species*, and the
-*interactions* they establish. This thin this conceptual framework, there
-is a rich and expanding literature whose primary focus has been how certain
-mathematical *(DBS: can we think of something better than mathematical?)*
-properties of the network relate to the robustness [@dunne_network_2002],
-productivity [@duffy_functional_2007], or tolerance to extinction
-[@memmott_tolerance_2004] of the community it represents. Although this
-approach classically focused on food webs [@ings_ecological_2009], it has
-proven particularly successful because it can be applied equally to all
-types of ecological interactions [@kefi_more_2012].
-
-This body of literature generally assumes
-that, short of changes in local densities due to ecological dynamics, networks
-are inherently *static* objects. More explicitly, if two species are known to interact at one location, it
-is often assumed that they will interact whenever and wherever they co-occur [see *e.g.*
-@havens_scale_1992]. More recently, however, it has been established that networks are *dynamic*
-objects that have structured variation in $\alpha$, $\beta$, and $\gamma$
-diversity, not only to the change of species composition at different
-locations but also to the fact that the exact same species will interact in
-different ways over time or across space.
-<!--DBS: The bits below are a bit rough but I can't think of ways to make them smoother.-->
-Of these sources of variation in networks,
-the change of species composition has been addressed by previous
-literature [@gravel_trophic_2011;@dattilo_spatial_2013]. However,
-because this literature mostly assumes that interactions happen
-consistently between species, it is ill-suited to address network
-variation as a whole, and needs be supplemented with new concepts and
-mechanisms.
-
-Within the current paradigm, interactions are established between species. Starting
-from empirical observations, expert knowledge, or literature surveys, one can
-collect a list of interactions for a given species pool. Several studies used
+Within the current paradigm, interactions are established
+between species, and are an immutable "property" of a species pair. Starting from empirical observations, expert
+knowledge, or literature surveys, one can collect a list of
+interactions for a given species pool. Several studies used
 this approach to extrapolate the structure of networks over space
-[@havens_scale_1992;@piechnick_oikos_2008;@baiser_geographic_2012], by considering that the network
-at *any* location is composed of *all* of the potential interactions known for
-this species pool. This stands in stark contrast with recent results showing
-that (i) the identity of interacting species varies over space
-[@poisot_dissimilarity_2012], and (ii) the dissimilarity is not related to the
-dissimilarity in species composition. The current conceptualization of networks
-leaves us poorly equipped to understand the causes of this variation, and in
-this paper we propose a general research agenda to understand the mechanisms
-involved in the variability of species interactions. 
+[@havens_scale_1992;@piechnick_oikos_2008;@baiser_geographic_2012],
+by considering that the network at *any* location is composed of *all*
+of the potential interactions known for this species pool. This stands
+in stark contrast with recent results showing that (i) the identity of
+interacting species varies over space [@poisot_dissimilarity_2012], and
+(ii) the dissimilarity is not related to the dissimilarity in species
+composition. The current conceptualization of networks leaves us poorly
+equipped to understand the causes of this variation, and in this paper we
+propose a general research agenda to understand the mechanisms involved in
+the variability of species interactions.
 
 In contrast to the current paradigm, we propose that future research on
 interaction networks be guided by the following principles. First, at the
 regional scale, species interactions exist in a probabilistic state. Second,
 the probability that two species will interact can be determined as a function
-of traits and local abundances.
-<!--DBS: Is there a way to fit the indirect effects in here too?-->
-Third, observations of interactions at local sites are the realization of these
-regional probabilities. This approach is outlined in **Box 1**.  Although this
-proposal is an intuitive yet radical change in the way we think about ecological network
-structure, we demonstrate in this paper that it is well supported by empirical
-and theoretical results alike. What's more, our new perspective is well placed to open the door to novel
-predictive approaches integrating over a range of key ecological mechanisms.
+of traits and local abundances.  Third, observations of interactions at local
+sites are the realization of these regional probabilities. This approach is
+outlined in **Box 1**.  Although this proposal is an intuitive yet radical
+change in the way we think about ecological network structure, we demonstrate
+in this paper that it is well supported by empirical and theoretical results
+alike. What's more, our new perspective is well placed to open the door
+to novel predictive approaches integrating over a range of key ecological
+mechanisms. Notably, we propose in **Box 2** that this approach facilitates
+the study of indirect interactions, for which predictive approaches have
+long been proved elusive [@tack_can_2011].
 
 # The dynamic nature of ecological interaction networks
 
