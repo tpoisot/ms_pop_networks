@@ -48,12 +48,12 @@ mostly assumes that interactions happen consistently between species, it is
 ill-suited to address network variation as a whole, and needs be supplemented
 with new concepts and mechanisms.
 
-Within the current paradigm, interactions are established
-between species, and are an immutable "property" of a species pair. Starting from empirical observations, expert
-knowledge, or literature surveys, one can collect a list of
-interactions for a given species pool. Several studies used
-this approach to extrapolate the structure of networks over space
-[@havens_scale_1992;@piechnick_oikos_2008;@baiser_geographic_2012],
+Within the current paradigm, interactions are established between
+species, and are an immutable "property" of a species pair. Starting
+from empirical observations, expert knowledge, or literature surveys,
+one can collect a list of interactions for a given species pool. Several
+studies used this approach to extrapolate the structure of networks over
+space [@havens_scale_1992;@piechnick_oikos_2008;@baiser_geographic_2012],
 by considering that the network at *any* location is composed of *all*
 of the potential interactions known for this species pool. This stands
 in stark contrast with recent results showing that (i) the identity of
@@ -81,42 +81,44 @@ long been proved elusive [@tack_can_2011].
 
 # The dynamic nature of ecological interaction networks
 
-Recent studies on the sensitivity of network structure to environmental change
-provide some context for the idea of dynamic networks. @menke_plant-frugivore_2012 showed that
-the structure of a plant–frugivore network changed along a forest–farmland
-gradient. At the edges between two habitats, species were on
-average less specialized and interacted more evenly with a larger number of
-partners than they did in habitat cores.
-Differences in
-network structure have also been observed within forest strata that differ in their proximity to the canopy and visitation by birds [@schleuning_specialization_2011].
-@eveleigh_fluctuations_2007 demonstrated that outbreaks of the spruce budworm
-were associated to changes in the structure of its trophic network, both in
-terms of species observed and their interactions. @poisot_resource_2011 used
-a microbial system of hosts and pathogens to study the impact of productivity
-gradients on realized infection; when the species were moved
-from high to medium to low productivity, some interactions were lost and
-others were gained. As a whole, these results suggest that the existence of an interaction
-is not only contingent on the presence of the two species involved, but may
-also require particular environmental conditions and perhaps the presence of
-additional species.
+Recent studies on the sensitivity of network structure to
+environmental change provide some context for the study of dynamic
+networks. @menke_plant-frugivore_2012 showed that the structure of a
+plant–frugivore network changed along a forest–farmland gradient. At
+the edges between two habitats, species were on average less specialized
+and interacted more evenly with a larger number of partners than they did in
+habitat cores. Differences in network structure have also been observed within
+forest strata that differ in their proximity to the canopy and visitation
+by birds [@schleuning_specialization_2011]. @eveleigh_fluctuations_2007
+demonstrated that outbreaks of the spruce budworm were associated to changes
+in the structure of its trophic network, both in terms of species observed
+and their interactions. @poisot_resource_2011 used a microbial system
+of hosts and pathogens to study the impact of productivity gradients on
+realized infection; when the species were moved from high to medium to low
+productivity, some interactions were lost and others were gained. As a whole,
+these results suggest that the existence, and properties, of an interaction
+are not only contingent on the presence of the two species involved, but may
+also require particular environmental conditions, including the presence or
+absence of species not directly involved in the interaction.
 
-[f:meta]: metaweb.pdf "The metaweb concept"
-![An illustration of the metaweb concept. In its simplest form, a metaweb is the list of all possible species and interactions between them for the system being studied. Everything that is ultimately observed in nature is a *realisation* of the metaweb. These *realisations* are always observed locally after several sorting proccesses have occurred. First, species and species pairs have different probabilities to be observed. Second, as a consequence of the mechanisms we outline in this paper, not all interactions have the same probability to occur at any given site (see **Box 1**).\label{f:meta}][f:meta]
+[f:meta]: figures/fig_proba.pdf "The metaweb concept"
+![An illustration of the metaweb concept. In its simplest form, a metaweb is the list of all possible species and interactions between them for the system being studied, at the regional level (far left side). Everything that is ultimately observed in nature is a *realisation* of the metaweb (far right side), *i.e.* the resulting network after several sorting proccesses have occurred (central panel). First, species and species pairs have different probabilities to be observed (top panels). Second, as a consequence of the mechanisms we outline in this paper, not all interactions have the same probability to occur at any given site (bottom panels, see **Box 1**).\label{f:meta}][f:meta]
 
-We argue here that there are three broadly-defined classes of mechanisms that ultimately determine
-the realization of species interactions. First, individuals must
-be in high enough local relative abundances to meet; this is the so-called "neutral" perspective
-of interactions. Second, there must be phenological matching between
-individuals, such that an interaction will actually occur given that the encounter takes place.
-Finally, the realization of an interaction is regulated by the
-interacting organisms' surroundings , and should be studied in the context of
-indirect interactions. Below, we examine each of these mechanisms in turn, and we show
-how they integrate into a robust statistical framework in **Box 1** and the more general network context in **Box 2**.
-<!--DBS: The "spatial context" part here seems to come out of nowhere. Proposed wordsmithing?-->
-We propose that our understanding of the structure of interaction networks in
-a spatial context, and consequently our ability to predict this structure, will
-be increased our attention and methodologies are shifted from a species-centric
-perspective to a population-centric one.
+We argue here that there are three broadly-defined classes of mechanisms
+that ultimately determine the realization of species interactions. First,
+individuals must be in high enough local relative abundances to meet; this
+is the so-called "neutral" perspective of interactions. Second, there must
+be phenological matching between individuals, such that an interaction will
+actually occur given that the encounter takes place. Finally, the realization
+of an interaction is regulated by the interacting organisms' surroundings,
+and should be studied in the context of indirect interactions. Below, we
+examine each of these mechanisms in turn, and we show how they integrate into
+a robust statistical framework in **Box 1**, and more broadly into network
+context in **Box 2**. We propose that shifting our approach from the species
+level to the population level will result in a better appreciation of the
+mechanisms of network variations, which will allow to develop mechanistic
+hypotheses for the comparison of community structure in space, time, or over
+environmental gradients.
 
 # Population dynamics and neutral processes
 
