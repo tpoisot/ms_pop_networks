@@ -250,21 +250,22 @@ shaped behavioral traits that alter the network structure over time. These
 examples show that trait-based effects on networks can be observed even in the
 absence of genotypic variation (although we discuss this in the next section).
 
-In the trait-based perspective, the existence of an interaction is an emergent property of
-the trait distribution of local populations: variations in one or both of these
-distributions, regardless of the mechanism involved (development, selection,
-plasticity), are likely to alter the interaction. Importantly, when
-interaction-driving traits are subject to environmental forcing (for example, body
-size is expected to be lower in warm environments,
-@angilletta_temperature_2004), there can be covariation between
-environmental conditions and the occurrence of interactions.
-@woodward_climate_2012 demonstrate that changes in food-web structure happen at
-the same time as changes in body mass in experimental macrocosms. Integrating
-trait variation over spatial or temporal gradients is a central concern at present if we are to
-understand, for example, network variation and its subsequent response to environmental change.
+In the trait-based perspective, the existence of an interaction is an emergent
+property of the trait distribution of local populations: variations in one or
+both of these distributions, regardless of the mechanism involved (development,
+selection, plasticity), are likely to alter the interaction. Importantly,
+when interaction-driving traits are subject to environmental forcing
+(for example, body size is expected to be lower in warm environments,
+@angilletta_temperature_2004), there can be covariation between environmental
+conditions and the occurrence of interactions.  @woodward_climate_2012
+demonstrate that changes in food-web structure happen at the same time as
+changes in body mass in experimental macrocosms. Integrating trait variation
+over spatial or temporal gradients is a central concern at present if we are
+to understand, for example, network variation and its subsequent response
+to environmental change.
 
-[f:traits]: traits.pdf "Traits and populations"
-![Panel **A** represents the interactions between different populations (circles) of four species, identified by the boundaries of their morphospaces (dashed lines). This network is mostly made of linear food chains, and has one generalist consumer. When aggregated at the species level however, as shown in **B**, it becomes a "diamond" food-web, with different dynamical consequences. Because the trait values of populations within a species differ, each indivudal population can interact differently than the species it belongs to.\label{f:traits}.][f:traits]
+[f:traits]: figures/fig_aggregation.pdf "Traits and populations"
+![The left-hand side of this figure represents possible interactions between populations (circles) of four species (ellipses), and the aggregated species interaction network on the right. In this example, the populations and species level networks have divergent properties, and the inference on the system dynamics are likely to be different depending on the level of observation. More importantly, if the three populations highlighted in red were to co-occur, there would be no interactions between them, whereas the species-level network would predict a linear chain.\label{f:traits}.][f:traits]
 
 ## Benefits for network analysis
 
