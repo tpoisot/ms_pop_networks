@@ -5,15 +5,16 @@
 > Community ecology is tasked with the considerable challenge of predicting
 the structure, and properties, of emerging ecosystems triggered by species
 movement, environmental change, and rapid adaptive response. This task requires
-the ability to understand how and why species establish interactions, as
-this will allow the development of mechanism-based predictive models. 
-<!--DBS: I feel like we're missing a transition here.-->
-Despite multiple arguments to the contrary, we argue that the current conceptualisation of species
-interaction networks is ill-suited for this task. Instead, we propose
-that future research must start to account for the intrinsic variability of interaction
-networks. By shifting the scale towards population-based processes,
-we show that this new approach will improve our predictive ability and
-mechanistic understanding of species interactions.
+the ability to understand how and why species establish interactions, as this
+will allow the development of mechanism-based predictive models, and as such
+to better characterize how ecological mechanisms act locally on the existence
+of inter-specific interactions. Despite multiple arguments to the contrary,
+we argue that the current conceptualisation of species interaction networks
+is ill-suited for this task. Instead, we propose that future research must
+start to account for the intrinsic variability of interaction networks. By
+shifting the scale towards population-based processes, we show that this new
+approach will improve our predictive ability and mechanistic understanding
+of species interactions.
 
 # Introduction
 
@@ -308,65 +309,63 @@ historical signal found in contemporary network structures
 
 # Beyond direct interactions
 
-In this section, we argue that, although networks are built around observations of 
-direct interactions like predation or pollination, they also offer a compelling tool with which to address indirect effects on the
-existence of interactions. Any direct interaction originates in the
-"physical" interaction of two species, and as we have already detailed, these can be
-modified by local relative abundances and/or species traits
-Indirect interactions, on the other hand, are established "at
-a distance", either through cascading effect (herbivorous species
-compete with insect laying eggs on plants) or through physical
-mediation by the environment (bacterial exudate increase the
-bio-availability of iron for all bacterial species; plants with
-large foliage provide shade for smaller species). As we discuss
-in this section, the fact that many (if not all) interactions are indirectly affected by
-the presence of other species (i) has relevance for understanding the variation of
-interaction network structure and (ii) can be studied within the classical
-network-theory formalism.
+In this section, we argue that, although networks are built around
+observations of direct interactions like predation or pollination, they
+also offer a compelling tool with which to address indirect effects on
+the existence of interactions. Any direct interaction originates in the
+"physical" interaction of two species, and as we have already detailed,
+these can be modified by local relative abundances and/or species traits
+Indirect interactions, on the other hand, are established "at a distance",
+either through cascading effect (herbivorous species compete with insect
+laying eggs on plants) or through physical mediation by the environment
+(bacterial exudate increase the bio-availability of iron for all bacterial
+species; plants with large foliage provide shade for smaller species). As
+we discuss in this section, the fact that many (if not all) interactions
+are indirectly affected by the presence of other species (i) has relevance
+for understanding the variation of interaction network structure and (ii)
+can be studied within the classical network-theory formalism.
 
 ## The basic processes
 
-<!--DBS: Is one citation really several?-->
-Several authors [@golubski_modifying_2011] have demonstrated that biotic interactions
-themselves interact. Because the outcome of an interaction ultimately affects
-local abundances (on ecological times) and population trait structure (over
-evolutionary times), all interactions happening within a community will
-impact one another. This doesn't actually mean pairwise approaches are
-bound to fail, but it does harken for a larger scale approach that accounts for indirect
-effects. The occurrence or absence of a biotic interaction can either affect
-either the realization of other interactions (thus affecting the "interaction"
-component of network $\beta$-diversity) or the presence of other
-species.
+Several authors (see @golubski_modifying_2011 and references therein) have
+demonstrated that biotic interactions themselves interact. Because the outcome
+of an interaction ultimately affects local abundances (on ecological times)
+and population trait structure (over evolutionary times), all interactions
+happening within a community will impact one another. This doesn't actually
+mean pairwise approaches are bound to fail, but it does hearken for a
+larger scale approach that accounts for indirect effects. The occurrence or
+absence of a biotic interaction can either affect either the realization of
+other interactions (thus affecting the "interaction" component of network
+$\beta$-diversity) or the presence of other species.
 
-There are several well-documented
-examples of the presence of an interaction allowing new interactions to happen
-(opportunistic pathogens have a greater success of infection on hosts which are
-already immunocompromised by previous infections @olivier_are_2012), or
-conversely preventing them (a resident symbiont decreases the infection
-probability of a new pathogen
+There are several well-documented examples of the presence of an interaction
+allowing new interactions to happen (opportunistic pathogens have a
+greater success of infection on hosts which are already immunocompromised
+by previous infections @olivier_are_2012), or conversely preventing them
+(a resident symbiont decreases the infection probability of a new pathogen
 [@koch_socially_2011;@heil_protective_2003]). In both cases, the driver
-of interaction turnover is the patchiness of species distribution; this helps emphasize
-why the two concepts would benefit from further integration. Variation in interaction structure
-can happen through both cascading and environmental effects:
-@singer_disentangling_2004 show that caterpillars change the proportion of
-different plant species in their diet, favoring low quality items to load on
-chemical compounds which are toxic for their parasitoids. However, low quality
-food results in birds having a greater impact on caterpillar populations
-[@singer_tritrophic_2012]. It is noteworthy that in this example, the existence
-of an interaction will affect both the strength, and impact, of other
-interactions. In terms of their effects on network $\beta$-diversity, indirect
-effects are thus likely to act on components of dissimilarity. A common feature
-of the examples mentioned here is that pinpointing the exact mechanism
-through which species interactions interfere often requires a good working
-knowledge of the system's natural history.
-<!--DBS: I feel like the rest of this paragraph is an outlier.-->
-In their current state, ecological
-networks most often account for a single type of interactions [although new
-datasets are starting to emerge, *e.g.* @mouritsen_food_2011 and
-@zander_food_2011]. Our ability to understand these complex phenomenon will be
-contingent on our ability to (i) integrate different types of interactions in
-ecological networks [@goudard_nontrophic_2008;@kefi_more_2012], and (ii) to
-provide rich meta-data regarding the identity of each node in the network.
+of interaction turnover is the patchiness of species distribution;
+this helps emphasize why the two concepts would benefit from further
+integration. Variation in interaction structure can happen through both
+cascading and environmental effects: @singer_disentangling_2004 show that
+caterpillars change the proportion of different plant species in their diet,
+favoring low quality items to load on chemical compounds which are toxic
+for their parasitoids. However, low quality food results in birds having
+a greater impact on caterpillar populations [@singer_tritrophic_2012]. It
+is noteworthy that in this example, the existence of an interaction will
+affect both the strength, and impact, of other interactions. In terms of
+their effects on network $\beta$-diversity, indirect effects are thus
+likely to act on components of dissimilarity. A common feature of the
+examples mentioned here is that pinpointing the exact mechanism through
+which species interactions interfere often requires a good working knowledge
+of the system's natural history.  <!--DBS: I feel like the rest of this
+paragraph is an outlier.--> In their current state, ecological networks most
+often account for a single type of interactions [although new datasets are
+starting to emerge, *e.g.* @mouritsen_food_2011 and @zander_food_2011]. Our
+ability to understand these complex phenomenon will be contingent on our
+ability to (i) integrate different types of interactions in ecological
+networks [@goudard_nontrophic_2008;@kefi_more_2012], and (ii) to provide
+rich meta-data regarding the identity of each node in the network.
 
 ## Benefits for network analysis
 
@@ -394,59 +393,57 @@ introduced the idea that competitive interactions can leave a trace in species
 co-occurrence network. A direct consequence of this result is that, for
 example, trophic interactions are constrained by species competition outcome
 *before* they are even constrained by predation-related traits. 
-<!--DBS: Is this last sentence really necessary?-->
-Appreciating
-such an effect requires a spatial or replicated sampling (**Box 1**) at the
-population level (**Box 2**).
 
 # Conclusions
 
-Overall, we argue here that the notion of “species interaction networks” is an epistemological
-obstacle shifting our focus away from the level of organization at which
-most of the relevant processes happen --- populations. In order to make
-reliable predictions on the structure of networks, we need to understand
-what triggers variability in ecological interactions. In this contribution,
-we outlined that there are several direct (abundance-based and trait-based)
-and indirect (biotic modifiers, indirect effects of co-occurrence) effects to
-account for. On the surface, we expect that the relative importance of each of these factors, and how precisely
-they affect the probability of establishing an interaction, are likely
-system-specific; nonetheless, we have proposed a unified mathematical approach to
-understand them better.
+Overall, we argue here that the notion of “species interaction networks”
+is an epistemological obstacle shifting our focus away from the level of
+organization at which most of the relevant processes happen --- populations. In
+order to make reliable predictions on the structure of networks, we need
+to understand what triggers variability in ecological interactions. In this
+contribution, we outlined that there are several direct (abundance-based and
+trait-based) and indirect (biotic modifiers, indirect effects of co-occurrence)
+effects to account for. On the surface, we expect that the relative importance
+of each of these factors, and how precisely they affect the probability
+of establishing an interaction, are likely system-specific; nonetheless,
+we have proposed a unified mathematical approach to understand them better.
 
-At the moment, the field of community ecology is severely data-limited if we are to tackle this challenge. Despite the existence
-of several spatially- or temporally-replicated datasets [*e.g.*
-@schleuning_specialization_2011 ; @schleuning_specialization_2012 ;
-@menke_plant-frugivore_2012], it is rare that all relevant information
-has been measured independently. It was recently concluded, however, that even a reasonably
-small subset of data can be enough to draw inferences at larger scales
-[@gravel_inferring_2013]. Paradoxically, as tempting as it may be to sample
-a network in its entirety, the goal of establishing global predictions might
-be better furthered by extremely-detailed characterisation of a more modest number of
-interactions [@rodriguezcabal_pnas_2013]. Assuming that there are indeed statistical invariants in the
-rules governing interactions, this information will allow us to make verifiable predictions on
-the structure of the networks. Better still, this approach has the potential
-to substantially strengthen our understanding of the interplay between
-traits and neutral effects. @bluthgen_what_2008 claim that the impact of
-traits distribution on network structure can be inferred simply by removing
-the impact of neutrality (population densities), based on the idea that many
-rare links were instances of sampling artifacts. As illustrated here (e.g, Box 2),
-their approach is of limited generality, as the abudance of a species itself can
-be directly driven by factors such as trait-environment matching. 
+At the moment, the field of community ecology is severely data-limited if
+we are to tackle this challenge. Despite the existence of several spatially-
+or temporally-replicated datasets [*e.g.* @schleuning_specialization_2011 ;
+@schleuning_specialization_2012 ; @menke_plant-frugivore_2012], it is rare
+that all relevant information has been measured independently. It was recently
+concluded, however, that even a reasonably small subset of data can be enough
+to draw inferences at larger scales [@gravel_inferring_2013]. Paradoxically,
+as tempting as it may be to sample a network in its entirety, the
+goal of establishing global predictions might be better furthered by
+extremely-detailed characterization of a more modest number of interactions
+[@rodriguezcabal_pnas_2013]. Assuming that there are indeed statistical
+invariants in the rules governing interactions, this information will allow us
+to make verifiable predictions on the structure of the networks. Better still,
+this approach has the potential to substantially strengthen our understanding
+of the interplay between traits and neutral effects. @bluthgen_what_2008 claim
+that the impact of traits distribution on network structure can be inferred
+simply by removing the impact of neutrality (population densities), based
+on the idea that many rare links were instances of sampling artifacts. As
+illustrated here (e.g, Box 2), their approach is of limited generality,
+as the abundance of a species itself can be directly driven by factors such
+as trait-environment matching.
 
 With the accumulation of data, these approaches will rapidly expand our ability
 to predict the re-wiring of networks under environmental change. The effect
 of environmental change is expected to occur because (i) population sizes
 will be affected by the change and (ii) either plastic or adaptive responses
-will shoft or disrupt the traits distributions. The framework proposed in
+will shift or disrupt the traits distributions. The framework proposed in
 Box 1 allows to generate new probabilities of interactions under different
 scenarios. Ultimately, being explicit on the trait-abundance-interaction
 feedback will provide a better understanding of short-term and long-term
-dynamics of interaction networks. We illsutrate this in Fig. [fig:synth].
+dynamics of interaction networks. We illustrate this in Fig. [fig:synth].
 
 <!--DBS: It seems to me that we need a punchier concluding paragraph...->
+<!--TP: Agreed -- this was not meant to be the concluding paragraph -->
 
 [tb] ![image](framework) [fig:synth]
-
 
 # Boxes
 
@@ -457,17 +454,17 @@ In this contribution, we propose that at the population level, the occurrence
 relative local abundances and local trait distribution.  It is important to
 tell apart these different factors, so as to better disentangle neutral and
 niche processes. We propose that these different effects can adequately be
-partitionned using the model,
+partitioned using the model,
 
 $$\mathbf{A}_{ij} \propto \left[\mathcal{N}(i,j)\times\mathcal{T}(i,j)\right]+\epsilon \,,$$
 
 wherein $\mathcal{N}$ is a function giving the probability that species $i$
-and $j$ interact *based on their relative abudances*, and $\mathcal{T}$
+and $j$ interact *based on their relative abundances*, and $\mathcal{T}$
 is a function giving the *per encounter* probability that species $i$
 and $j$ interact *based on their trait values*. The term $\epsilon$
 accounts for all higher-order effects, such as indirect interactions,
 local impact of environmental conditions on the interaction, and impact of
-co-occuring species. Both of these functions can take any form needed. In
+co-occurring species. Both of these functions can take any form needed. In
 several papers, $\mathcal{N}(i,j)$ was expressed as $\mathbf{n}_i\times
 \mathbf{n}_j$, where $\mathbf{n}$ is a vector of relative abudances
 [@canard_emergence_2012;@vazquez_species_2007]. The expression of $\mathcal{T}$
@@ -492,7 +489,7 @@ in which the $x$ index denotes sites, and $i_x$ is the population of species
 $i$ at site $x$. In this formulation, the $\epsilon$ term can be made to
 include the spatial variation of interaction between $i$ and $j$ over sites,
 and the covariance between the observed presence of this interaction and the
-occurence of species $i$ and $j$. Most importantly, this model differs in
+occurrence of species $i$ and $j$. Most importantly, this model differs in
 that each site $x$ is characterized by a set of functions ${\mathcal{N}_x,
 \mathcal{T}_x}$, that may not be the same for all sites considered. For
 example, the same predator can prefer different prey items in different
@@ -502,7 +499,7 @@ possible to derive robust approximation for the $\mathcal{T}$ function even
 with incomplete set of data, which gives hopes that this framework can be
 applied even when all species informations are not known at all sites (which,
 for most realistic systems, will be an unrealistic requirement). The strength
-of these models is that they can be used in a variance partitionning approach
+of these models is that they can be used in a variance partitioning approach
 (in which case they measure the multiplicative and additive contributions
 of abundance, traits, and other factors), or within dynamical simulations,
 to generate realistic rewiring of the networks as a function of environmental
