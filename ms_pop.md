@@ -69,9 +69,9 @@ In contrast to the current paradigm, we propose that future research on
 interaction networks be guided by the following principles. First, at the
 regional scale, species interactions exist in a probabilistic state. Second,
 the probability that two species will interact can be determined as a function
-of traits and local abundances.  Third, observations of interactions at local
+of traits and local abundances. Third, observations of interactions at local
 sites are the realization of these regional probabilities. This approach is
-outlined in **Box 1**.  Although this proposal is an intuitive yet radical
+outlined in **Box 1**. Although this proposal is an intuitive yet radical
 change in the way we think about ecological network structure, we demonstrate
 in this paper that it is well supported by empirical and theoretical results
 alike. What's more, our new perspective is well placed to open the door
@@ -206,7 +206,7 @@ the product of an array of behavioral, phenotypic, cultural aspects, that
 can conveniently be referred to as "trait-based process". Two populations
 can interact when their traits values allow it, *e.g.* viruses are able to
 overcome host resistance, predators can capture the preys, trees provide
-enough shading for shorter grasses to grow.  Non-matching traits will
+enough shading for shorter grasses to grow. Non-matching traits will
 effectively prevent the existence of an interaction, as demonstrated by
 @olesen_missing_2011. Under this perspective, the existence of interactions
 can be mapped onto trait values, and interaction networks will consequently
@@ -219,7 +219,7 @@ create variation, and the perspective they open for an evolutionary approach.
 There is considerable evidence that, at the species level, interaction partners
 are selected on the grounds of matching trait values. Random networks built on
 these rules exhibit realistic structural properties [@williams_simple_2000;
-@stouffer_ecology_2005].  Trait values, however, vary from population to
+@stouffer_ecology_2005]. Trait values, however, vary from population to
 population within species, and so it is expected that the local interactions
 will be contingent upon trait distributions (\autoref{f:traits}). The fact
 that the niche of species can appear large if it is the aggregation of narrow
@@ -249,7 +249,7 @@ selection, plasticity), are likely to alter the interaction. Importantly,
 when interaction-driving traits are subject to environmental forcing
 (for example, body size is expected to be lower in warm environments,
 @angilletta_temperature_2004), there can be covariation between environmental
-conditions and the occurrence of interactions.  @woodward_climate_2012
+conditions and the occurrence of interactions. @woodward_climate_2012
 demonstrate that changes in food-web structure happen at the same time as
 changes in body mass in experimental macrocosms. Integrating trait variation
 over spatial or temporal gradients is a central concern at present if we are
@@ -273,7 +273,7 @@ dependent on the variation of population traits values, and (ii) variation
 between any series of networks will depend on the *covariance* between
 species traits. Although its requires considerably larger quantities of data
 to test, this approach should allow us to infer an *a priori* estimate of
-network variation.  Given this next generation of data will also help link
+network variation. Given this next generation of data will also help link
 variation of network structure to variation of environmental conditions.
 @price_macroevolutionary_2003 shows how specific biomechanical responses
 to water input in shrubs can have pleiotropic effects on traits involved
@@ -435,7 +435,7 @@ dynamics of interaction networks. We illustrate this in Fig. [fig:synth].
 
 In this contribution, we propose that at the population level, the occurrence
 (and intensity) of ecological interactions relies on several factors, including
-relative local abundances and local trait distribution.  It is important to
+relative local abundances and local trait distribution. It is important to
 tell apart these different factors, so as to better disentangle neutral and
 niche processes. We propose that these different effects can adequately be
 partitioned using the model,
@@ -478,7 +478,7 @@ that each site $x$ is characterized by a set of functions ${\mathcal{N}_x,
 \mathcal{T}_x}$, that may not be the same for all sites considered. For
 example, the same predator can prefer different prey items in different
 locations, which will require to use a different shape for $\mathcal{T}$
-across  the range of locations. In @gravel_inferring_2013, we show that it is
+across the range of locations. In @gravel_inferring_2013, we show that it is
 possible to derive robust approximation for the $\mathcal{T}$ function even
 with incomplete set of data, which gives hopes that this framework can be
 applied even when all species informations are not known at all sites (which,
