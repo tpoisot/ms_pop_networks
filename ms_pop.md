@@ -425,7 +425,7 @@ feedback will provide a better understanding of short-term and long-term
 dynamics of interaction networks. We illustrate this in Fig. [fig:synth].
 
 <!--DBS: It seems to me that we need a punchier concluding paragraph...->
-<!--TP: Agreed -- I'm still thinking about the concluding paragraph -->
+<!--TP: Agreed -- I'm still thinking about the concluding paragraph, but I'd rather wait for Dom's input on the MS before writing it. -->
 
 [tb] ![image](framework) [fig:synth]
 
