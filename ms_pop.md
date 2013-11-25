@@ -123,130 +123,121 @@ environmental gradients.
 
 # Population dynamics and neutral processes
 
-Over the recent years, the idea of neutrality has left a clear imprint on the analysis of
-ecological network structure, most notably in bipartite networks
-[@bluthgen_measuring_2006]. Re-analysis of several host–parasite
-datasets, for example, showed that changes in local species abundances triggers variation in
-parasite specificity [@vazquez_species_2005]. More broadly, it is possible to 
-predicting the structure of trophic interactions 
-given minimal assumptions about
-the distribution of species abundance [@canard_emergence_2012].
-In this section, we review
-recent studies investigating the consequences of neutral dynamics on the
-structure of interaction networks and show how variations in population size
-can lead directly to interaction turnover.
+Over the recent years, the idea of neutrality has left a clear imprint on the
+analysis of ecological network structure, most notably in bipartite networks
+[@bluthgen_measuring_2006]. Re-analysis of several host–parasite datasets,
+for example, showed that changes in local species abundances triggers variation
+in parasite specificity [@vazquez_species_2005]. More broadly, it is possible
+to predicting the structure of trophic interactions given minimal assumptions
+about the distribution of species abundance [@canard_emergence_2012].
+In this section, we review recent studies investigating the consequences
+of neutral dynamics on the structure of interaction networks and show how
+variations in population size can lead directly to interaction turnover.
 
 ## The basic processes
 
-As noted previously, for an interaction to occur between individuals from two populations, these
-individuals must first meet, then interact. Assuming that two populations
-occupy the same location and are active at the same time of the day, then the
-likelihood of an interaction is roughly proportional to the product of their relative
-abundance [@vazquez_species_2007]. This means that individuals from two large populations are more
-likely to interact than individuals from two small populations, simply because
-they tend to meet more often. This approach can also be extended to
-the prediction of interaction strength
-[@bluthgen_measuring_2006;@vazquez_species_2007], *i.e.* how strong the
-consequences of the interaction will be. The neutral perspective predicts that locally-abundant
-species should have more partners, and locally-rare species should appear
-more specialized. In a purely neutral model (*i.e.* interactions
-happen entirely by chance, although the determinants of abundance can still be non-neutral), the
-identities of species do not matter, and it becomes easy to understand how this
-can lead to a situation where
-the structure of local networks will vary since species vary regionally in abundance. @canard_emergence_2012 proposed
-the term of "neutrally forbidden link" to refer to interactions that are
-phenologically feasible but not realized because of
-the underlying population size distribution. The identity of these neutrally forbidden
-links will vary over time and space, either by stochastic changes in
-population sizes or because population size responds deterministically to
-extrinsic drivers.
-<!--DBS: I found the following a bit repetitive...-->
-A similar phenomenon was observed by
-@poisot_resource_2011. A soil community of bacteria (victims) and
-bacteriophages (enemies) was isolated from its natural environment, and all
-pairwise interactions were measured along a gradient of decreasing resource
-availability. The resulting lower abundance of the bacteria significantly
-decreased the encounter probability of the two species and thereby the
-network structure. This resulted in a strong link turnover, with some
-species being able to interact in the resource-rich environment, but not in
-the resource-poor ones.
+As noted previously, for an interaction to occur between individuals from
+two populations, these individuals must first meet, then interact. Assuming
+that two populations occupy the same location and are active at the same time
+of the day, then the likelihood of an interaction is roughly proportional to
+the product of their relative abundance [@vazquez_species_2007]. This means
+that individuals from two large populations are more likely to interact than
+individuals from two small populations, simply because they tend to meet more
+often. This approach can also be extended to the prediction of interaction
+strength [@bluthgen_measuring_2006;@vazquez_species_2007], *i.e.* how strong
+the consequences of the interaction will be. The neutral perspective predicts
+that locally-abundant species should have more partners, and locally-rare
+species should appear more specialized. In a purely neutral model (*i.e.*
+interactions happen entirely by chance, although the determinants of abundance
+can still be non-neutral), the identities of species do not matter, and
+it becomes easy to understand how this can lead to a situation where the
+structure of local networks will vary since species vary regionally in
+abundance. @canard_emergence_2012 proposed the term of "neutrally forbidden
+link" to refer to interactions that are phenologically feasible but not
+realized because of the underlying population size distribution. The identity
+of these neutrally forbidden links will vary over time and space, either by
+stochastic changes in population sizes or because population size responds
+deterministically to extrinsic drivers.
 
 ## Benefits for network analysis
 
-It is important to understand how local variations in abundance,
-whether neutral or not, cascade to the structure of interaction
-networks. One approach is to use simple statistical models to quantify the effect of
+It is important to understand how local variations in abundance, whether
+neutral or not, cascade to the structure of interaction networks. One
+approach is to use simple statistical models to quantify the effect of
 population sizes on local interaction occurrence or strength [see *e.g.*
-@krishna_neutral-niche_2008]. These models can be further
-extrapolated to remove the contribution of neutrality to link strength,
-allowing us to work directly on the interactions as they are determined
-by traits (Box 1). Doing so allows us to compare the variation of neutral and non-neutral
-components of network structure over space and time. To achieve this goal, however, it is essential
-the future sampling of interaction networks (i) are replicated and (ii)
-include independent measurements of population sizes.
+@krishna_neutral-niche_2008]. These models can be further extrapolated to
+remove the contribution of neutrality to link strength, allowing us to
+work directly on the interactions as they are determined by traits (Box
+1). Doing so allows us to compare the variation of neutral and non-neutral
+components of network structure over space and time. To achieve this goal,
+however, it is essential the future sampling of interaction networks (i)
+are replicated and (ii) include independent measurements of population sizes.
 
-An additional benefit is that
-these data will also help refine neutral theory. @wootton_field_2005 made the
-point that deviations of empirical communities from neutral predictions were
-most often explained by species trophic interactions, which are notoriously, albeit intentionally,
-absent from the original formulation of the theory [@hubbell]. Merging the two views
+An additional benefit is that these data will also help refine neutral
+theory. @wootton_field_2005 made the point that deviations of empirical
+communities from neutral predictions were most often explained by species
+trophic interactions, which are notoriously, albeit intentionally, absent
+from the original formulation of the theory [@hubbell]. Merging the two views
 will increase our explanatory power, and provide new ways to test neutral
 theory in interactive communities. It will also offer a new opportunity,
 namely to complete the integration of network structure with population
 dynamics. To date, most studies focused on the consequence of one species
 having a particular position within a food web on the dynamics of its biomass
-or abundance [@brose_allometric_2006; @berlow_simple_2009; @stouffer_pnas_2011; @saavedra_nature_2011]. Adopting this
-neutral perspective allows to bring things full circle since the abundance of a species
-will also dictate its position in the network: changes in abundance can lead
-to interactions being gained or lost, and these changes in abundance are in part
-caused by existing interactions (Box 2). For this reason, there is a potential to
-link species and interaction dynamics and, more importantly, to do so in a
-way which accounts for the interplay between the two. From a practical point of view,
-this requires repeated sampling of a system through time, so that changes
-in relative abundances can be related to changes in interaction strength
-[@yeakel_probabilistic_2012]. Importantly, embracing the neutral view will force us to
-reconsider the causal relationship between resource dynamics and interaction
-strength; in a neutral context, both are necessarily interdependent, a fact which likely
-further increases the complexity of the feedbacks between them.
+or abundance [@brose_allometric_2006; @berlow_simple_2009; @stouffer_pnas_2011;
+@saavedra_nature_2011]. Adopting this neutral perspective allows to bring
+things full circle since the abundance of a species will also dictate its
+position in the network: changes in abundance can lead to interactions
+being gained or lost, and these changes in abundance are in part caused by
+existing interactions (Box 2). For this reason, there is a potential to link
+species and interaction dynamics and, more importantly, to do so in a way
+which accounts for the interplay between the two. From a practical point
+of view, this requires repeated sampling of a system through time, so that
+changes in relative abundances can be related to changes in interaction
+strength [@yeakel_probabilistic_2012]. Importantly, embracing the neutral
+view will force us to reconsider the causal relationship between resource
+dynamics and interaction strength; in a neutral context, both are necessarily
+interdependent, a fact which likely further increases the complexity of the
+feedbacks between them.
 
 # Traits matching in space and time
 
-Once individuals meet, whether they will interact is widely thought to be the product of an array of
-behavioral, phenotypic, cultural aspects, that can conveniently be referred to
-as "trait-based process". Two populations can interact when their traits values
-allow it, *e.g.* viruses are able to overcome host resistance, predators can
-capture the preys, trees provide enough shading for shorter grasses to grow.
-Non-matching traits will effectively prevent the existence of an interaction,
-as demonstrated by @olesen_missing_2011. Under this perspective, the existence
-of interactions can be mapped onto trait values, and interaction
-networks will consequently  vary along with variation in local trait distribution. In this
-section, we review how trait-based processes impact network structure, how they can
+Once individuals meet, whether they will interact is widely thought to be
+the product of an array of behavioral, phenotypic, cultural aspects, that
+can conveniently be referred to as "trait-based process". Two populations
+can interact when their traits values allow it, *e.g.* viruses are able to
+overcome host resistance, predators can capture the preys, trees provide
+enough shading for shorter grasses to grow.  Non-matching traits will
+effectively prevent the existence of an interaction, as demonstrated by
+@olesen_missing_2011. Under this perspective, the existence of interactions
+can be mapped onto trait values, and interaction networks will consequently
+vary along with variation in local trait distribution. In this section,
+we review how trait-based processes impact network structure, how they can
 create variation, and the perspective they open for an evolutionary approach.
 
 ## The basic processes
 
-There is considerable evidence that, at the species level, interaction partners are
-selected on the grounds of matching trait values. Random networks built on
-these rules exhibit realistic structural properties [@williams_simple_2000; @stouffer_ecology_2005].
-Trait values, however, vary from population to population within species, and so
-it is expected that the local interactions will be contingent upon trait
-distributions (\autoref{f:traits}). The fact that the niche of species can
-appear large if it is the aggregation of narrow but differentiated individual
-or population niches is now well established
-[@devictor_defining_2010;@bolnick_ecology_2003], and it has also reinforced the need to
-understand intra-specific trait variation to describe the structure and
-dynamics of communities [@bolnick_why_2011]. Nevertheless, this notion has yet to
-percolate into the literature on network structure, despite its most profound
-consequence: a species appearing generalist at the regional scale can easily be
-specialized in *each* of the patches it occupies.
+There is considerable evidence that, at the species level, interaction partners
+are selected on the grounds of matching trait values. Random networks built on
+these rules exhibit realistic structural properties [@williams_simple_2000;
+@stouffer_ecology_2005].  Trait values, however, vary from population to
+population within species, and so it is expected that the local interactions
+will be contingent upon trait distributions (\autoref{f:traits}). The fact
+that the niche of species can appear large if it is the aggregation of narrow
+but differentiated individual or population niches is now well established
+[@devictor_defining_2010;@bolnick_ecology_2003], and it has also reinforced
+the need to understand intra-specific trait variation to describe the
+structure and dynamics of communities [@bolnick_why_2011]. Nevertheless,
+this notion has yet to percolate into the literature on network structure,
+despite its most profound consequence: a species appearing generalist at the
+regional scale can easily be specialized in *each* of the patches it occupies.
 
-Empirically, there are several examples of
-intraspecific trait variation resulting in extreme interaction turnover.
-A particularly spectacular example is identified by @ohba_field_2011 who describes how : a giant
-waterbug is able to get hold of, and eventually consume, juveniles from
-a turtle species. @choh_predator-prey_2012 demonstrated through behavioral
-assays that preys which evaded predation when young were more likely to
-predate juvenile predators than the "naive" individuals; their past interactions
+Empirically, there are several examples of intraspecific trait variation
+resulting in extreme interaction turnover. A particularly spectacular example
+is identified by @ohba_field_2011 who describes how: a giant waterbug
+is able to get hold of, and eventually consume, juveniles from a turtle
+species. @choh_predator-prey_2012 demonstrated through behavioral assays
+that preys which evaded predation when young were more likely to predate
+juvenile predators than the "naive" individuals; their past interactions
 shaped behavioral traits that alter the network structure over time. These
 examples show that trait-based effects on networks can be observed even in the
 absence of genotypic variation (although we discuss this in the next section).
@@ -292,19 +283,19 @@ of an interaction, and (ii) environmental features determine trait values.
 We have little doubt that future empirical studies will provide additional
 mechanistic narratives.
 
-At a larger temporal scales, current distribution of
-traits also reflects past evolutionary history
-[@diniz-filho_macroecology_2008]. Recognizing this important fact offers us an opportunity to approach the
-evolutionary dynamics and variation of networks. Correlations between traits of
+At a larger temporal scales, current distribution of traits also reflects
+past evolutionary history [@diniz-filho_macroecology_2008]. Recognizing
+this important fact offers us an opportunity to approach the evolutionary
+dynamics and variation of networks. Correlations between traits of
 different species, and between traits and fitness, drive coevolutionary
-dynamics [@gomulkiewicz_hot_2000;@nuismer_coevolution_2003]. Both of these vary
-over space and time [@thompson_geographic_2005], creating patchiness in
-the processes and outcomes of coevolution. Trait structure and
-traits correlations are also disrupted by migration
-[@gandon_host-parasite_2008;@burdon_coevolution_2009]. Ultimately, developing an
-understanding of how ecological and evolutionary trait dynamics affect network
-structure will provide a mechanistic basis to our interpretation of the
-historical signal found in contemporary network structures
+dynamics [@gomulkiewicz_hot_2000;@nuismer_coevolution_2003]. Both of
+these vary over space and time [@thompson_geographic_2005], creating
+patchiness in the processes and outcomes of coevolution. Trait
+structure and traits correlations are also disrupted by migration
+[@gandon_host-parasite_2008;@burdon_coevolution_2009]. Ultimately, developing
+an understanding of how ecological and evolutionary trait dynamics affect
+network structure will provide a mechanistic basis to our interpretation
+of the historical signal found in contemporary network structures
 [@eklof_relevance_2011; @baskerville_spatial_2011; @stouffer_science_2012].
 
 # Beyond direct interactions
@@ -358,22 +349,15 @@ their effects on network $\beta$-diversity, indirect effects are thus
 likely to act on components of dissimilarity. A common feature of the
 examples mentioned here is that pinpointing the exact mechanism through
 which species interactions interfere often requires a good working knowledge
-of the system's natural history.  <!--DBS: I feel like the rest of this
-paragraph is an outlier.--> In their current state, ecological networks most
-often account for a single type of interactions [although new datasets are
-starting to emerge, *e.g.* @mouritsen_food_2011 and @zander_food_2011]. Our
-ability to understand these complex phenomenon will be contingent on our
-ability to (i) integrate different types of interactions in ecological
-networks [@goudard_nontrophic_2008;@kefi_more_2012], and (ii) to provide
-rich meta-data regarding the identity of each node in the network.
+of the system's natural history.
 
 ## Benefits for network analysis
 
-Accounting for the relationships between biotic interactions can be
-a powerful explanation for species co-occurrence. Recent experimental
-work by @sanders_indirect_2012 showed that some predator species can only
-be maintained if another predator species is present, since the latter regulates a
-competitively superior prey and allows for prey coexistence. These effects
+Accounting for the relationships between biotic interactions can be a
+powerful explanation for species co-occurrence. Recent experimental work
+by @sanders_indirect_2012 showed that some predator species can only be
+maintained if another predator species is present, since the latter regulates
+a competitively superior prey and allows for prey coexistence. These effects
 involving several species and several types of interactions across trophic
 levels are complex [and for this reason, have been deemed unpredictable in the
 past, @tack_can_2011], and can only be understood by comparing communities in
@@ -383,16 +367,16 @@ species $i$ and $j$ ($\text{P}(\mathbf{L}_{ij})$) is ultimately constrained
 by the probability of simultaneously observing $i$ and $j$ together, *i.e.*
 $\text{P}(i \cap j)$. Thus, the existence of any ecological interaction will
 be contingent upon *other* ecological interactions driving local co-occurrence
-[@araujo_using_2001]. Based on this arguments, ecological networks cannot be
+[@araujo_using_2011]. Based on this arguments, ecological networks cannot be
 a collection of pairwise interactions. Our view of them needs be updated to
-account for the importance of the context surrounding these interactions (Box 2). From
-a biogeographic standpoint, it requires us to develop a theory based on
-interaction co-occurrence in addition to the current knowledge encompassing
+account for the importance of the context surrounding these interactions (Box
+2). From a biogeographic standpoint, it requires us to develop a theory based
+on interaction co-occurrence in addition to the current knowledge encompassing
 only species co-occurrence. @araujo_using_2011 and @allesina_competitive_2011
-introduced the idea that competitive interactions can leave a trace in species
-co-occurrence network. A direct consequence of this result is that, for
-example, trophic interactions are constrained by species competition outcome
-*before* they are even constrained by predation-related traits. 
+introduced the idea that competitive interactions can leave a trace in
+species co-occurrence network. A direct consequence of this result is that,
+for example, trophic interactions are constrained by species competition
+outcome *before* they are even constrained by predation-related traits.
 
 # Conclusions
 
@@ -426,9 +410,9 @@ of the interplay between traits and neutral effects. @bluthgen_what_2008 claim
 that the impact of traits distribution on network structure can be inferred
 simply by removing the impact of neutrality (population densities), based
 on the idea that many rare links were instances of sampling artifacts. As
-illustrated here (e.g, Box 2), their approach is of limited generality,
-as the abundance of a species itself can be directly driven by factors such
-as trait-environment matching.
+illustrated here (e.g, Box 2), their approach is of limited generality, as
+the abundance of a species itself can be directly driven by factors such as
+trait-environment matching.
 
 With the accumulation of data, these approaches will rapidly expand our ability
 to predict the re-wiring of networks under environmental change. The effect
@@ -441,7 +425,7 @@ feedback will provide a better understanding of short-term and long-term
 dynamics of interaction networks. We illustrate this in Fig. [fig:synth].
 
 <!--DBS: It seems to me that we need a punchier concluding paragraph...->
-<!--TP: Agreed -- this was not meant to be the concluding paragraph -->
+<!--TP: Agreed -- I'm still thinking about the concluding paragraph -->
 
 [tb] ![image](framework) [fig:synth]
 
