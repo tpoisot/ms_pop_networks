@@ -69,6 +69,41 @@
 
       \draw (14, 7.5) node{\textbf{Network 1}};
 
+      % BOX 2 species
+      \draw (5.3, 3.8) node[pop](s2sa){A};
+      \draw (5.3, 2.8) node[pop](s2sb){B};
+      \draw (6.3, 1.8) node[pop](s2sd){D};
+      \draw (5.3, 0.8) node[pop](s2se){E};
+
+      \path[link] (s2sa) edge (s2sb) edge (s2sd);
+      \path[link] (s2sb) edge (s2sd) edge (s2se);
+      \path[link] (s2sd) edge (s2se);
+
+      % BOX 2 network
+      \draw (9.7, 3.8) node[pop](s2la){A};
+      \draw (9.7, 2.8) node[pop](s2lb){B};
+      \draw (10.7, 1.8) node[pop](s2ld){D};
+      \draw (9.7, 0.8) node[pop](s2le){E};
+
+      \path[link, dotted] (s2la) edge (s2lb);
+      \path[link] (s2la) edge (s2ld);
+      \path[link, dotted, draw = red!40!green, fill = red!40!green] (s2lb) edge (s2le);
+      \path[link] (s2lb) edge (s2ld);
+      \path[link] (s2ld) edge (s2le);
+      \draw (9, 1.8) node[text = red!40!green](pab){$\mathrm{P}(\mathbf{L}_{BE})$};
+
+      % SITE 2 network
+      \draw (14.5, 0.8) node[pop](s2e){E};
+      \draw (14.5, 2.0) node[pop](s2d){D};
+      \draw (13.5, 3.2) node[pop](s2a){A};
+      \draw (15.5, 3.2) node[pop](s2b){B};
+
+      \path[link] (s2a) edge (s2d);
+      \path[link] (s2b) edge (s2d);
+      \path[link] (s2d) edge (s2e);
+
+      \draw (14, 3.8) node{\textbf{Network 2}};
+
    \end{tikzpicture}
 \end{preview}
 \end{document}
