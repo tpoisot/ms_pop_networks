@@ -6,12 +6,17 @@
       {
          "first.name":"Timothée",
          "last.name":"Poisot",
-         "email":"timothee_poisot@uqar.ca",
+         "email":"t.poisot@gmail.com",
          "ORCID":"0000-0002-0735-5184"
       },
       {
          "first.name":"Dominique",
          "last.name":"Gravel"
+      },
+      {
+         "first.name": "Daniel",
+         "initials": "B",
+         "last.name": "Stouffer"
       }
    ]
 }
