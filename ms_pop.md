@@ -471,9 +471,11 @@ will shift or disrupt the traits distributions. The framework proposed in Box
 1 predicts interaction probabilities under different scenarios. Ultimately,
 being explicit on the trait-abundance-interaction feedback will provide a
 better understanding of short-term and long-term dynamics of interaction
-networks. We illustrate this in Fig. [fig:synth].
+networks. We illustrate this in Fig. [f:synth].
 
-[tb] ![image](framework) [fig:synth]
+
+[f:synth]: figures/fig_synth.pdf "Synthesis"
+![TODO \label{f:synth}.][f:synth]
 
 <!--DBS: It seems to me that we need a punchier concluding paragraph...->
 <!--TP: Agreed -- I'm still thinking about the concluding paragraph, but I'd rather wait for Dom's input on the MS before writing it. -->

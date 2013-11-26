@@ -1,0 +1,70 @@
+\documentclass{article}
+\usepackage{tikz}
+\usepackage[sc]{mathpazo}
+\usetikzlibrary{shapes,arrows}
+\usepackage[pdftex,active,tightpage]{preview}
+
+\begin{document}
+\begin{preview}
+   \begin{tikzpicture}[>=triangle 60]
+	\tikzstyle{LB} = [rectangle, text=white,
+			thick,
+			inner sep = 0pt,
+			minimum width = 4.6cm,
+			minimum height = 1.2cm,
+			fill = black!10,
+			draw = none,
+			rounded corners=0.1cm]
+	\tikzstyle{MB} = [rectangle, text=white,
+			thick,
+			inner sep = 0pt,
+			minimum width = 2.5cm,
+			minimum height = 1cm,
+			fill = black!50,
+			draw = none,
+			rounded corners=0.1cm]
+	\tikzstyle{cont} = [rectangle, text=white,
+			inner sep = 0pt,
+			minimum width = 2cm,
+			minimum height = 1cm,
+			fill = black!80,
+			draw = none,
+			rounded corners=0.1cm]
+	%%%% LARGE BOXES
+	\node [LB] (s1) at (0, 0) {};
+	\node [LB] (s2) at (0, 2.5) {};
+	\node [MB] (int) at (4, 1.25) {\bfseries Interaction};
+	%%%% SMALL NODES
+	\node [circle,
+			text centered,
+			inner sep = 0pt,
+			text width = 0.4cm,
+			fill = black, draw = white, text=white] (niche) at (-0.8, 1.25) {\textbf{1}};
+	\node [circle,
+			text centered,
+			inner sep = 0pt,
+			text width = 0.4cm,
+			fill = black, draw = white, text=white] (neut) at (1.6, 1.25) {\textbf{2}};
+   %%% TRAITS AND POP SIZE
+      \node [cont] (t1) at (-1.2, 0) {Trait};
+      \node [cont] (t2) at (-1.2, 2.5) {Trait};
+      \draw [->, thick] (t1) to (niche);
+      \draw [->, thick] (t2) to (niche);
+
+      \node [cont] (p1) at (1.2, 0) {Pop.};
+      \node [cont] (p2) at (1.2, 2.5) {Pop.};
+   	\draw [->, thick] (p1) to (neut);
+      \draw [->, thick] (p2) to (neut);
+
+	%%%% ARROWS IN THE DIAGRAM
+   	\draw [->, thick] (niche) to (neut);
+   	\draw [->, thick] (neut) to (int);
+	%%%% FEEDBACKS
+      \draw [->, dashed, thick, out=45, in=135] (t2.north) to (p2.north);
+      \draw [->, dotted, very thick, out=-90,in=-90] (int.south) -- ++(0,-2) -|  (t1.south);
+      \draw [->, dotted, very thick, out=90,in=90] (int.north) |-  (p2.east);
+\end{tikzpicture}
+
+\end{preview}
+\end{document}
+
