@@ -31,9 +31,6 @@ focused on food webs [@ings_ecological_2009], it has proved particularly
 successful because it can be applied equally to all types of ecological
 interactions [@kefi_more_2012].
 
-%DG: I STILL THINK IT MISSES A HOOK TO BIOGEOGRAPHERS SOMEWHERE IN THE FIRST TWO PARAGRAPHS
-<!-- TP: Agreed, I tried to give another twist to the following pp, and to add a new one by the end of the intro -->
-
 This body of literature generally assumes that, short of changes in local
 densities due to ecological dynamics, networks are inherently *static*
 objects, which calls into question its relevance at biogeographic scales. More
@@ -42,10 +39,10 @@ assumed that they will interact whenever and wherever they co-occur [see
 *e.g.* @havens_scale_1992]; this neglects the fact that local environmental
 conditions, species states, and community composition, can intervene in the
 realization of interactions. More recently, however, it has been established
-that networks are *dynamic* objects that have structured variation in
-$\alpha$, $\beta$, and $\gamma$ diversity, not only to the change of
-species composition at different locations but also to the fact that the
-same species will interact in different ways over time or across space
+that networks are *dynamic* objects that have structured variation in $\alpha$,
+$\beta$, and $\gamma$ diversity, not only to the change of species composition
+at different locations but also to the fact that the same species will
+interact in different ways over time or across their area of co-occurrence
 [@poisot_dissimilarity_2012]. Of these sources of variation in networks,
 the change of species composition has been addressed either explicitly
 in the context of networks [@gravel_trophic_2011;@dattilo_spatial_2013],
@@ -75,7 +72,7 @@ interaction networks be guided by the following principles. First, at the
 regional scale, species interactions are best represented as a stochastic
 event. Second, the probability that two species will interact can be determined
 as a function of traits and local abundances. Third, the local observations
-of interactions can be viewed as the realisation of a stochastic proccess,
+of interactions can be viewed as the realization of a stochastic process,
 of which it is possible to measure or infer the probability that it happens
 at the regional level. This approach is outlined in **Box 1**. Although
 this proposal is an intuitive yet radical change in the way we think about
@@ -87,20 +84,23 @@ integrating a range of key ecological mechanisms. Notably, we propose in
 for which predictive approaches have long been proved elusive [@tack_can_2011].
 
 In a time where the next generation of predictive biogeographic models
-will need to account for species interactions [@thuiller_xxxx_2013], it
-is crucial not to underestimate the fact that these interactions are only
-poorly modeled as constant, but are ecological objects with a geographic
-variability of their own. Models of species distributions will increase
-their predictive potential if they account for the variability of ecological
-interactions. In turn, thighter coupling between species distributions
-and interactions distributions models will allow accurate predictions of
-the properties of emerging ecosystems [@gilman_..., @eastes_...], and the
-spatial variability of properties between existing ecosystems. By paying
-more attention to the variability of species interactions, the field of
-biogeography will be able to re-visit classical observations typically
-explained by species-level mechanisms: how does community complexity and
-functioning vary with latitudinal gradients, is there information hidden in
-the co-occurence or avoidance of species interactions, etc.
+will need to account for species interactions [@thuiller_road_2013], it is
+crucial not to underestimate the fact that these interactions are only poorly
+modeled as constant, but are ecological objects with a geographic variability
+of their own. Indeed, investigating the impact of species interactions on
+species distribution only makes sense under the implicit assumption that
+species interactions themselves vary over biogeographical scales. Models
+of species distributions will increase their predictive potential if they
+account for the variability of ecological interactions. In turn, tighter
+coupling between species distributions and interactions distributions models
+will allow accurate predictions of the properties of emerging ecosystems
+[@gilman_..., @eastes_...], and the spatial variability of properties
+between existing ecosystems. By paying more attention to the variability
+of species interactions, the field of biogeography will be able to re-visit
+classical observations typically explained by species-level mechanisms: how
+does community complexity and functioning vary with latitudinal gradients,
+is there information hidden in the co-occurrence or avoidance of species
+interactions, etc.
 
 In this paper, we outline the mechanisms that are involved in the variability
 of species interactions over time, space, and environmental gradients. We
@@ -275,7 +275,7 @@ was identified by @ohba_field_2011 who describes how a giant waterbug
 is able to get hold of, and eventually consume, juveniles from a turtle
 species. This interaction can only happen when the turtle is small enough
 for the morphotraits of the bug to allow to consume it, and as such will vary
-trhoughout the developmental cycle of both species. @choh_predator-prey_2012
+throughout the developmental cycle of both species. @choh_predator-prey_2012
 demonstrated through behavioral assays that preys which evaded predation
 when young were more likely to predate juvenile predators than the "naive"
 individuals; their past interactions shaped behavioral traits that alter the
@@ -346,7 +346,7 @@ compelling tool with which to address indirect effects on the existence and
 strength of interactions. Any direct interaction arises from the "physical"
 interaction of only two species, and as we have already detailed, these can
 be modified by local relative abundances and/or species traits.  Indirect
-interactions, on the other hand, are established through the involvment
+interactions, on the other hand, are established through the involvement
 of another party that the two focal species, either through cascading
 effect (herbivorous species compete with insect laying eggs on plants) or
 through physical mediation of the environment (bacterial exudates increase
@@ -394,14 +394,12 @@ common feature of the examples mentioned here is that pinpointing the exact
 mechanism through which species interactions interfere often requires a good
 working knowledge of the system's natural history.
 
-% DG: PERHAPS IN THE NEXT SECTION, YOU SHOULD EMPHASIZE THIS IDEA IS JUST GETTING THROUGH IN THE NETWORK LITERATURE. I'VE SAW IT AT THE FOOD WEB CONFERENCE, PEOPLE DON'T KNOW YET HOW TO INTEGRATE THEM IN A NETWORK APPROACH. WHAT WE WOULD NEED BASICALLY IS A 3D NETWORK, WHERE EACH INTERACTION IS CONTINGENT ON THE OCCURRENCE OF AN INTERACTION WITH A THIRD SPECIES. BUT THE NETWORK LITERATURE IS NOT READY FOR THAT, YET. I DON'T EVEN THINK THAT THE MORE GENERAL GRAPH THEORY IS READY FOR IT.
-
 ## Benefits for network analysis
 
-DG: FIRST SENTENCE IS NOT CLEAR, REWORD
-Accounting for the relationships between biotic interactions can be a
-powerful explanation for species co-occurrence. Recent experimental work
-by @sanders_indirect_2012 showed that some predator species can only be
+Better understanding why and where species interact will provide a mechanistic
+understanding of observed species co-occurrences. However, the presence
+of species is regulated also by indirect interactions. Recent experimental
+work by @sanders_indirect_2012 showed that some predator species can only be
 maintained if another predator species is present, since the latter regulates
 a competitively superior prey and allows for prey coexistence. These effects
 involving several species and several types of interactions across trophic
@@ -413,16 +411,22 @@ species $i$ and $j$ ($\text{P}(\mathbf{L}_{ij})$) is ultimately constrained
 by the probability of simultaneously observing $i$ and $j$ together, *i.e.*
 $\text{P}(i \cap j)$. Thus, the existence of any ecological interaction will
 be contingent upon *other* ecological interactions driving local co-occurrence
-[@araujo_using_2011]. Based on this argument, ecological networks cannot be LIMITED TO
-a collection of pairwise interactions. Our view of them needs be updated to
-account for the importance of the context surrounding these interactions (Box
-2). From a biogeographic standpoint, it requires us to develop a theory based
-on interaction co-occurrence in addition to the current knowledge encompassing
-only species co-occurrence. @araujo_using_2011 and @allesina_competitive_2011
-introduced the idea that competitive interactions can leave a trace in
-species co-occurrence network. A direct consequence of this result is that,
-for example, trophic interactions are constrained by species competition
-outcome *before* they are even constrained by predation-related traits.
+[@araujo_using_2011]. Based on this argument, ecological networks cannot be
+LIMITED TO a collection of pairwise interactions. Our view of them needs
+be updated to account for the importance of the context surrounding these
+interactions (Box 2). From a biogeographic standpoint, it requires us to
+develop a theory based on interaction co-occurrence in addition to the current
+knowledge encompassing only species co-occurrence. @araujo_using_2011 and
+@allesina_competitive_2011 introduced the idea that competitive interactions
+can leave a trace in species co-occurrence network. A direct consequence
+of this result is that, for example, trophic interactions are constrained
+by species competition outcome *before* they are even constrained by
+predation-related traits. So as to fully understand interactions and their
+indirect effects, however, there is a need to develop new conceptual tools
+to *represent* effects that interactions have on one another. In a graph
+theoretical perspective, this would amount to establishing edges between
+pairs of edges, a task for which there is no conceptual or methodological
+background yet.
 
 # Conclusions
 
@@ -437,9 +441,6 @@ for. We expect that the relative importance of each of these factors, and
 how precisely they affect the probability of establishing an interaction,
 are likely system-specific; nonetheless, we have proposed a unified conceptual
 approach to understand them better.
-
-%DG: I WOULD NOT SAY 'MATHEMATICAL' BECAUSE WE DON'T GO QUITE FAR IN THAT DIRECTION, I WOULD REMAIN HUMBLE AND STICK TO 'CONCEPTUAL' INSTEAD
-%TP: Humble? Mathematics are applied concepts!
 
 At the moment, the field of community ecology is severely data-limited to
 tackle this perspective. Despite the existence of several spatially- or
@@ -464,23 +465,43 @@ the abundance of a species itself can be directly driven by factors such as
 trait-environment matching.
 
 With the accumulation of data, these approaches will rapidly expand our ability
-to predict the re-wiring of networks under environmental change. The effect
-of environmental change is expected to occur because (i) population sizes
-will be affected by the change and (ii) either plastic or adaptive responses
-will shift or disrupt the traits distributions. The framework proposed in Box
-1 predicts interaction probabilities under different scenarios. Ultimately,
-being explicit on the trait-abundance-interaction feedback will provide a
-better understanding of short-term and long-term dynamics of interaction
-networks. We illustrate this in Fig. [f:synth].
-
+to predict the re-wiring of networks under environmental change. The effect of
+environmental change is expected to occur because (i) population sizes will be
+affected by the change and (ii) either plastic or adaptive responses will shift
+or disrupt the traits distributions. The framework proposed in Box 1 predicts
+interaction probabilities under different scenarios. Ultimately, being explicit
+on the trait-abundance-interaction feedback will provide a better understanding
+of short-term and long-term dynamics of interaction networks. We illustrate
+this in Fig. [f:synth]. The notion that population sizes have direct effect on
+the existence of an interaction stands opposed to classical consumer-resource
+theory, which is one of the bases of network analysis.  Considering this an
+opposition is however erroneous. Consumer-resource theory consider a strong
+effect of abundance on the intensity of interactions (**Box 2**), being in
+itself a source of (quantitative) variation. Even these models are entirely
+determined by variations in population sizes, in the limit case wherein the
+coefficient of interactions are similar. As such, any approach seeking to
+understand the variation of interactions over space ought to consider that
+local densities are not only a consequence, but also a predictor, of the
+probability of observing an interaction. The same reasoning can be held for
+local trait distributions, although over micro-evolutionary time-scales. While
+traits values determine whether two species are able to interact, they
+will be modified by the selective effect of species interacting. And so
+conceptualizing interactions, not as a constant, but as the outcome of a
+probabilistic proccess regulated by local factors, offers the unprecedented
+opportunity to investigate feedbacks between different time scales.
 
 [f:synth]: figures/fig_synth.pdf "Synthesis"
 ![TODO \label{f:synth}.][f:synth]
 
-<!--DBS: It seems to me that we need a punchier concluding paragraph...->
-<!--TP: Agreed -- I'm still thinking about the concluding paragraph, but I'd rather wait for Dom's input on the MS before writing it. -->
-%DG: I HATE THE SYNTAX FOR COMMENTS ON .md. Fuck it!
-%DG: MY TWO CENTS ON THE END: WE NEED TO CLOSE THE LOOP AND GET BACK TO BIOGEOGRAPHERS. WHAT IT PROMISES FOR THEM TO THINK ABOUT THE VARIATION OF NETWORS. AS I SAID ABOVE, IT JUST OPENS AN ALL NEW FIELD, WHERE, AFTER LOOKING FOR YEARS AT TAXONOMIC, FUNCTIONAL AND PHYLOGENETIC DIVERSITY, IT IS TIME TO LOOK AT INTERACTION DIVERSITY. WHAT'S STIMULATING ABOUT THIS PERSPECTIVE IS THE POTENTIAL TO UNIFY THESE DIMENSIONS OF DIVERSITY TOGETHER: THEY ARE ALL LIKELY TO HAVE AN IMPACT ON THE BETA DIVERSITY OF ECOLOGICAL NETWORKS.
+Over the past decade, much insights were gained in looking at the turnover of
+different facets (taxonomic, functional, and phylogenetic) of biodiversity
+through space [@maynard, @devictor]. Here, we propose that there is an
+oft-neglected side of biodiversity: species interactions. The perspective
+we bring forth allows unifying these dimensions, and offers the opportunity
+to describe the biogeographic structure of all components of community and
+ecosystem structure at once.
+
+<!--TP Dom, I started writing up the points in your comment, but feel free to conclude. -->
 
 # Boxes
 
