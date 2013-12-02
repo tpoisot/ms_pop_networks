@@ -1,18 +1,18 @@
-% Beyond species: understanding the spatial dynamics of ecological networks
+% Beyond species: why ecological interactions vary through space and time
 % T. Poisot, D.B. Stouffer & D. Gravel
 % Working paper
 
-> Community ecology is tasked with the considerable challenge of predicting
-the structure, and properties, of emerging ecosystems. It
-requires the ability to understand how and why species interact, as this
-will allow the development of mechanism-based predictive models, and as
-such to better characterize how ecological mechanisms act locally on the
-existence of inter-specific interactions. Here we argue that the current
-conceptualization of species interaction networks is ill-suited for this
-task. Instead, we propose that future research must start to account for the
-intrinsic variability of interaction networks. 
-<!--DBS: I think there is a link missing between "intrinsic variability" and "population-based processes"-->
-By shifting the scale towards
+> Community ecology is tasked with the considerable challenge of predicting the
+structure, and properties, of emerging ecosystems. It requires the ability to
+understand how and why species interact, as this will allow the development
+of mechanism-based predictive models, and as such to better characterize
+how ecological mechanisms act locally on the existence of inter-specific
+interactions. Here we argue that the current conceptualization of species
+interaction networks is ill-suited for this task. Instead, we propose that
+future research must start to account for the intrinsic variability of
+interaction networks. This can be accompslihed simply by recognizing that
+there exists intra-specific variability, in traits or properties related
+to the establishment of species interactions. By shifting the scale towards
 population-based processes, we show that this new approach will improve our
 predictive ability and mechanistic understanding of how species interact
 over biogeographical scales.
@@ -429,7 +429,6 @@ to *represent* effects that interactions have on one another. In a graph
 theoretical perspective, this would amount to establishing edges between
 pairs of edges, a task for which there is no conceptual or methodological
 background yet.
-<!--DBS: Something tells me there *is* a good reference by Newman for edges linking to edges, but I'll have to search for it (and only if we really want it)-->
 
 # Conclusions
 
@@ -570,9 +569,7 @@ the variability of interactions.
 
 \newpage
 
-<!--DBS: I think this box needs a more accurate (and less grandiose) name, but I'm drawing a blank
-         it also likely needs at least some more citations than are already present-->
-**Box 2: Why population-level (or individual-level) interactions are critically important**
+**Box 2: Population-level interactions in the classical modelling framework**
 
 As noted in the main text, most studies of ecological networks---particularly
 food webs---regard the adjacency matrix $\mathbf{A}$ as a fixed entity
@@ -612,8 +609,8 @@ the one with the least straightforward expectations, but it may also prove
 to be the most important if we wish to accurately describe all of these
 indirect effects.
 
-A similar problem actually arises in the typical statistical framework for
-predicting interaction occurrence. Often, one attempts to ``decompose''
+A similar problem actually arises in the typical statistical framework
+for predicting interaction occurrence. Often, one attempts to "decompose"
 interactions into the component that is explained by species' abundances and
 the component explained by species' traits (e.g., Box 1). Just like how the
 underlying functions $\mathcal{N}$ and $\mathcal{T}$ could vary across sites,
@@ -624,12 +621,6 @@ of species-species interactions in explaining extant biodiversity and their
 underlying traits [@janzen_neotropical_1982; @herrera_interaction_pnas_2002],
 a framework which assumes relative independence of these different phenomenon
 is likely starting from an overly-simplified perspective.
-<!--DBS: This last bit can probably be axed since I think we say it sufficiently in the main text.-->
-Importantly, we will have *no* hope in successfully piecing
-apart the effects of each of these drivers, or robustly assessing the degree
-to which they are interrelated, without adopting a broader perspective on
-ecological- network data that is fully replicated at the site, population,
-or individual level.
 
 \newpage
 
