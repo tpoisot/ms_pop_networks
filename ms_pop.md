@@ -10,7 +10,7 @@ how ecological mechanisms act locally on the existence of inter-specific
 interactions. Here we argue that the current conceptualization of species
 interaction networks is ill-suited for this task. Instead, we propose that
 future research must start to account for the intrinsic variability of
-interaction networks. This can be accompslihed simply by recognizing that
+interaction networks. This can be accomplished simply by recognizing that
 there exists intra-specific variability, in traits or properties related
 to the establishment of species interactions. By shifting the scale towards
 population-based processes, we show that this new approach will improve our
