@@ -584,7 +584,7 @@ where $a_i$ is the growth rate of species $i$ (and could, in principle,
 depend on other species' abundances $N$) and $\alpha_{ij}$ is the strength
 of the effect of $j$ on $i$.  In this or just about any related model,
 direct species-species interaction can influence species abundances but their
-abundances *never* feedback and influence the *per capita* interactions. They
+abundances *never* feedback and influence the *per capita* interaction coefficients $\alpha_{ij}$. They
 do, however, affect the realized interactions, which are defined by
 $\alpha_{ij} N_i(t) N_j(t)$, something which is also the case when considering
 more complicated functional responses [@koen-alonso_process-oriented_2007].
@@ -595,7 +595,7 @@ abundance and/or trait distributions influence the occurrence of the
 interactions themselves (**Box 1**). One potential drawback to that approach,
 however, is that it still adopts the assumption that the observation of
 any interaction $A_{ij}$ is only an explicit function of the properties of
-species $i$ and $j$.
+species $i$ and $j$ (traits and co-occurrence).
 
 Since dynamic models can demonstrate quite clearly that non-interacting
 species can alter each others' abundances (e.g. via apparent competition
