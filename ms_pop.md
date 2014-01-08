@@ -1,6 +1,23 @@
 % Beyond species: why ecological interactions vary through space and time
 % T. Poisot, D.B. Stouffer & D. Gravel
-% Working paper
+% Jan. 2014
+
+**Running headline**: Variability of species interactions
+
+5900 words, 3 figures, 2 boxes, no tables
+
+Affiliations:
+
+**TP**, **DG**:   
+(1) Université du Québec à Rimouski, Department of Biology, Rimouski (QC) G5L 3A1, Canada   
+(2) Québec Centre for Biodiversity Sciences, Montréal (QC), Canada
+
+**DBS**:   
+(3) University of Canterbury, School of Biological Sciences, Christchurch, New Zealand
+
+Short title: Variability of species interactions
+
+**Correspondence:** Timothée Poisot, `t.poisot@gmail.com`, `@tpoi` -- Université du Québec à Rimouski, 300 Allée des Ursulines, Département de Biologie. G5L 3A1 Rimouski (QC) Canada. Phone: 001 (418) 723 1986, ext. 1968
 
 > Community ecology is tasked with the considerable challenge of predicting the
 structure, and properties, of emerging ecosystems. It requires the ability to
@@ -16,6 +33,8 @@ to the establishment of species interactions. By shifting the scale towards
 population-based processes, we show that this new approach will improve our
 predictive ability and mechanistic understanding of how species interact
 over biogeographical scales.
+
+\clearpage
 
 # Introduction
 
@@ -622,5 +641,12 @@ a framework which assumes relative independence of these different phenomenon
 is likely starting from an overly-simplified perspective.
 
 \newpage
+
+# Biosketch
+
+Timothée Poisot (Twitter: `@tpoi`), Daniel B Stouffer and Dominique Gravel are
+network ecologists, interested in understanding how spatial and meta-community
+proccesses influence the structure of ecological interactions, with the goal
+of building more accurate predictive models.
 
 # References

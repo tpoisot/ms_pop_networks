@@ -1,9 +1,15 @@
 baseopts = --template=paper.latex.template --csl=geb.csl
 refs = refs.bib
 biblopts = --bibliography=$(refs)
- 
-pdf: ms_pop.md traits.pdf community.pdf betaPOP.pdf framework.pdf $(refs)
-	pandoc ms_pop.md -o ms_pop.pdf $(baseopts) $(biblopts) --latex-engine=pdflatex
+pdf = ms_pop.pdf
+
+$(pdf): ms_pop.md traits.pdf community.pdf betaPOP.pdf framework.pdf $(refs)
+	pandoc ms_pop.md -o $(pdf) $(baseopts) $(biblopts) --latex-engine=pdflatex
+
+mc: $(pdf)
+	pdftops $(pdf) ms.ps
+	ps2pdf13 ms.ps $(pdf)
+	rm ms.ps
 
 $(refs): bib.keys
 	python2 extractbib.py bib.keys /home/tpoisot/texmf/bibtex/bib/local/library.bib $(refs)
