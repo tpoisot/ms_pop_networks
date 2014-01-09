@@ -10,6 +10,7 @@
 \usepackage[sc]{mathpazo}
 \usepackage[T1]{fontenc}
 \usepackage[utf8]{inputenc}
+\usepackage{lineno}
 					 
 					 
 \setlength{\parindent}{0pt}
@@ -166,7 +167,9 @@ $endif$
 			\tableofcontents
 			 
 			$endif$
-			 
+			   
+         \setpagewiselinenumbers
+         \linenumbers
 			 
 			$if(alignment)$
 			\begin{$alignment$}

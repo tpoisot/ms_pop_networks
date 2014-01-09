@@ -19,20 +19,14 @@ Short title: Variability of species interactions
 
 **Correspondence:** Timothée Poisot, `t.poisot@gmail.com`, `@tpoi` -- Université du Québec à Rimouski, 300 Allée des Ursulines, Département de Biologie. G5L 3A1 Rimouski (QC) Canada. Phone: 001 (418) 723 1986, ext. 1968
 
-> Community ecology is tasked with the considerable challenge of predicting the
-structure, and properties, of emerging ecosystems. It requires the ability to
-understand how and why species interact, as this will allow the development
-of mechanism-based predictive models, and as such to better characterize
-how ecological mechanisms act locally on the existence of inter-specific
-interactions. Here we argue that the current conceptualization of species
-interaction networks is ill-suited for this task. Instead, we propose that
-future research must start to account for the intrinsic variability of
-interaction networks. This can be accomplished simply by recognizing that
-there exists intra-specific variability, in traits or properties related
-to the establishment of species interactions. By shifting the scale towards
-population-based processes, we show that this new approach will improve our
-predictive ability and mechanistic understanding of how species interact
-over biogeographical scales.
+**Abstract**:   
+1. Aim - Establishing a formal framework to understand the variability of species interactions and its relevance for biogeographical studies.   
+2. Location - Worldwide.   
+3. Methods - Analysis of the litterature.   
+4. Results - The current paradigm of species-level interaction networks is ill-suited to adress the challenges associated with accounting for species interactions in a spatial context. Most of the variation in species interactions is explained by population-level proccesses.   
+5.Main conclusions - Species interactions vary over time and space because of local variations in population size, trait distribution, and indirect biotic interactions. We propose a statistical framework to understand and separate these effects.   
+6. Keywords - Ecological networks; biotic interactions; coevolutionary dynamics; neutral theory; functional traits; intra-specific variance
+
 
 \clearpage
 
@@ -156,9 +150,6 @@ gained. As a whole, these results suggest that the existence, and properties,
 of an interaction are not only contingent on the presence of the two species
 involved, but may also require particular environmental conditions, including
 the presence or absence of species not directly involved in the interaction.
-
-[f:meta]: figures/fig_proba.pdf "The metaweb concept"
-![An illustration of the metaweb concept. In its simplest form, a metaweb is the list of all possible species and interactions between them for the system being studied, at the regional level (far left side). Everything that is ultimately observed in nature is a *realisation* of the metaweb (far right side), *i.e.* the resulting network after several sorting processes have occurred (central panel). First, species and species pairs have different probabilities to be observed (top panels). Second, as a consequence of the mechanisms we outline in this paper, not all interactions have the same probability to occur at any given site (bottom panels, see **Box 1**).\label{f:meta}][f:meta]
 
 We argue here that there are three broadly-defined classes of mechanisms
 that ultimately determine the realization of species interactions. First,
@@ -318,8 +309,6 @@ macrocosms. Integrating trait variation over spatial or temporal gradients is
 a central concern at present if we are to understand, for example, network
 variation and its subsequent response to environmental change.
 
-[f:traits]: figures/fig_aggregation.pdf "Traits and populations"
-![The left-hand side of this figure represents possible interactions between populations (circles) of four species (ellipses), and the aggregated species interaction network on the right. In this example, the populations and species level networks have divergent properties, and the inference on the system dynamics are likely to be different depending on the level of observation. More importantly, if the three populations highlighted in red were to co-occur, there would be no interactions between them, whereas the species-level network would predict a linear chain.\label{f:traits}.][f:traits]
 
 ## Benefits for network analysis
 
@@ -512,8 +501,6 @@ outcome of a probabilistic proccess regulated by local factors, as opposed
 to a constant, offers the unprecedented opportunity to investigate feedbacks
 between different time scales.
 
-[f:synth]: figures/fig_synth.pdf "Synthesis"
-![The approcach we propose (that populations can interact at the conditions that **1** their trait allow it and **2** they are locally abundant enough to meet) requires to shift our focus to population-level processes. A compelling argument to work at this level of organisation is that eco-evolutionary feedbacks explicit. All of the components of interaction variability we described are potentially related, either through variations of population sizes due to the interaction, or due to selection stemming from these variations in population size. In addition, some traits involved in the existence of the interaction may also affect local population abundance. \label{f:synth}.][f:synth]
 
 Over the past decade, much insights were gained in looking at the turnover
 of different facets of biodiversity (taxonomic, functional, and phylogenetic)
@@ -648,5 +635,22 @@ Timothée Poisot (Twitter: `@tpoi`), Daniel B Stouffer and Dominique Gravel are
 network ecologists, interested in understanding how spatial and meta-community
 proccesses influence the structure of ecological interactions, with the goal
 of building more accurate predictive models.
+
+# Figures
+
+\clearpage
+
+[f:meta]: figures/fig_proba.pdf "The metaweb concept"
+![An illustration of the metaweb concept. In its simplest form, a metaweb is the list of all possible species and interactions between them for the system being studied, at the regional level (far left side). Everything that is ultimately observed in nature is a *realisation* of the metaweb (far right side), *i.e.* the resulting network after several sorting processes have occurred (central panel). First, species and species pairs have different probabilities to be observed (top panels). Second, as a consequence of the mechanisms we outline in this paper, not all interactions have the same probability to occur at any given site (bottom panels, see **Box 1**).\label{f:meta}][f:meta]
+
+\clearpage
+
+[f:traits]: figures/fig_aggregation.pdf "Traits and populations"
+![The left-hand side of this figure represents possible interactions between populations (circles) of four species (ellipses), and the aggregated species interaction network on the right. In this example, the populations and species level networks have divergent properties, and the inference on the system dynamics are likely to be different depending on the level of observation. More importantly, if the three populations highlighted in red were to co-occur, there would be no interactions between them, whereas the species-level network would predict a linear chain.\label{f:traits}.][f:traits]
+
+\clearpage
+
+[f:synth]: figures/fig_synth.pdf "Synthesis"
+![The approach we propose (that populations can interact at the conditions that **1** their trait allow it and **2** they are locally abundant enough to meet) requires to shift our focus to population-level processes. A compelling argument to work at this level of organisation is that eco-evolutionary feedbacks explicit. All of the components of interaction variability we described are potentially related, either through variations of population sizes due to the interaction, or due to selection stemming from these variations in population size. In addition, some traits involved in the existence of the interaction may also affect local population abundance. \label{f:synth}.][f:synth]
 
 # References
