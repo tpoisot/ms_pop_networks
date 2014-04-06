@@ -7,7 +7,7 @@
 \usepackage{geometry}
 \geometry{verbose,letterpaper,margin=2cm}
 
-\usepackage[sc]{mathpazo}
+\usepackage{kpfonts}
 \usepackage[T1]{fontenc}
 \usepackage[utf8]{inputenc}
 \usepackage{lineno}

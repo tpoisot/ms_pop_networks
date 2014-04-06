@@ -1,9 +1,9 @@
 baseopts = --template=paper.latex.template --csl=oikos.csl
-refs = refs.bib
+refs = /home/tp/texmf/bibtex/bib/local/library.bib
 biblopts = --bibliography=$(refs)
 pdf = ms_pop.pdf
 
-$(pdf): ms_pop.md traits.pdf community.pdf betaPOP.pdf framework.pdf
+$(pdf): ms_pop.md
 	pandoc ms_pop.md -o $(pdf) $(baseopts) $(biblopts) --latex-engine=pdflatex
 
 mc: $(pdf)
