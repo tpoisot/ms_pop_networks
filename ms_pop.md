@@ -8,7 +8,12 @@
 
 Affiliations:
 
-**TP**, **DG**:   
+**TP:**   
+(1) Université du Québec à Rimouski, Department of Biology, Rimouski (QC) G5L 3A1, Canada   
+(2) Québec Centre for Biodiversity Sciences, Montréal (QC), Canada
+(3) University of Canterbury, School of Biological Sciences, Christchurch, New Zealand
+
+**DG**:   
 (1) Université du Québec à Rimouski, Department of Biology, Rimouski (QC) G5L 3A1, Canada   
 (2) Québec Centre for Biodiversity Sciences, Montréal (QC), Canada
 
