@@ -38,33 +38,33 @@ Short title: Variability of species interactions
 # Introduction
 
 Interactions between species are the driving force behind ecological dynamics
-within communities [@Berlow2009]. Likely for this reason more than any,
+within communities [@berlow2009]. Likely for this reason more than any,
 the structure of communities have been described by species interaction
-networks for over a century [@Dunne2006]. Formally an ecological network
+networks for over a century [@dunne2006]. Formally an ecological network
 is a mathematical and conceptual representation of both *species*, and the
 *interactions* they establish. Behind this conceptual framework is a rich and
 expanding literature whose primary focus has been to quantify how numerical
-and statistical properties of networks relate to their robustness [@Dunne2002],
-productivity [@Duffy2007], or tolerance to extinction [@Memmott2004]. Although
-this approach classically focused on food webs [@Ings2009], it has proved
+and statistical properties of networks relate to their robustness [@dunne2002],
+productivity [@duffy2007], or tolerance to extinction [@memmott2004]. Although
+this approach classically focused on food webs [@ings2009], it has proved
 particularly successful because it can be applied equally to all types of
-ecological interactions [@Kefi2012].
+ecological interactions [@kefi2012].
 
 This body of literature generally assumes that, short of changes in local
 densities due to ecological dynamics, networks are inherently *static*
 objects. This assumption calls into question the relevance of network
 studies at biogeographic scales. More explicitly, if two species are known
 to interact at one location, it is often assumed that they will interact
-whenever and wherever they co-occur [see *e.g.* @Havens1992]; this neglects
+whenever and wherever they co-occur [see *e.g.* @havens1992]; this neglects
 the fact that local environmental conditions, species states, and community
 composition can intervene in the realization of interactions. More recently,
 however, it has been established that networks are *dynamic* objects that
 have structured variation in $\alpha$, $\beta$, and $\gamma$ diversity, not
 only with regard to the change of species composition at different locations
 but also to the fact that the same species will interact in different ways
-over time or across their area of co-occurrence [@Poisot2012d]. Of these
+over time or across their area of co-occurrence [@poisot2012b]. Of these
 sources of variation in networks, the change of species composition has been
-addressed explicitly in the context of networks [@Gravel2011;@Dattilo2013]
+addressed explicitly in the context of networks [@gravel2011c;@dattilo2013]
 and within classical meta-community theory. However, because this literature
 still tends to assume that interactions happen consistently between species
 wherever they co-occur, it is ill-suited to address network variation as a
@@ -75,35 +75,34 @@ and are an immutable "property" of a species pair. Starting from empirical
 observations, expert knowledge, or literature surveys, one could collect
 a list of interactions for any given species pool. Several studies used
 this approach to extrapolate the structure of networks over time and space
-[@Havens1992;@Piechnik2008;@Baiser2012] by considering that the network at
+[@havens1992;@piechnik2008;@baiser2012] by considering that the network at
 *any* location is composed of *all* of the potential interactions known
 for this species pool. This stands in stark contrast with recent results
 showing that (i) the identities of interacting species vary over space and
 (ii) the dissimilarity of interactions is not related to the dissimilarity in
-species composition [@Poisot2012d]. The current conceptual and
+species composition [@poisot2012b]. The current conceptual and
 operational tools to study networks therefore leaves us poorly equipped to
 understand the causes of this variation. In this paper, we propose a general
 research agenda to understand the mechanisms involved in the variability of
 species interactions.
 
 In contrast to the current paradigm, we propose that future research on
-interaction networks be guided by the following principles. First, at the
-regional scale, species interactions are best represented as stochastic
-events. Second, the probability that two species will interact can be determined
-as a function of traits and local abundances. Third, local observations
-of interactions can be viewed as realizations of a stochastic process,
-**DBS: the following bit is somewhat confusing**from which it is possible to measure or infer the probability that it happens
-at the regional level. This approach is outlined in **Box 1**. Although
-this proposal is a radical yet intuitive change in the way we think about
-ecological network structure, we demonstrate in this paper that it is well
-supported by empirical and theoretical results alike. Furthermore, our new
-perspective is well placed to open the door to novel predictive approaches
+interaction networks be guided by the following principle: the existence of
+an interaction between two species is the result of a stochastic process
+involving (i) local traits distributions, (ii) local abundances, and (iii)
+higher-order effects by the local environment or species acting "at a distance"
+on the interaction; regionally, the observation of interactions results of
+the accumulation of local observations. This approach is outlined in **Box
+1**. Although this proposal is a radical yet intuitive change in the way we
+think about ecological network structure, we demonstrate in this paper that it
+is well supported by empirical and theoretical results alike. Furthermore, our
+new perspective is well placed to open the door to novel predictive approaches
 integrating a range of key ecological mechanisms. Notably, we propose in
 **Box 2** that this approach facilitates the study of indirect interactions,
-for which predictive approaches have long proved elusive [@tack_can_2011].
+for which predictive approaches have long proved elusive [@tack2011a].
 
 Since the next generation of predictive biogeographic models will need to
-account for species interactions [@thuiller_road_2013], it is crucial not to
+account for species interactions [@thuiller2013], it is crucial not to
 underestimate the fact that these interactions are intrinsically variable
 and exhibit a geographic variability of their own. Indeed, investigating
 the impact of species interactions on species distributions only makes sense
@@ -292,18 +291,17 @@ on networks can be observed even in the absence of genotypic variation
 
 From a trait-based perspective, the existence of an interaction is
 an emergent property of the trait distribution of local populations:
-variations in one or both of these distributions, regardless of the mechanism
-involved (development, selection, plasticity, environment), are likely
-to alter the interaction. Importantly, when interaction-driving traits
-are subject to environmental forcing (for example, body size is expected
-to be lower in warm environments, @angilletta_temperature_2004), there
-can be covariation between environmental conditions and the occurrence of
-interactions. @woodward_climate_2012 demonstrated empirically that changes in food-web
-structure happen at the same time as changes in body mass in experimental
-macrocosms. **DBS: The following seems wishy-washy; can we strengthen it somehow?** Integrating trait variation over spatial or temporal gradients is
-a central concern at present if we are to understand, for example, network
-variation and its subsequent response to environmental change.
-
+variations in one or both of these distributions, regardless of the
+mechanism involved (development, selection, plasticity, environment), are
+likely to alter the interaction. Importantly, when interaction-driving
+traits are subject to environmental forcing (for example, body size is
+expected to be lower in warm environments, @angilletta_temperature_2004),
+there can be covariation between environmental conditions and the occurrence
+of interactions. @woodward_climate_2012 used macrocosms to experimentally
+demonstrate that changes in food-web structure happen at the same time as
+changes in species body mass distribution. Integrating trait variation over
+gradients will provide more predictive power to models of community response
+to environmental change.
 
 ## Benefits for network analysis
 
@@ -526,8 +524,8 @@ and $j$ interact *based on their trait values*. The term $\epsilon$
 accounts for all higher-order effects, such as indirect interactions,
 local impact of environmental conditions on the interaction, and impact of
 co-occurring species. Both of these functions can take any form needed. In
-several papers, $\mathcal{N}(i,j)$ was expressed as $\mathbf{n}_i\times
-\mathbf{n}_j$, where $\mathbf{n}$ is a vector of relative abudances
+several papers, $\mathcal{N}(i,j)$ was expressed as
+$\mathbf{n}_i\times \mathbf{n}_j$, where $\mathbf{n}$ is a vector of relative abundances
 [@canard_emergence_2012;@vazquez_species_2007]. The expression of
 $\mathcal{T}$ can in most cases be derived from mechanistic hypotheses
 about the observation. For example, @gravel_inferring_2013 used the niche
@@ -544,13 +542,13 @@ in local abundances or trait distributions.
 
 This model can further be extended in a spatial context, as
 
-$$\mathbf{A}_{ijx} \propto \left[\mathcal{N}_x(i_x,j_x)\times\mathcal{T}_x(i_x,j_x)\right]+\epsilon_{ijx} \,$$
+$$\mathbf{A}_{ijx} \propto \left[\mathcal{N}_x(i_x,j_x)\times\mathcal{T}_x(i_x,j_x)\right]+\epsilon_{ijx} \,,$$
 
 in which $i_x$ is the population of species $i$ at site $x$. In this
 formulation, the $\epsilon$ term could include the spatial variation of
 interaction between $i$ and $j$ over sites, and the covariance between the
 observed presence of this interaction and the occurrence of species $i$ and
-$j$. This can, for example, help adress situations in which the selection
+$j$. This can, for example, help address situations in which the selection
 of prey items is determined by traits, but also by behavioral choices. Most
 importantly, this model differs from the previous one in that each site $x$ is characterized by a
 set of functions ${\mathcal{N}_x, \mathcal{T}_x}$ that may not be identical
@@ -577,7 +575,7 @@ food webs---regard the adjacency matrix $\mathbf{A}$ as a fixed entity
 that specifies observable interactions on the basis of whether two species
 co-occur or not. Given this assumption, there is a lengthy history of trying to
 understand how the strength or organization of these interactions influence
-the dynamic behavior of species abundance [@may_stability_1973]. Often,
+the dynamic behavior of species abundance [@may1973]. Often,
 such models take the form
 
 $$\frac{dN_i(t)}{dt} = N_i(t) \left(a_i - \sum_{j \ne i} \alpha_{ij} A_{ij} N_j(t) \right) \,,$$
@@ -612,16 +610,17 @@ indirect effects.
 
 A similar problem actually arises in the typical statistical framework
 for predicting interaction occurrence. Often, one attempts to "decompose"
-interactions into the component that is explained by species' abundances and
-the component explained by species' traits (e.g., Box 1). Just like how the
-underlying functions $\mathcal{N}$ and $\mathcal{T}$ could vary across sites,
-there could also be feedback between species' abundances and traits [@galetti_functional_2013], in the
-same way that we have outlined the feedback between interactions and species'
-abundances. In fact, given the increasing evidence for the evolutionary role
-of species-species interactions in explaining extant biodiversity and their
-underlying traits [@janzen_neotropical_1982; @herrera_interaction_2002],
-a framework which assumes relative independence of these different phenomenon
-is likely starting from an overly-simplified perspective.
+interactions into the component that is explained by species' abundances
+and the component explained by species' traits (e.g., Box 1). Just like how
+the underlying functions $\mathcal{N}$ and $\mathcal{T}$ could vary across
+sites, there could also be feedback between species' abundances and traits
+[@galetti_functional_2013], in the same way that we have outlined the
+feedback between interactions and species' abundances. In fact, given the
+increasing evidence for the evolutionary role of species-species interactions
+in explaining extant biodiversity and their underlying traits [@janzen1982;
+@herrera_interaction_2002], a framework which assumes relative independence
+of these different phenomenon is likely starting from an overly-simplified
+perspective.
 
 \newpage
 
@@ -629,7 +628,7 @@ is likely starting from an overly-simplified perspective.
 
 Timothée Poisot (Twitter: `@tpoi`), Daniel B Stouffer and Dominique Gravel are
 network ecologists, interested in understanding how spatial and meta-community
-proccesses influence the structure of ecological interactions, with the goal
+processes influence the structure of ecological interactions, with the goal
 of building more accurate predictive models.
 
 # Figures
