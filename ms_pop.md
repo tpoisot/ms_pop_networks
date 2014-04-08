@@ -166,7 +166,7 @@ and should be studied in the context of indirect interactions.
 
 Over the recent years, the concept of neutral dynamics has left a clear imprint
 on the analysis of ecological network structure, most notably in bipartite
-networks [@bluthgen_measuring_2006]. Re-analysis of several host–parasite
+networks [@bluethgen2006]. Re-analysis of several host–parasite
 datasets, for example, showed that changes in local species abundances
 triggers variation in parasite specificity [@vazquez_species_2005]. More
 generally, it is possible to predict the structure of trophic interactions
@@ -186,7 +186,7 @@ the product of their relative abundance [@vazquez_species_2007]. This means
 that individuals from two large populations are more likely to interact
 than individuals from two small populations, simply because they tend to
 meet more often. This approach can also be extended to the prediction of
-interaction strength [@bluthgen_measuring_2006;@vazquez_species_2007], *i.e.*
+interaction strength [@bluethgen2006;@vazquez_species_2007], *i.e.*
 how strong the consequences of the interaction will be. The neutral perspective
 predicts that locally-abundant species should have more partners and that
 locally-rare species should appear more specialized. In a purely neutral model
@@ -318,7 +318,7 @@ between any series of networks will depend on the *covariance* between species
 traits. Although it requires considerably larger quantities of data to test,
 this approach should allow us to infer *a priori* network variation. This
 next generation of data will also help link variation of network structure to
-variation of environmental conditions.  @price_macroevolutionary_2003 shows how
+variation of environmental conditions.  @price2003 shows how
 specific biomechanical responses to water input in shrubs can have pleiotropic
 effects on traits involved in the interaction with insects. In their system,
 the difference in network structure can be explained because (i) trait values
@@ -327,7 +327,7 @@ determine trait values.  We have little doubt that future empirical studies
 will provide similar mechanistic narratives.
 
 At larger temporal scales, the current distribution of traits also reflects
-past evolutionary history [@diniz-filho_macroecology_2008]. Recognizing
+past evolutionary history [@diniz-filho2008]. Recognizing
 this important fact offers an opportunity to approach the evolutionary
 dynamics and variation of networks. Correlations between 
 different species' traits, and between traits and fitness, drive coevolutionary
@@ -339,7 +339,7 @@ structure and trait correlations are also disrupted by migration
 understanding of how ecological and evolutionary trait dynamics affect network
 structure will provide a mechanistic basis for the historical signal found in
 contemporary network structures [@rezende_non-random_2007; @eklof_relevance_2011;
-@baskerville_spatial_2011; @stouffer_evolutionary_2012].
+@baskerville_spatial_2011; @stouffer2012].
 
 # Beyond direct interactions
 
@@ -461,7 +461,7 @@ extremely-detailed characterization of a more modest number of interactions
 invariants in the rules governing interactions, this information will allow us
 to make verifiable predictions on the structure of the networks. Better still,
 this approach has the potential to substantially strengthen our understanding
-of the interplay between traits and neutral effects. @bluthgen_what_2008 claim
+of the interplay between traits and neutral effects. @bluethgen2008 claim
 that the impact of traits distribution on network structure can be inferred
 simply by removing the impact of neutrality (population densities), based
 on the idea that many rare links were instances of sampling artifacts. As
@@ -529,9 +529,9 @@ $\mathbf{n}_i\times \mathbf{n}_j$, where $\mathbf{n}$ is a vector of relative ab
 [@canard_emergence_2012;@vazquez_species_2007]. The expression of
 $\mathcal{T}$ can in most cases be derived from mechanistic hypotheses
 about the observation. For example, @gravel_inferring_2013 used the niche
-model of @williams_simple_2000 to predict interactions with the simple rule
+model of @williams2000 to predict interactions with the simple rule
 that $\mathcal{T}(i,j) = 1$ if $i$ can consume $j$ based on allometric
-rules, and $0$ otherwise. Following @rohr_modeling_2010, the expression of
+rules, and $0$ otherwise. Following @rohr2010, the expression of
 $\mathcal{T}$ can be based on latent variables rather than actual trait
 values. This simple formulation could be used to partition, at the level
 of individual interactions, the relative importance of density-dependent
@@ -646,6 +646,6 @@ of building more accurate predictive models.
 \clearpage
 
 [f:synth]: figures/fig_synth.pdf "Synthesis"
-![The approach we propose (that populations can interact at the conditions that **1** their trait allow it and **2** they are locally abundant enough to meet) requires to shift our focus to population-level processes. A compelling argument to work at this level of organisation is that eco-evolutionary feedbacks explicit. All of the components of interaction variability we described are potentially related, either through variations of population sizes due to the interaction, or due to selection stemming from these variations in population size. In addition, some traits involved in the existence of the interaction may also affect local population abundance. \label{f:synth}.][f:synth]
+![The approach we propose (that populations can interact at the conditions that **1** their trait allow it and **2** they are locally abundant enough to meet) requires to shift our focus to population-level processes. A compelling argument to work at this level of organisation is that eco-evolutionary feedbacks explicit. All of the components of interaction variability we described are potentially related, either through variations of population sizes due to the interaction, or due to selection stemming from these variations in population size. In addition, some traits involved in the existence of the interaction may also affect local population abundance.\label{f:synth}][f:synth]
 
 # References
