@@ -7,8 +7,10 @@
 \usepackage{geometry}
 \geometry{verbose,letterpaper,margin=2cm}
 
-\usepackage[sc]{mathpazo}
-\usepackage[T1]{fontenc}
+\usepackage[full]{textcomp}
+%\usepackage[garamond]{mathdesign}
+%\usepackage{garamondx}
+\usepackage{fourier}
 \usepackage[utf8]{inputenc}
 \usepackage{lineno}
 					 
