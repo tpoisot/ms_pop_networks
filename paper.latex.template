@@ -8,9 +8,7 @@
 \geometry{verbose,letterpaper,margin=2cm}
 
 \usepackage[full]{textcomp}
-%\usepackage[garamond]{mathdesign}
-%\usepackage{garamondx}
-\usepackage{fourier}
+\usepackage{kpfonts}
 \usepackage[utf8]{inputenc}
 \usepackage{lineno}
 					 

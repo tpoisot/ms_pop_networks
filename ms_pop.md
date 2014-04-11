@@ -24,14 +24,20 @@ Short title: Variability of species interactions
 
 **Correspondence:** Timothée Poisot, `t.poisot@gmail.com`, `@tpoi` -- Université du Québec à Rimouski, 300 Allée des Ursulines, Département de Biologie. G5L 3A1 Rimouski (QC) Canada. Phone: 001 (418) 723 1986, ext. 1968
 
-**Abstract**:   
-1. Aim - Establishing a formal framework to understand the variability of species interactions and its relevance for biogeographical studies.   
-2. Location - Worldwide.   
-3. Methods - Analysis of the litterature.   
-4. Results - The current paradigm of species-level interaction networks is ill-suited to adress the challenges associated with accounting for species interactions in a spatial context. Most of the variation in species interactions is explained by population-level proccesses.   
-5.Main conclusions - Species interactions vary over time and space because of local variations in population size, trait distribution, and indirect biotic interactions. We propose a statistical framework to understand and separate these effects.   
-6. Keywords - Ecological networks; biotic interactions; coevolutionary dynamics; neutral theory; functional traits; intra-specific variance
-
+**Abstract**: Community ecology is tasked with the considerable challenge
+of predicting the structure, and properties, of emerging ecosystems. It
+requires the ability to understand how and why species interact, as this
+will allow the development of mechanism-based predictive models, and as
+such to better characterize how ecological mechanisms act locally on the
+existence of inter-specific interactions. Here we argue that the current
+conceptualization of species interaction networks is ill-suited for this
+task. Instead, we propose that future research must start to account for the
+intrinsic variability of interaction networks. This can be accompslihed simply
+by recognizing that there exists intra-specific variability, in traits or
+properties related to the establishment of species interactions. By shifting
+the scale towards population-based processes, we show that this new approach
+will improve our predictive ability and mechanistic understanding of how
+species interact over large spatial or temporal scales.
 
 \clearpage
 
@@ -130,21 +136,20 @@ ecological communities.
 
 # The dynamic nature of ecological interaction networks
 
-Recent studies on the sensitivity of network structure to
-environmental change provide some context for the study of dynamic
-networks. @menke2012 showed that the structure of a
-plant–frugivore network changed along a forest–farmland gradient. At
-the edges between two habitats, species were on average less specialized
-and interacted more evenly with a larger number of partners than they did in
-habitat cores. Differences in network structure have also been observed within
-forest strata that differ in their proximity to the canopy and visitation
-by birds [@schleuning2011]. @tylianakis2007
-reports a *stronger* signal of spatial interaction turnover when working
-with quantitative rather than binary interactions, highlighting the
-importance of *measuring* rather than assuming the existence of interactions.
-@eveleigh2007 demonstrated that outbreaks of the spruce budworm
-were associated with changes in the structure of its trophic network, both in
-terms of species observed and their interactions. @poisot2011b used a
+Recent studies on the sensitivity of network structure to environmental
+change provide some context for the study of dynamic networks. @menke2012
+showed that the structure of a plant–frugivore network changed along a
+forest–farmland gradient. At the edges between two habitats, species were
+on average less specialized and interacted more evenly with a larger number
+of partners than they did in habitat cores. Differences in network structure
+have also been observed within forest strata that differ in their proximity
+to the canopy and visitation by birds [@schleuning2011]. @tylianakis2007
+reports a *stronger* signal of spatial interaction turnover when working with
+quantitative rather than binary interactions, highlighting the importance
+of *measuring* rather than assuming (or simply reporting) the existence
+of interactions.  @eveleigh2007 demonstrated that outbreaks of the spruce
+budworm were associated with changes in the structure of its trophic network,
+both in terms of species observed and their interactions. @poisot2011b used a
 microbial system of hosts and pathogens to study the impact of productivity
 gradients on realized infection; when the species were moved from high
 to medium to low productivity, some interactions were lost and others were
@@ -155,12 +160,12 @@ the presence or absence of species not directly involved in the interaction.
 
 We argue here that there are three broadly-defined classes of mechanisms
 that ultimately determine the realization of species interactions. First,
-individuals must be in high enough local relative abundances to meet; this
-is the so-called "neutral" perspective of interactions. Second, there must
-be phenological matching between individuals, such that an interaction will
-actually occur given that the encounter takes place. Finally, the realization
-of an interaction is regulated by the interacting organisms' surroundings
-and should be studied in the context of indirect interactions. 
+individuals must be in high enough local relative abundances to meet;
+this is the so-called "neutral" perspective of interactions. Second, there
+must be phenological or trait matching between individuals, such that an
+interaction will actually occur given that the encounter takes place. Finally,
+the realization of an interaction is regulated by the interacting organisms'
+surroundings and should be studied in the context of indirect interactions.
 
 # Population dynamics and neutral processes
 
