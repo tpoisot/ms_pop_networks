@@ -125,9 +125,9 @@ latitudinal gradients, is there information hidden in the co-occurrence or
 avoidance of species interactions, etc. This predictive effort is made all
 the more important as both the phenology **PARMESAN07** and ranges [@dev12]
 of species occupying different positions in their interactions networks
-change are affected differently by climate change. Predicting that species
+are affected differently by climate change. Predicting that species
 will move and change while interactions remain the same is probably a very
-conservative estimation of actual changes to come, and building explicitly
+conservative approach to estimating the changes to come, and building explicitly
 on biological mechanisms is one possible way to overcome this limitation.
 
 In this paper, we outline the mechanisms that are involved in the variability
@@ -464,12 +464,12 @@ network structure can be inferred simply by removing the impact of neutrality
 of sampling artifacts. As illustrated here (e.g, **Box 2**), their approach is
 of limited generality, as the abundance of a species itself can be directly
 driven by factors such as trait-environment matching. In addition, there are
-virtually no datasets that follow a complex of interacting species both through
-space *and* time in a replicated way. This type of data, although certainly
-tedious to collect, would provide important insights about which mechanisms
-should be looked at to understand the variability of species interactions.
+virtually no datasets that follow a collection of interacting species through both
+space *and* time in a replicated fashion. This type of data, although exceedingly
+tedious to collect, would provide important indications of which mechanisms
+should be explored to improve our understanding the variability of species interactions.
 
-Assuming that empirical data will indeed accumulate in the coming years,
+Assuming that suitable empirical data will inevitably accumulate in the coming years,
 these approaches will rapidly expand our ability to predict the re-wiring
 of networks under environmental change. The effect of environmental change
 is expected to occur because (i) population sizes will be affected by the
@@ -497,10 +497,10 @@ a probabilistic process regulated by local factors, as opposed to a constant,
 offers the unprecedented opportunity to investigate feedbacks between different
 time scales. This is especially important since all of the mechanisms mentioned
 above are also likely to change rapidly over spatial scales. The situation in
-which populations are synchronized in their phenology at the local, but not
-at the regional scale [as shown by @sin12b], is a good example of when the
-integration of these mechanisms to our interpretation of spatial and temporal
-dynamics is required. 
+which the phenologies of populations are synchronized locally but not regionally
+[as shown by @sin12b] is an excellent example of when we must 
+integrate these mechanisms into our interpretation of spatial and temporal
+dynamics. 
 
 Over the past decade, many insights have been gained by looking at the
 turnover of different facets of biodiversity (taxonomic, functional, and
@@ -514,7 +514,9 @@ community and ecosystem structure simultaneously.
 insightful comments on this manuscript. TP, DBS, and DG received financial
 support from the Canadian Institute of Ecology and Evolution (*Continental
 Scale Variation of Ecological Networks* thematic working group). TP was
-funded by a FRQNT-MELS PBEE post-doctoral scholarship.
+funded by a FRQNT-MELS PBEE post-doctoral scholarship. DBS was funded by a
+Marsden Fund Fast-Start grant (UOC-1101) administered by the Royal Society
+of New Zealand.
 
 # Boxes
 
@@ -549,15 +551,14 @@ of individual interactions, the relative importance of density-dependent
 and trait-based processes using variance decomposition. Most importantly,
 it predicts (i) how each of these components will vary over space and (ii)
 how the structure of the network will be affected by, for example, changes in
-local abundances or trait distributions. Results yielded by this framework
-will only be as good as the empirical data used, and there is a need for a
-methodological discussion about how "predictors" variables (traits, populations
-sizes) should be measured in the field, in a way that is not biased by the
+local abundances or trait distributions. The results provided by this framework
+will only be as good as the empirical data used, and there is a dire need for a
+methodological discussion about how "predictor" variables (traits, population
+sizes, etc.) should be measured in the field, in a way that is not biased by the
 observation of the interactions. This will prove challenging for some types
 of interactions; *e.g.* estimating the population size of parasites is often
-contingent upon catching and examining hosts. Understanding non-independence
-between these variables in a system-specific way is a crucial point contingent
-upon catching and examining hosts. Understanding non-independence between
+contingent upon catching and examining hosts.
+Understanding non-independence between
 these variables in a system-specific way is a crucial point.
 
 This model can further be extended in a spatial context, as
@@ -657,6 +658,6 @@ an overly-simplified perspective.
 \clearpage
 
 [f:synth]: figures/fig_synth.pdf "Synthesis"
-![The approach we propose (that populations can interact at the conditions that **1** their trait allow it and **2** they are locally abundant enough for some of their individuals to meet by chance) requires an increased focus on population-level processes. A compelling argument to work at this level of organisation is that eco-evolutionary feedbacks are explicit. All of the components of interaction variability we described are potentially related, either through variations of population sizes due to the interaction itself, or due to selection arising from these variations in population size. In addition, some traits involved in the existence of the interaction may also affect local population abundance.\label{f:synth}][f:synth]
+![The approach we propose (that populations can interact at the conditions that **1** their trait allow it and **2** they are locally abundant enough for some of their individuals to meet by chance) requires an increased focus on population-level processes. A compelling argument that supports working at this level of organisation is that eco-evolutionary feedbacks are explicit. All of the components of interaction variability we described are potentially related, either through variations of population sizes due to the interaction itself, or due to selection arising from these variations in population size. In addition, some traits involved in the existence of the interaction may also affect local population abundance.\label{f:synth}][f:synth]
 
 # References
