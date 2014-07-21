@@ -1,8 +1,8 @@
-% Beyond species: why ecological interactions vary through space and time
+% Beyond species: why ecological interaction networks vary through space and time
 % T. Poisot, D.B. Stouffer & D. Gravel
-% Jan. 2014
+% July 2014
 
-**Running headline**: Variability of species interactions
+**Running headline**: Variability of species interactions networks
 
 5900 words, 3 figures, 2 boxes, no tables
 
@@ -20,9 +20,9 @@ Affiliations:
 **DBS**:   
 (3) University of Canterbury, School of Biological Sciences, Christchurch, New Zealand
 
-Short title: Variability of species interactions
-
-**Correspondence:** Timothée Poisot, `t.poisot@gmail.com`, `@tpoi` -- Université du Québec à Rimouski, 300 Allée des Ursulines, Département de Biologie. G5L 3A1 Rimouski (QC) Canada. Phone: 001 (418) 723 1986, ext. 1968
+**Correspondence:** Timothée Poisot, `t.poisot@gmail.com`, `@tpoi` --
+School of Biological Sciences, University of Canterbury, Private Bag 4800,
+Christchurch 8140, New Zealand
 
 **Abstract**: Community ecology is tasked with the considerable challenge
 of predicting the structure, and properties, of emerging ecosystems. It
@@ -31,13 +31,14 @@ will allow the development of mechanism-based predictive models, and as
 such to better characterize how ecological mechanisms act locally on the
 existence of inter-specific interactions. Here we argue that the current
 conceptualization of species interaction networks is ill-suited for this
-task. Instead, we propose that future research must start to account for the
-intrinsic variability of interaction networks. This can be accompslihed simply
-by recognizing that there exists intra-specific variability, in traits or
-properties related to the establishment of species interactions. By shifting
-the scale towards population-based processes, we show that this new approach
-will improve our predictive ability and mechanistic understanding of how
-species interact over large spatial or temporal scales.
+task. Instead, we propose that future research must start to account for
+the intrinsic variability of species interaction, then scale up from here
+onto complex networks. This can be accomplished simply by recognizing that
+there exists intra-specific variability, in traits or properties related
+to the establishment of species interactions. By shifting the scale towards
+population-based processes, we show that this new approach will improve our
+predictive ability and mechanistic understanding of how species interact
+over large spatial or temporal scales.
 
 \clearpage
 
@@ -83,37 +84,39 @@ a list of interactions for any given species pool. Several studies used
 this approach to extrapolate the structure of networks over time and space
 [@hav92;@pie08;@bai12] by considering that the network at *any* location
 is composed of *all* of the potential interactions known for this species
-pool. This stands in stark contrast with recent results showing that
-(i) the identities of interacting species vary over space and (ii) the
-dissimilarity of interactions is not related to the dissimilarity in species
-composition [@poi12b]. The current conceptual and operational tools to study
-networks therefore leaves us poorly equipped to understand the causes of this
-variation. In this paper, we propose a general research agenda to understand
-the mechanisms involved in the variability of species interactions.
+pool. This stands in stark contrast with recent results showing that (i) the
+identities of interacting species vary over space and (ii) the dissimilarity
+of interactions is not related to the dissimilarity in species composition
+[@poi12b]. The current conceptual and operational tools to study networks
+therefore leaves us poorly equipped to understand the causes of this
+variation. In this paper, we propose to shift the research agenda towards
+understanding the mechanisms involved in the variability of co-occurring
+species interactions.
 
 In contrast to the current paradigm, we propose that future research on
-interaction networks be guided by the following principle: the existence
-of an interaction between two species is the result of a stochastic process
-involving (i) local traits distributions, (ii) local abundances, and (iii)
-higher-order effects by the local environment or species acting "at a distance"
-on the interaction; regionally, the observation of interactions results of
-the accumulation of local observations. This approach is outlined in **Box
-1**. Although this proposal is a radical yet intuitive change in the way we
-think about ecological network structure, we demonstrate in this paper that it
-is well supported by empirical and theoretical results alike. Furthermore, our
-new perspective is well placed to open the door to novel predictive approaches
-integrating a range of key ecological mechanisms. Notably, we propose in
-**Box 2** that this approach facilitates the study of indirect interactions,
-for which predictive approaches have long proved elusive [@tac11a].
+interaction networks should be guided by the following principles: the
+existence of an interaction between two species is the result of a stochastic
+process involving (i) local traits distributions, (ii) local abundances, and
+(iii) higher-order effects by the local environment or species acting "at
+a distance" on the interaction; regionally, the observation of interactions
+results of the accumulation of local observations. This approach is outlined in
+**Box 1**. Although this proposal is a radical yet intuitive change in the way
+we think about ecological network structure, we demonstrate in this paper that
+it is well supported by empirical and theoretical results alike. Furthermore,
+our new perspective is well placed to open the door to novel predictive
+approaches integrating a range of key ecological mechanisms. Notably, we
+propose in **Box 2** that this approach facilitates the study of indirect
+interactions, for which predictive approaches have long proved elusive
+[@tac11a].
 
 Since the next generation of predictive biogeographic models will need to
 account for species interactions [@thu13], it is crucial not to underestimate
-the fact that these interactions are intrinsically variable and exhibit
-a geographic variability of their own. Indeed, investigating the impact
-of species interactions on species distributions only makes sense under
-the implicit assumption that species interactions themselves vary over
-biogeographical scales. Models of species distributions will therefore increase
-their predictive potential if they account for the variability of ecological
+the fact that they are intrinsically variable and exhibit a geographic
+variability of their own. Indeed, investigating the impact of species
+interactions on species distributions only makes sense under the implicit
+assumption that species interactions themselves vary over biogeographical
+scales. Models of species distributions will therefore increase their
+predictive ability if they account for the variability of ecological
 interactions. In turn, tighter coupling between species-distribution and
 interaction-distribution models will provide mode accurate predictions
 of the properties of emerging ecosystems [@gil10a;@est11] and the spatial
@@ -123,12 +126,12 @@ able to re-visit classical observations typically explained by species-level
 mechanisms; for example, how does community complexity and function vary along
 latitudinal gradients, is there information hidden in the co-occurrence or
 avoidance of species interactions, etc. This predictive effort is made all
-the more important as both the phenology **PARMESAN07** and ranges [@dev12]
-of species occupying different positions in their interactions networks
-are affected differently by climate change. Predicting that species
-will move and change while interactions remain the same is probably a very
-conservative approach to estimating the changes to come, and building explicitly
-on biological mechanisms is one possible way to overcome this limitation.
+the more important as both the phenology [@par07] and ranges [@dev12]
+of species occupying different positions in their interactions networks are
+affected differently by climate change. Predicting that species will move and
+change while interactions remain the same is probably a very conservative
+approach to estimating the changes to come, and building explicitly on
+biological mechanisms is one possible way to overcome this limitation.
 
 In this paper, we outline the mechanisms that are involved in the variability
 of species interactions over time, space, and environmental gradients. We
@@ -165,7 +168,7 @@ the presence or absence of species not directly involved in the interaction.
 
 We argue here that there are three broadly-defined classes of mechanisms
 that ultimately determine the realization of species interactions. First,
-individuals must be in high enough local relative abundances to meet;
+species must be locally abundant enough for their individuals to meet;
 this is the so-called "neutral" perspective of interactions. Second, there
 must be phenological or trait matching between individuals, such that an
 interaction will actually occur given that the encounter takes place. Finally,
@@ -390,12 +393,12 @@ plant species in their diet when parasitized in order to favor low quality
 items and load themselves with chemical compounds which are toxic for their
 parasitoids. However, low quality food results in birds having a greater impact
 on caterpillar populations [@sin12c]. It is noteworthy that in this example,
-the existence of an interaction will affect both the strength, and impact, of
-other interactions. In terms of their effects on network $\beta$-diversity,
-indirect effects are thus likely to act on components of dissimilarity. A
-common feature of the examples mentioned here is that pinpointing the exact
-mechanism through which interactions affect each other often requires a good
-working knowledge of the system's natural history.
+the existence of a parasitic interaction will affect both the strength,
+and impact, of other interactions. In terms of their effects on network
+$\beta$-diversity, indirect effects are thus likely to act on components
+of dissimilarity. A common feature of the examples mentioned here is that
+pinpointing the exact mechanism through which interactions affect each other
+often requires a good working knowledge of the system's natural history.
 
 ## Benefits for network analysis
 
@@ -469,12 +472,13 @@ space *and* time in a replicated fashion. This type of data, although exceedingl
 tedious to collect, would provide important indications of which mechanisms
 should be explored to improve our understanding the variability of species interactions.
 
-Assuming that suitable empirical data will inevitably accumulate in the coming years,
-these approaches will rapidly expand our ability to predict the re-wiring
-of networks under environmental change. The effect of environmental change
-is expected to occur because (i) population sizes will be affected by the
-change and (ii) either plastic or adaptive responses will shift or disrupt the
-trait distributions. The framework proposed in **Box 1** predicts interaction
+Assuming that suitable and accessible empirical data will inevitably accumulate
+in the coming years, these approaches will rapidly expand our ability to
+predict the re-wiring of networks under environmental change. There are
+two broad mechanisms linking network structure to environmental change:
+changes in population sizes due to modification of demographic parameters,
+and plastic or adaptive responses resulting in shifted or disrupted trait
+distributions. The framework proposed in **Box 1** predicts interaction
 probabilities under different scenarios. Ultimately, being explicit about
 the trait-abundance-interaction feedback will provide a better understanding
 of short-term and long-term dynamics of interaction networks. We illustrate
@@ -491,16 +495,16 @@ space ought to consider that local densities are not only a consequence,
 but also a predictor, of the probability of observing an interaction. The
 same reasoning can be held for local trait distributions, although over
 micro-evolutionary time-scales. While trait values determine whether two
-species are able to interact, they will be modified by the selective effect of
-species interacting. Therefore, conceptualizing interactions as the outcome of
-a probabilistic process regulated by local factors, as opposed to a constant,
-offers the unprecedented opportunity to investigate feedbacks between different
-time scales. This is especially important since all of the mechanisms mentioned
-above are also likely to change rapidly over spatial scales. The situation in
-which the phenologies of populations are synchronized locally but not regionally
-[as shown by @sin12b] is an excellent example of when we must 
-integrate these mechanisms into our interpretation of spatial and temporal
-dynamics. 
+species are able to interact, they will be modified by the selective effect
+of species interacting. Therefore, conceptualizing interactions as the
+outcome of a probabilistic process regulated by local factors, as opposed
+to a constant, offers the unprecedented opportunity to investigate feedbacks
+between different time scales. This is especially important since all of the
+mechanisms mentioned above are also likely to change rapidly over spatial
+scales. The situation in which the phenologies of populations are synchronized
+locally but not regionally [as shown by @sin12b] is an excellent example of
+when we must integrate these mechanisms into our interpretation of spatial
+and temporal dynamics.
 
 Over the past decade, many insights have been gained by looking at the
 turnover of different facets of biodiversity (taxonomic, functional, and
