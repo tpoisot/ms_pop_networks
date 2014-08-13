@@ -1,14 +1,18 @@
-baseopts = --template=paper.latex.template --csl=oikos.csl
+baseopts = --template=paper.latex.template
 refs = /home/tp/.pandoc/default.json
-biblopts = --bibliography=$(refs)
+biblopts = --bibliography=$(refs) --csl=oikos.csl
 
 clean_pdf = poisot_revised_clean.pdf
 track_pdf = poisot_revised_tracked.pdf
+doc = poisot_final.doc
 
 all: mc
 
 $(clean_pdf): ms_revised.md
 	pandoc $< -o $@ $(baseopts) $(biblopts) --latex-engine=pdflatex
+
+$(doc): ms_revised.md
+	pandoc $< -o $@ $(biblopts)
 
 mc: $(clean_pdf) $(track_pdf)
 	pdftops $(clean_pdf) ms.ps
