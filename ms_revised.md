@@ -44,15 +44,15 @@ over large spatial or temporal scales.
 
 # Introduction
 
-Interactions between species are the driving force behind ecological dynamics
-within communities [@ber09b]. Likely for this reason more than any, the
-structure of communities have been described by species interaction networks
-for over a century [@dun06]. Formally an ecological network is a mathematical
-and conceptual representation of both *species*, and the *interactions*
-they establish. Behind this conceptual framework is a rich and expanding
-literature whose primary focus has been to quantify how numerical and
-statistical properties of networks relate to their robustness [@dun02],
-productivity [@duf07], or tolerance to extinction [@mem04]. Although
+Interactions between species are the driving force behind ecological
+dynamics within communities [@ber09b]. Likely for this reason more than
+any other, the structure of communities have been described by species
+interaction networks for over a century [@dun06]. Formally an ecological
+network is a mathematical and conceptual representation of both *species*,
+and the *interactions* they establish. Behind this conceptual framework is
+a rich and expanding literature whose primary focus has been to quantify how
+numerical and statistical properties of networks relate to their robustness
+[@dun02], productivity [@duf07], or tolerance to extinction [@mem04]. Although
 this approach classically focused on food webs [@ing09a], it has proved
 particularly successful because it can be applied equally to all types of
 ecological interactions [@kef12].
@@ -84,30 +84,30 @@ a list of interactions for any given species pool. Several studies used
 this approach to extrapolate the structure of networks over time and space
 [@hav92;@pie08;@bai12] by considering that the network at *any* location
 is composed of *all* of the potential interactions known for this species
-pool. This stands in stark contrast with recent results showing that (i) the
-identities of interacting species vary over space and (ii) the dissimilarity
-of interactions is not related to the dissimilarity in species composition
-[@poi12b]. The current conceptual and operational tools to study networks
-therefore leaves us poorly equipped to understand the causes of this
+pool. This stands in stark contrast with recent results showing that
+(i) the identities of interacting species vary over space and (ii) the
+dissimilarity of interactions is not related to the dissimilarity in species
+composition [@poi12b]. The current conceptual and operational tools to study
+networks therefore leave us poorly equipped to understand the causes of this
 variation. In this paper, we propose to shift the research agenda towards
 understanding the mechanisms involved in the variability of co-occurring
 species interactions.
 
-In contrast to the current paradigm, we propose that future research on
-interaction networks should be guided by the following principles: the
-existence of an interaction between two species is the result of a stochastic
-process involving (i) local traits distributions, (ii) local abundances, and
-(iii) higher-order effects by the local environment or species acting "at
-a distance" on the interaction; regionally, the observation of interactions
-results of the accumulation of local observations. This approach is outlined in
-**Box 1**. Although this proposal is a radical yet intuitive change in the way
-we think about ecological network structure, we demonstrate in this paper that
-it is well supported by empirical and theoretical results alike. Furthermore,
-our new perspective is well placed to open the door to novel predictive
-approaches integrating a range of key ecological mechanisms. Notably, we
-propose in **Box 2** that this approach facilitates the study of indirect
-interactions, for which predictive approaches have long proved elusive
-[@tac11a].
+In contrast to the current paradigm, we propose that future research
+on interaction networks should be guided by the following principles:
+the existence of an interaction between two species is the result of a
+stochastic process involving (i) local traits distributions, (ii) local
+abundances, and (iii) higher-order effects by the local environment or species
+acting "at a distance" on the interaction; regionally, the observation of
+interactions is the result of the accumulation of local observations. This
+approach is outlined in **Box 1**. Although this proposal is a radical yet
+intuitive change in the way we think about ecological network structure,
+we demonstrate in this paper that it is well supported by empirical and
+theoretical results alike. Furthermore, our new perspective is well placed
+to open the door to novel predictive approaches integrating a range of key
+ecological mechanisms. Notably, we propose in **Box 2** that this approach
+facilitates the study of indirect interactions, for which predictive approaches
+have long proved elusive [@tac11a].
 
 Since the next generation of predictive biogeographic models will need to
 account for species interactions [@thu13], it is crucial not to underestimate
@@ -255,34 +255,34 @@ strength since, in a neutral context, both are necessarily interdependent.
 Once individuals meet, whether they will interact is widely thought to be
 the product of an array of behavioral, phenotypic, and cultural aspects that
 can conveniently be referred to as a "trait-based process". Two populations
-can interact when their traits values allow it, *e.g.* viruses are able to
-overcome host resistance, predators can capture the preys, trees provide
-enough shading for shorter grasses to grow. Non-matching traits will
-effectively prevent the existence of an interaction, as demonstrated by
-@ole11. Under this perspective, the existence of interactions can
-be mapped onto trait values, and interaction networks will consequently
-vary along with variation in local trait distribution. In this section,
-we review how trait-based processes impact network structure, how they can
-create variation, and the perspective they open for an evolutionary approach.
+can interact when their traits values allow it, *e.g.* viruses are able
+to overcome host resistance, predators can capture their preys, trees
+provide enough shading for shorter grasses to grow. Non-matching traits
+will effectively prevent the existence of an interaction, as demonstrated by
+@ole11. Under this perspective, the existence of interactions can be mapped
+onto trait values, and interaction networks will consequently vary along
+with variation in local trait distribution. In this section, we review how
+trait-based processes impact network structure, how they can create variation,
+and the perspective they open for an evolutionary approach.
 
 ## The basic processes
 
 There is considerable evidence that, at the species level, interaction partners
 are selected on the grounds of matching trait values. Random networks built on
 these rules exhibit realistic structural properties [@wil00; @sto05]. Trait
-values, however, vary from population to population within species; it is
-therefore expected that the local interactions will be contingent upon traits
-spatial distribution (\autoref{f:traits}). The fact that a species' niche can
-appear large if it is the aggregation of narrow but differentiated individual
-or population niches is now well established [@dev10;@bol03] and has also
-reinforced the need to understand intra-specific trait variation to describe
-the structure and dynamics of communities [@woo10; @bol11]. Nevertheless,
-this notion has yet to percolate into the literature on network structure
-despite its most profound consequence: a species appearing generalist at
-the regional scale can easily be specialized in *each* of the patches it
-occupies. This reality has long been recognized by functional ecologists,
-which are now increasingly predicting the *variance* in traits of different
-populations within a species [@vio12].
+values, however, vary from population to population within species;
+it is therefore expected that the local interactions will be contingent
+upon the spatial distribution of the traits (\autoref{f:traits}). The fact
+that a species' niche can appear large if it is the aggregation of narrow
+but differentiated individual or population niches is now well established
+[@dev10;@bol03] and has also reinforced the need to understand intra-specific
+trait variation to describe the structure and dynamics of communities [@woo10;
+@bol11]. Nevertheless, this notion has yet to percolate into the literature on
+network structure despite its most profound consequence: a species appearing
+generalist at the regional scale can easily be specialized in *each* of the
+patches it occupies. This reality has long been recognized by functional
+ecologists, which are now increasingly predicting the *variance* in traits
+of different populations within a species [@vio12].
 
 Empirically, there are several examples of intraspecific trait variation
 resulting in extreme interaction turnover. A particularly spectacular example
@@ -531,7 +531,8 @@ at the population level relies on several factors, including relative local
 abundances and local trait distributions. It is important to tease apart these
 different factors so as to better disentangle neutral and niche processes. We
 propose that these different effects can adequately be partitioned using
-the model
+a model for the adjacency matrix $\mathbf{A}$, where the probability of an
+interaction between species $i$ and $j$ is
 
 $$\mathbf{A}_{ij} \propto \left[\mathcal{N}(i,j)\times\mathcal{T}(i,j)\right]+\epsilon \,,$$
 
@@ -580,8 +581,8 @@ is characterized by a set of functions ${\mathcal{N}_x, \mathcal{T}_x}$
 that may not be identical for all sites considered. For example, the same
 predator may prefer different prey items in different locations, which will
 require the use of a different form for $\mathcal{T}$ across the range of
-locations. @gra13a show that it is possible to derive robust approximation
-for the $\mathcal{T}$ function even with incomplete set of data, which gives
+locations. @gra13a show that it is possible to derive robust approximation for
+the $\mathcal{T}$ function even with an incomplete set of data, which gives
 hope that this framework can be applied even when all species information
 is not known at all sites (which would be an unrealistic requirement for
 most realistic systems). Both of these models can be used to partition the
