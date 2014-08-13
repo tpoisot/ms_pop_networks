@@ -4,7 +4,7 @@ biblopts = --bibliography=$(refs) --csl=oikos.csl
 
 clean_pdf = poisot_revised_clean.pdf
 track_pdf = poisot_revised_tracked.pdf
-doc = poisot_final.doc
+doc = poisot_final.docx
 
 all: mc
 
